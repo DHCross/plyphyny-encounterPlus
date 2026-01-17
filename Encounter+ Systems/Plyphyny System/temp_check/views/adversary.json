@@ -1,0 +1,150 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [16],
+  "views": [
+    {
+      "type": "statBlock",
+      "spacing": 8,
+      "padding": [16],
+      "views": [
+        {
+          "type": "vStack",
+          "spacing": 0,
+          "views": [
+            {
+              "style": "race-title",
+              "value": "{{name}}"
+            },
+            {
+              "style": "race-trait",
+              "value": "{{data.Opponent_type|default: 'Adversary'}} - Phase {{data.battlephase|default: '-'}} / Save {{data.save|default: '-'}}"
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "line",
+          "height": 1
+        },
+        {
+          "type": "hStack",
+          "distribution": "fillEqually",
+          "views": [
+            {
+              "type": "vStack",
+              "spacing": 2,
+              "views": [
+                {
+                  "style": "defense-label",
+                  "value": "ADP"
+                },
+                {
+                  "style": "defense-value",
+                  "value": "{{data.hpActive|default: 0}}"
+                }
+              ]
+            },
+            {
+              "type": "vStack",
+              "spacing": 2,
+              "views": [
+                {
+                  "style": "defense-label",
+                  "value": "PDP"
+                },
+                {
+                  "style": "defense-value",
+                  "value": "{{data.hpPassive|default: 0}}"
+                }
+              ]
+            },
+            {
+              "type": "vStack",
+              "spacing": 2,
+              "views": [
+                {
+                  "style": "defense-label",
+                  "value": "HP"
+                },
+                {
+                  "style": "defense-value",
+                  "value": "{{data.hp|default: 0}}"
+                }
+              ]
+            },
+            {
+              "type": "vStack",
+              "spacing": 2,
+              "views": [
+                {
+                  "style": "defense-label",
+                  "value": "Spirit"
+                },
+                {
+                  "style": "defense-value",
+                  "value": "{{data.sp_current|default: 0}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "line",
+          "height": 1
+        },
+        {
+          "type": "vStack",
+          "spacing": 4,
+          "views": [
+            {
+              "style": "section-header",
+              "value": "Attacks"
+            },
+             {
+              "style": "body",
+              "value": "**Melee:** {{data.melee_attack|default: '-'}}"
+            },
+            {
+              "style": "body",
+              "value": "**Ranged:** {{data.ranged_attack|default: '-'}}"
+            },
+            {
+              "style": "body",
+              "value": "**Magic:** {{data.magic_attack|default: '-'}}"
+            }
+          ]
+        },
+        {
+             "type": "vStack",
+             "spacing": 4,
+             "views": [
+                 {
+                     "style": "section-header",
+                     "value": "Description"
+                 },
+                 {
+                     "style": "body",
+                     "value": "{{data.descr|default: 'No description available.'}}"
+                 }
+             ]
+        },
+        {
+            "type": "vStack",
+            "spacing": 4,
+            "views": [
+                {
+                    "style": "section-header",
+                    "value": "Notes"
+                },
+                {
+                    "style": "item-notes",
+                    "value": "{{data.notes}}"
+                }
+            ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Item",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "type": "string",
+          "title": "Name",
+          "attribute": "name"
+        },
+        {
+          "type": "string",
+          "title": "Type",
+          "attribute": "data.type"
+        },
+        {
+          "type": "string",
+          "title": "Category",
+          "attribute": "data.category"
+        },
+        {
+          "type": "text",
+          "title": "Description",
+          "attribute": "descr"
+        }
+      ]
+    }
+  ]
+}

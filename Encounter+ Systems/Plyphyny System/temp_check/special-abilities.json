@@ -1,0 +1,99 @@
+{
+  "specialDefenses": {
+    "ethereal": {
+      "name": "Ethereal",
+      "description": "Can pass through physical matter; only affected by magical attacks",
+      "damageReduction": "Immunity to physical damage"
+    },
+    "naturalArmor": {
+      "name": "Natural Armor",
+      "description": "Thick hide, scales, or carapace provides inherent protection",
+      "variants": ["+2 HP per layer", "+4 HP per layer", "+6 HP per layer"]
+    },
+    "immunityToElement": {
+      "name": "Immunity to Element",
+      "description": "Immune to fire, cold, lightning, acid, etc.",
+      "variants": ["Fire Immunity", "Cold Immunity", "Lightning Immunity", "Acid Immunity", "Poison Immunity"]
+    },
+    "immunityToMagic": {
+      "name": "Immunity to Magic",
+      "description": "Magic has no effect on this creature",
+      "damageReduction": "All magical effects negated"
+    },
+    "damageReduction": {
+      "name": "Damage Reduction",
+      "description": "Physical damage is reduced by a certain amount",
+      "variants": ["DR 5", "DR 10", "DR 15", "DR 20"]
+    },
+    "spellResistance": {
+      "name": "Spell Resistance",
+      "description": "Spells have difficulty affecting this creature",
+      "effect": "Add +X to Challenge roll to resist spells"
+    },
+    "regeneration": {
+      "name": "Regeneration",
+      "description": "Creature heals rapidly unless specific conditions are met",
+      "effect": "Regain 1d4 HP per round; fire/acid halts regeneration"
+    },
+    "fastHealing": {
+      "name": "Fast Healing",
+      "description": "Creature heals faster than normal",
+      "effect": "Regain 1d6 HP between encounters or per long rest"
+    }
+  },
+  "extraAttacks": {
+    "secondaryAttack": {
+      "type": "Secondary Attack",
+      "description": "Can make an additional attack with a secondary weapon or natural attack",
+      "examples": ["Claw attack after bite", "Off-hand weapon", "Ranged follow-up"]
+    },
+    "followUpAttack": {
+      "type": "Follow-up Attack",
+      "description": "If primary attack hits, automatic secondary effect triggers",
+      "examples": ["Grapple after hit", "Knockdown", "Bleed effect"]
+    },
+    "areaEffect": {
+      "type": "Area Effect",
+      "description": "Attack affects multiple targets",
+      "examples": ["Breath weapon cone", "Aura damage", "Shockwave"]
+    },
+    "specialAbility": {
+      "type": "Special Ability",
+      "description": "Unique supernatural or magical ability",
+      "examples": ["Petrifying gaze", "Charm song", "Necrotic touch"]
+    }
+  },
+  "immunities": [
+    "Charm",
+    "Fear",
+    "Paralysis",
+    "Petrification",
+    "Poisoned",
+    "Sleep",
+    "Exhaustion",
+    "Disease"
+  ],
+  "resistances": [
+    "Fire resistance (half damage)",
+    "Cold resistance (half damage)",
+    "Lightning resistance (half damage)",
+    "Poison resistance (half damage)",
+    "Psychic resistance (half damage)"
+  ],
+  "vulnerabilities": [
+    "Fire vulnerability (double damage)",
+    "Cold vulnerability (double damage)",
+    "Holy weapon vulnerability",
+    "Iron weapon vulnerability",
+    "Silver weapon vulnerability"
+  ],
+  "specialMovement": [
+    "Burrow (move through earth/stone)",
+    "Climb (move on vertical surfaces)",
+    "Fly (move through air)",
+    "Hover (stay in place in the air)",
+    "Swim (move through water)",
+    "Teleport (magically move)",
+    "Ethereal Shift (phase between planes)"
+  ]
+}

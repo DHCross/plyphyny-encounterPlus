@@ -1,0 +1,100 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [16],
+  "views": [
+    {
+      "type": "statBlock",
+      "spacing": 8,
+      "padding": [16],
+      "views": [
+        {
+          "type": "hStack",
+          "alignment": "center",
+          "spacing": 12,
+          "views": [
+            {
+              "type": "image",
+              "value": "{{image}}",
+              "width": 64,
+              "height": 64,
+              "cornerRadius": 8,
+              "imageResizeMode": "aspectFill",
+              "link": "{{image}}"
+            },
+            {
+              "type": "vStack",
+              "spacing": 2,
+              "width": 0,
+              "views": [
+                {
+                  "style": "title",
+                  "value": "{{name}}"
+                },
+                {
+                  "style": "subtitle",
+                  "value": "*{{type|default: 'Iconic Item'}}{% if rarity %} · {{rarity|uppercase}}{% endif %}*"
+                },
+                {
+                  "style": "caption",
+                  "value": "ICONIC ITEM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "text",
+          "value": "{{description}}"
+        },
+        {
+          "type": "text",
+          "value": "{{descr}}"
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "text",
+          "style": "stats-body",
+          "value": "{% if data.properties %}**Properties:** {{data.properties}}\n{% endif %}{% if data.magicalProperties %}**Magical Properties:** {{data.magicalProperties}}{% endif %}"
+        },
+        {
+          "type": "vStack",
+          "condition": "type == 'Iconic Magic Focus'",
+          "views": [
+            {
+              "type": "divider",
+              "style": "triangle",
+              "height": 5,
+              "padding": [0]
+            },
+            {
+              "type": "text",
+              "style": "stats-body",
+              "value": "### Magic Focus\n**Energy Points:** {{data.energyPoints|default: 0}}\n**Activation Cost:** {{data.activationCost|default: 0}}"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "value": "{{image}}",
+          "link": "{{image}}"
+        },
+        {
+          "type": "tags",
+          "attribute": "tags"
+        }
+      ]
+    }
+  ]
+}

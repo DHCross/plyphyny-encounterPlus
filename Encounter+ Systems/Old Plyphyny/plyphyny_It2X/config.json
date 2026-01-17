@@ -1,0 +1,46 @@
+{
+    "entities": {
+        "Default": {
+            "combatant": {
+                "bars": [
+                    {
+                        "attribute": "data.ad_current",
+                        "title": "Active Defense",
+                        "label": "AD",
+                        "temporary": false
+                    },
+                    {
+                        "attribute": "hp",
+                        "title": "Passive Defense",
+                        "label": "PD",
+                        "temporary": false
+                    },
+                    {
+                        "attribute": "data.sp_current",
+                        "title": "Spirit Points",
+                        "label": "SP",
+                        "temporary": false
+                    }
+                ]
+            }
+        },
+        "Hero": {
+            "role": "friendly",
+            "collection": {
+                "detail": "{{data.class}} (Level {{data.level}})"
+            }
+        },
+        "Monster": {
+            "role": "enemy",
+            "collection": {
+                "detail": "{{data.Opponent_type}} - BP {{data.battlephase}}"
+            }
+        }
+    },
+    "combat": {
+        "initiative": {
+            "mode": "fixed",
+            "attribute": "data.initiative"
+        }
+    }
+}

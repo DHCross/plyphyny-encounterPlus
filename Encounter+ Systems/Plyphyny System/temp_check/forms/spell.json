@@ -1,0 +1,8 @@
+{
+  "fields": [
+    { "name": "name", "type": "string", "label": "Name" },
+    { "name": "level", "type": "number", "label": "Level" },
+    { "name": "school", "type": "string", "label": "School" },
+    { "name": "description", "type": "string", "label": "Description" }
+  ]
+}

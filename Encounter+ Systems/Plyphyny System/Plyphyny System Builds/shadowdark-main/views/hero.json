@@ -1,0 +1,405 @@
+{
+  "debug": false,
+  "spacing": 12,
+  "padding": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "footer": true,
+  "images": true,
+  "views": [
+    {
+      "value": "{{name}}",
+      "style": "title3",
+      "alignment": "center",
+      "width": 0,
+      "bgColor": "#000000",
+      "padding": [6]
+    },
+    {
+      "value": "{{'Common.Level'|l}} {{data.level}}, {{data.class}}",
+      "style": "subtitle",
+      "alignment": "center"
+    },
+    {
+      "type": "hStack",
+      "views": [
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Stat.STR'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.str.base}} / {{data.str.mod|signed|default: '+0'}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Stat.DEX'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.dex.base}} / {{data.dex.mod|signed|default: '+0'}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Stat.CON'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.con.base}} / {{data.con.mod|signed|default: '+0'}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "type": "hStack",
+      "views": [
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Stat.INT'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.int.base}} / {{data.int.mod|signed|default: '+0'}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Stat.WIS'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.wis.base}} / {{data.wis.mod|signed|default: '+0'}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Stat.CHA'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.cha.base}} / {{data.cha.mod|signed|default: '+0'}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "type": "hStack",
+      "views": [
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Hero.Ancestry'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.ancestry}}",
+              "link": "/ancestry/{{data.ancestry}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Hero.Background'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.background}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "type": "hStack",
+      "views": [
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Hero.Class'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.class}}",
+              "link": "/class/{{data.class}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Hero.Title'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.title}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "type": "hStack",
+      "views": [
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Common.Alignment'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.alignment|map: 'Alignment'}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Hero.Deity'|l}}",
+              "style": "title5",
+              "padding": [6, 12, 0, 0],
+            },
+            {
+              "value": "{{data.deity}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "type": "hStack",
+      "views": [
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Common.HP'|l}}",
+              "style": "title4",
+              "padding": [6, 12],
+              "bgColor": "#000000",
+              "width": -1
+            },
+            {
+              "value": "{{data.hp.current|default: 0}} / {{data.hp.maximum|default: 0}}",
+              "link": "/health/data.hp",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Common.AC'|l}}",
+              "style": "title4",
+              "padding": [6, 12],
+              "bgColor": "#000000",
+              "width": -1
+            },
+            {
+              "value": "{{data.ac|default: 0}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+        {
+          "type": "vStack",
+          "borderColor": "#000000",
+          "borderWidth": 2,
+          "spacing": 0,
+          "views": [
+            {
+              "value": "{{'Common.XP'|l}}",
+              "style": "title4",
+              "padding": [6, 12],
+              "bgColor": "#000000",
+              "width": -1
+            },
+            {
+              "value": "{{data.xp|default: 0}}",
+              "padding": [8, 10]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "type": "vStack",
+      "borderColor": "#000000",
+      "borderWidth": 2,
+      "spacing": 0,
+      "views": [
+        {
+          "value": "{{'Hero.Attacks'|l}}",
+          "style": "title4",
+          "padding": [6, 12],
+          "bgColor": "#000000",
+          "width": -1
+        },
+        {
+          "type": "text",
+          "value": "{% for attack in data.attacks %}**{{attack.name}}.**, {{attack.attack}}, {{attack.damage|}}, {{attack.other}}\n\n{% endfor %}",
+          "padding": [8, 10]
+        },
+      ]
+    },
+    {
+      "type": "vStack",
+      "borderColor": "#000000",
+      "borderWidth": 2,
+      "spacing": 0,
+      "views": [
+        {
+          "value": "{{'Hero.Talents'|l}}",
+          "style": "title4",
+          "padding": [6, 12],
+          "bgColor": "#000000",
+          "width": -1
+        },
+        {
+          "type": "text",
+          "value": "{% for talent in data.talents %}**{{talent.name}}.** {{talent.descr}}\n\n{% endfor %}",
+          "padding": [8, 10]
+        },
+      ]
+    },
+    {
+      "type": "vStack",
+      "borderColor": "#000000",
+      "borderWidth": 2,
+      "spacing": 0,
+      "views": [
+        {
+          "value": "{{'Hero.Spells'|l}}",
+          "style": "title4",
+          "padding": [6, 12],
+          "bgColor": "#000000",
+          "width": -1
+        },
+        {
+          "type": "text",
+          "value": "{% for spell in data.spells %}[{{spell.name}}](spell) | {{'Spell.Tier'|l}} {{spell.definition.data.tier}}{% if spell.expended %} | {{'Spell.Expended'|l}}{% endif %}\n\n{% endfor %}",
+          "padding": [8, 10]
+        },
+      ]
+    },
+    {
+      "type": "vStack",
+      "borderColor": "#000000",
+      "borderWidth": 2,
+      "spacing": 0,
+      "views": [
+        {
+          "value": "{{'Hero.Gear'|l}}",
+          "style": "title4",
+          "padding": [6, 12],
+          "bgColor": "#000000",
+          "width": -1
+        },
+        {
+          "type": "text",
+          "value": "{% for item in data.items %}[{{item.name}}](item)\n\n{% endfor %}",
+          "padding": [8, 10]
+        },
+      ]
+    },
+    {
+      "type": "text",
+      "value": "{{descr}}",
+    }
+  ]
+}

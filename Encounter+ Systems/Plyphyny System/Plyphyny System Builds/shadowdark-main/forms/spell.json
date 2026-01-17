@@ -1,0 +1,32 @@
+{
+  "title": "Spell",
+  "sections": [
+    {
+      "title": "Common.Attributes",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Spell.Tier",
+          "type": "number",
+          "attribute": "data.tier"
+        }, 
+        {
+          "title": "Spell.Classes",
+          "type": "tags",
+          "attribute": "data.classes",
+          "attributeType": "Class"
+        },
+        {
+          "title": "Spell.Duration",
+          "type": "text",
+          "attribute": "data.duration"
+        },
+        {
+          "title": "Spell.Range",
+          "type": "text",
+          "attribute": "data.range"
+        },
+      ]
+    },
+  ]
+}

@@ -1,0 +1,385 @@
+/*
+ Encounter+ iOS
+ ----------------
+ generated styles for views
+ */
+
+/******** Body / HTML ********/
+html {
+    -webkit-print-color-adjust: exact;
+    font-family: '-apple-system', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0.5rem;
+}
+
+p:last-of-type {
+    margin-block-end: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.float-left {
+    float: left;
+    margin-right: 1rem;
+}
+.float-right {
+    float: right;
+    margin-left: 1rem;
+}
+.hidden {
+    display: none;
+}
+
+#content-view {
+    background-color: #f5f5f5;
+    max-width: 600px;
+    margin-right: auto;
+}
+
+.hStack-view {
+    display: flex;
+    column-gap: 8px;
+    row-gap: 8px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+.vStack-view {
+    display: flex;
+    column-gap: 8px;
+    row-gap: 8px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.flow-view {
+    display: flex;
+    column-gap: 8px;
+    row-gap: 8px;
+    flex-direction: row;
+}
+.tags-view {
+    display: flex;
+    column-gap: 6px;
+    row-gap: 6px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.tags-view .tag {
+    padding: 3px 6px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background-color: white;
+    color: #333;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.vStack-view hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+/******** Headings ********/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: '-apple-system', sans-serif;
+    color: #58180d;
+    font-weight: normal;
+    display: block;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 3.4rem;
+    padding-bottom: 0.5rem;
+}
+h2 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+}
+h3 {
+    font-size: 2rem;
+    border-bottom: 0.1rem solid #58180d;
+    line-height: 2.8rem;
+    overflow: hidden;
+}
+h4 {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+/******** Horizontal Rule ********/
+hr {
+    width: 100%;
+}
+/******** Standard Block Quote ********/
+blockquote {
+    font-family: '-apple-system', sans-serif !important;
+    display: block;
+    background-color: #e0e4c3;
+    padding: 0.5rem 1rem;
+    margin: 2rem 0;
+    position: relative;
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+}
+blockquote p:first-child {
+    margin-top: 0;
+}
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+blockquote:before,
+blockquote:after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: top center, bottom center;
+    width: 1.0rem;
+    top: -0.7rem;
+    bottom: -0.7rem;
+    background-size: 1.0rem 0.6rem;
+}
+blockquote:before {
+    left: 0;
+    background-image: linear-gradient(to bottom right, #fff0 0%, #fff0 50%, #000 50%, #000 100%), linear-gradient(to top right, #fff0 0%, #fff0 50%, #000 50%, #000 100%);
+}
+blockquote:after {
+    right: 0;
+    background-image: linear-gradient(to bottom left, #fff0 0%, #fff0 50%, #000 50%, #000 100%), linear-gradient(to top left, #fff0 0%, #fff0 50%, #000 50%, #000 100%);
+}
+/******** Read-Aloud Block Quote ********/
+.blockquote-read-wrap {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin: 0rem;
+    overflow: hidden;
+    page-break-inside: avoid;
+}
+blockquote.read {
+    border-top: none;
+    border-bottom: none;
+    border-left: 0.2rem solid #58180d;
+    border-right: 0.2rem solid #58180d;
+    background-color: #edebe8;
+    box-shadow: none;
+}
+blockquote.read:before,
+blockquote.read:after {
+    width: 0.4rem;
+    background-size: 0.4rem 0.4rem;
+    background-position: top center, bottom center;
+    top: -0.3rem;
+    bottom: -0.3rem;
+    background-image: radial-gradient(circle at center, #58180d 0.2rem, transparent 0), radial-gradient(circle at center, #58180d 0.2rem, transparent 0);
+}
+blockquote.read:before {
+    left: -0.3rem;
+}
+blockquote.read:after {
+    right: -0.3rem;
+}
+/******** Marks ********/
+mark {
+    background: #e4c3c3;
+}
+/******** Square List Style ********/
+ul.square {
+    list-style-type: square;
+}
+/******** Code Blocks ********/
+code,
+pre {
+    display: block;
+    background: #f5f5f5;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+/******** Links ********/
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/******** Text Alignment ********/
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+/******** Images ********/
+figure {
+    margin: 0;
+    padding: 0;
+    page-break-inside: avoid;
+}
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+figure.size-full,
+img.size-full {
+    width: 100%;
+    height: auto;
+}
+/******** Tables ********/
+.table-responsive,
+.table-overflow-wrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+    page-break-inside: avoid;
+    overflow-wrap: break-word;
+}
+table.center {
+    display: table;
+}
+table:not(.center):not(.float-left):not(.float-right):not(.sidebar) {
+    width: 100%;
+}
+table.header-title thead {
+    font-weight: bold;
+    font-family: '-apple-system', sans-serif;
+    color: #58180d;
+}
+table thead {
+    font-weight: bold;
+}
+table.green tbody tr:nth-child(odd) tbody tr:nth-child(odd) {
+    background: #e0e4c3;
+}
+table.red tbody tr:nth-child(odd) {
+    background: #e4c3c3;
+}
+table.blue tbody tr:nth-child(odd) {
+    background: #c3d3e4;
+}
+table.yellow tbody tr:nth-child(odd) {
+    background: #e4e1c3;
+}
+table.gray tbody tr:nth-child(odd) {
+    background: #d4d4d4;
+}
+table.purple tbody tr:nth-child(odd) {
+    background: #cec3e4;
+}
+table.neutral {
+    background: #edebe8;
+}
+table.neutral tbody tr:nth-child(odd) {
+    background: #d8d6d2;
+}
+td,
+th {
+    padding: 0.5rem;
+}
+th p,
+td p {
+    margin: 0;
+    padding: 0;
+}
+tbody tr:nth-child(odd) {
+    background: #e0e4c3;
+}
+
+.statBlock-view {
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.statBlock-view:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.statBlock-view:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.statBlock-bar {
+    border: 1px solid black;
+    height: 3px;
+    margin: -1px;
+    z-index: 1;
+    position: relative;
+}
+
+.statBlock-body {
+    padding: 16px;
+    display: flex;
+    column-gap: 8px;
+    row-gap: 8px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    z-index: 1;
+    position: relative;
+}
+
+/******** Theme Styles ********/
+
+{{CSS_CONTENT}}

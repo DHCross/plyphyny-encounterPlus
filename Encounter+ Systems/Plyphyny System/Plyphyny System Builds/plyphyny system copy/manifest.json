@@ -1,0 +1,11 @@
+{
+    "id": "plyphyny",
+    "name": "Plyphyny System",
+    "type": "system",
+    "version": "1.0.3",
+    "description": "Eldritch RPG / Plyphyny System with QSB automation, layered ablative defense pools, and comprehensive character builder.",
+    "author": "Eldritch RPG Team",
+    "compatibility": {
+        "minimum": "5.0.0+3848"
+    }
+}

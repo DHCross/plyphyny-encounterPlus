@@ -1,0 +1,3614 @@
+[
+  {
+    "name": "Dispel Effect",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Eldritch Bolt",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "Auto (Variable)",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Eldritch Defense",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Identify Magic",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Aura of Restoration",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Blessing of Renewal",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Entreaty of Mercy",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Heal",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Repel Undead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Soothe Ally",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d6",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": "Listed under Uncommon header in source list"
+    }
+  },
+  {
+    "name": "Soothe Self",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Word of Cleansing",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Banish Undead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Destroy",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Blessing of Health",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Consecrate Ground",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dispel Magic",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Healing Aura",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nullify Poison",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Recovery of the Unready",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Soul Transfer",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": "2 SP"
+    }
+  },
+  {
+    "name": "Doomsday Premonition",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mystical Regeneration",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Rejuvenate",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Remove Curse",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Unbind Spirit",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Desolate Curse",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10 (Ritual)",
+      "rarity": "Occult",
+      "effects": "Destroy",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Entreat Entity",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Omniscient Eye",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Soul Transmutation",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10 (Ritual)",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Commune with the Dead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Create Undead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Regeneration",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Summon Spirit",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Divine Armor",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Divine Shield",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Divine Assault",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Blossom/Wither Plants",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Branch to Staff",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Commune with Plants",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ears of the Bat",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Entangling Roots",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nose of the Wolf",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Plant Growth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Rose Whip",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Summon Animal",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Animate Flora",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bramble Wall",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate, Restore",
+      "notes": "1 SP"
+    }
+  },
+  {
+    "name": "Control Animal",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Gust",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm, Modify",
+      "notes": "1 SP"
+    }
+  },
+  {
+    "name": "Healing Grove",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore, Protect",
+      "notes": "1 SP"
+    }
+  },
+  {
+    "name": "Seizing Plants",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Shape Wood",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Shapeshift",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Wild Growth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify, Afflict",
+      "notes": "2 SP"
+    }
+  },
+  {
+    "name": "Plant Automaton",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Plant Meld",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Regrowth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Speak with Nature",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Tangle Trap",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Thorny Shield",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Animal Transformation",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Might of the Oak",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nature's Blessing",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Plant Armor",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Plant Behemoth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Magical Transformation",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Plant Mastery",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify, Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nature Armor",
+    "data": {
+      "path": "Druidry",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nature Shield",
+    "data": {
+      "path": "Druidry",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nature Assault",
+    "data": {
+      "path": "Druidry",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ball of Light",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Boil Water",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Breeze",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Charge of the Elements",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Cleanse Air",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Crystal Vision",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Drown",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Auto",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Jump",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Pulse",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Extinguish Flames",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fire Strike",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fire Trail",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Flame Creature",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Flame Fists",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Flame Weapon",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Forge From Stone",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Freeze",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fresh Air",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fuel Flames",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Halo of Energy",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Heat",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Auto",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Illuminating Insight",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Kinetic Augmentation",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify, Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Luminous Wave",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mineral Analysis",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Rain",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Resist Elements",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Rocky Terrain",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Safe Descent",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Variable",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sense Air Currents",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Steal Breath",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Auto",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Tremor Sense",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Breathing",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Streaming",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Vortex",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Ward",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Whip",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Zephyr Mind",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Arcane Maelstrom",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Rare",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Crystal Enhancement",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Crystalize Earth",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Disorienting Gale",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Drain",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Leech",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Surge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Transference",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fire Whip",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fissure",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Healing Waters",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Heatwave",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ice Blade",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate, Modify",
+      "notes": "2 SP"
+    }
+  },
+  {
+    "name": "Ignite",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Rend Walls",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Stone Shape",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Stone Shatter",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify, Harm",
+      "notes": "1 SP"
+    }
+  },
+  {
+    "name": "Water Elemental",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Illusion",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Prison",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Walk",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Windwalk",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Air Pocket",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Aquatic Summons",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Crystal Analysis",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Crystal Growth",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Crystalize Object",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Diamond Strike",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Earth Kin",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Beacon",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Conversion",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Infusion",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Leech",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fire Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm, Modify, Protect",
+      "notes": "3 SP"
+    }
+  },
+  {
+    "name": "Fire Elemental",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Flame Grasp",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ice Shield",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Multi-Effect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Minor Earthquake",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Propel",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Purify Water",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Quartz Shield",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d10",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sky Shelter",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Skywalk",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Stone Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm, Protect, Modify",
+      "notes": "3 SP"
+    }
+  },
+  {
+    "name": "Stone Skin",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Water Breathing",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Whirlpool",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Whirlwind Prison",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8 (Variable)",
+      "rarity": "Esoteric",
+      "effects": "Afflict",
+      "notes": "1 SP"
+    }
+  },
+  {
+    "name": "Aeromancy",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10 (Variable)",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Choking Vacuum",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Energy Surge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": "4 SP"
+    }
+  },
+  {
+    "name": "Ethereal Pulse",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Flame Trap",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Liquid Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Harm, Protect, Modify",
+      "notes": "4 SP"
+    }
+  },
+  {
+    "name": "Stone Golem",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict, Activate",
+      "notes": "2 SP"
+    }
+  },
+  {
+    "name": "Stone Weapon",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Whelm",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Whirlwind",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": "1 SP"
+    }
+  },
+  {
+    "name": "Wind Rush",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Crystal Fortress",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Occult",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Earth Merge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elemental Form",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+2",
+      "rarity": "Legendary",
+      "effects": "Modify, Harm, Protect",
+      "notes": "5 SP"
+    }
+  },
+  {
+    "name": "Energy Blade",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Glacial Prison",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+2",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Quicksand",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Tidal Surge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify, Harm",
+      "notes": "1 SP"
+    }
+  },
+  {
+    "name": "Wind Riding",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12 (Variable)",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elemental Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common\u2013Legendary",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elemental Barrier",
+    "data": {
+      "path": "Elementalism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common\u2013Legendary",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elemental Shield",
+    "data": {
+      "path": "Elementalism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common\u2013Legendary",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elemental Assault",
+    "data": {
+      "path": "Elementalism",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Confusion",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Detect Magic",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ethereal Sight",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Levitation",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mindfulness",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Phase Shift",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Silence",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Soothing Balm",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Soothing Mists",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Discern Soul",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mind Blade",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mind Shield",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Object Read",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "See Aura",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "See Invisible",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sense Power",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sixth Sense",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Cosmic Shift",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fathom",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mind Read",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mystic Lore",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Premonition",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Psychic Beacon",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Reassemble",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Shadow Walk",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Continuous Shadow",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dreamwalk",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ethereal Projection",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Foreknowledge",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Manipulate Shadow",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Harm, Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Release Mind",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Control Humanoid",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Form of Night",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Hypnotic Suggestion",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Induce Sleep",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mind Control",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+4",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": "4 SP"
+    }
+  },
+  {
+    "name": "Super Intuition",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Arcane Armor",
+    "data": {
+      "path": "Mysticism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Arcane Shielding",
+    "data": {
+      "path": "Mysticism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mystic Assault",
+    "data": {
+      "path": "Mysticism",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Arcane Lock",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Arcane Mark",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Minor Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Olfactory Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Shadow Step",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Teleport Object",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Transmute Rock",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Audio Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Chameleon",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dustify",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Destroy",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Enfeeblement",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Flux Portal",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Illusory Disguise",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Phantom Blade",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Summon Monster",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Whisper of Woe",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d10",
+      "rarity": "Uncommon",
+      "effects": "Afflict, Mental",
+      "notes": "Listed under Occult header in source list"
+    }
+  },
+  {
+    "name": "Apport Object",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Cone of Silence",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Full Body Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Illusory Quiescence",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Minion Horde",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Object Space",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Phantasms",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Transdimensional Shift",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8 (Variable)",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dimensional Travel",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Havoc",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mirrored Opponent",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Teleport Self",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Waking Terror",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Apport Creature",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Assume Inanimate Form",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dreamscape",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mass Invisibility",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sorcerous Armor",
+    "data": {
+      "path": "Sorcery",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sorcerous Shielding",
+    "data": {
+      "path": "Sorcery",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Chaos Assault",
+    "data": {
+      "path": "Sorcery",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Quickened Reflexes",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "",
+      "rank": "",
+      "rarity": "",
+      "effects": "",
+      "notes": "No details provided in list"
+    }
+  },
+  {
+    "name": "Banish",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Claw Growth",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Conjure Weapon",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Echo",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fortify Object",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Lighten",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Magic Ride",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mend",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Savorless",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sharpen Blade",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Weaken Creature",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Weaken Object",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Contingent Notification",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Create Illusion",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dimensional Pocket",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Forced Egress",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Invisibility",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mana Burst",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Phantom Steed",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Strengthen Creature",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Weapon Readiness",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dance of Blades",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elemental Transmutation",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Illusionary Clone",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Levitation",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Manipulate Object",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Spatial Warp",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Transmute Flesh",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Deafness",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Discordance",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Loop Time",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Matter Fusion",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Monster Form",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Temporal Rift",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Alter Age",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+2",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Blindness",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Demolish",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Initiative Warp",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Petrify",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+4",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Stand Still",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Time Halt",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+5",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": "5 SP"
+    }
+  },
+  {
+    "name": "Arcane Armor",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Arcane Shielding",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Arcane Assault",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    }
+  }
+]

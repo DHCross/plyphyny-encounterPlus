@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en" {{HTML_CLASS}}>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <base href="{{BASE_URL|default: '../'}}" />
+    <!-- Link to the custom Eldritch CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            background-color: var(--eldritch-bg, #1a1625);
+            color: var(--eldritch-text-main, #f5f6fa);
+            padding: 16px;
+            margin: 0;
+            font-family: serif; 
+        }
+        .stat-block {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="stat-block">
+        <!-- Header Section -->
+        <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px;">
+            <div style="display: flex; flex-direction: row; gap: 16px; width: 100%;">
+                {% if image %}
+                <div>
+                   <img src="{{image}}" style="width: 70px; height: 70px; border-radius: 8px; object-fit: cover; border: 1px solid var(--eldritch-border);">
+                </div>
+                {% endif %}
+                <div style="flex: 1;">
+                    <div class="title">{{name}}</div>
+                    <div class="subtitle">
+                        *{{data.race.name|default: 'Unknown'}} {{data.class|default: 'Adventurer'}}*
+                    </div>
+                    <div class="caption">
+                        Level {{data.level|default: 1}} · Phase d{{data.prowessdie|default: 6}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider triangle" />
+
+        <!-- Primary Abilities -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+            <div class="stats-ability">
+                <div class="sheet-label">COMP</div>
+                <div class="ability-score">d{{data.competencedie|default: 4}}</div>
+            </div>
+            <div class="stats-ability">
+                <div class="sheet-label">PROW</div>
+                <div class="ability-score">d{{data.prowessdie|default: 4}}</div>
+            </div>
+            <div class="stats-ability">
+                <div class="sheet-label">FORT</div>
+                <div class="ability-score">d{{data.fortitudedie|default: 4}}</div>
+            </div>
+        </div>
+        
+        <!-- Secondary Abilities -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+            <div class="stats-ability" style="opacity: 0.8; font-size: 0.9em;">
+                <div class="sheet-label">ADRO</div>
+                <div class="ability-score">d{{data.adroitnessdie|default: 0}}</div>
+            </div>
+            <div class="stats-ability" style="opacity: 0.8; font-size: 0.9em;">
+                <div class="sheet-label">EXPT</div>
+                <div class="ability-score">d{{data.expertisedie|default: 0}}</div>
+            </div>
+            <div class="stats-ability" style="opacity: 0.8; font-size: 0.9em;">
+                <div class="sheet-label">PERC</div>
+                <div class="ability-score">d{{data.perceptiondie|default: 0}}</div>
+            </div>
+        </div>
+
+        <hr class="divider triangle" />
+
+        <!-- Defense Cascade (ADP / PDP / HP / SP) -->
+        <div class="defense-cascade">
+            <div class="stats-ability">
+                <div class="sheet-label">ADP</div>
+                <div class="ability-score">{{data.ad_current|default: 0}}</div>
+            </div>
+            
+            <div class="stats-ability">
+                <div class="sheet-label">PDP</div>
+                <div class="ability-score">{{data.pd_current|default: 0}}</div>
+            </div>
+
+             <div class="stats-ability">
+                <div class="sheet-label">Spirit</div>
+                <div class="ability-score" style="color: var(--eldritch-purple-100);">{{data.sp_current|default: 0}}</div>
+            </div>
+
+            <div class="stats-ability">
+                <div class="sheet-label">HP</div>
+                <div class="hp-current">{{data.hp|default: 0}} / {{data.hp_max|default: 0}}</div>
+            </div>
+            
+             <div class="stats-ability">
+                <div class="sheet-label">Init</div>
+                <div class="ability-score">{{data.initiative|default: 0}}</div>
+            </div>
+        </div>
+
+        <hr class="divider triangle" />
+
+        <!-- Spells List -->
+        {% if data.spells.length > 0 %}
+        <div class="section-container">
+            <h3 class="headline">Spells</h3>
+            {% for spell in data.spells %}
+            <div class="text mb-2">
+                <strong>{{spell.name}}</strong> ({{spell.level}}): {{spell.description}}
+            </div>
+            {% endfor %}
+        </div>
+        <hr class="divider triangle" />
+        {% endif %}
+
+        <!-- Items List -->
+        {% if data.items.length > 0 %}
+        <div class="section-container">
+            <h3 class="headline">Equipment</h3>
+             {% for item in data.items %}
+            <div class="text mb-2">
+                <strong>{{item.name}}</strong>: {{item.description}}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+    </div>
+
+</body>
+</html>

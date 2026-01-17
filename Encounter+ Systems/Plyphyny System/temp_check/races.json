@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Drakkin",
+    "data": {
+      "base_ranks": "Competence d6\nProwess d6\nFortitude d6 -> Endurance d6 + Strength d4",
+      "advantages": "Breath Weapon, Natural Armor (1d4), Night Vision.",
+      "flaws": ""
+    },
+    "id": "ccaa272d-b620-5887-a0a2-178c25ded406",
+    "descr": "Powerful humanoid offspring of dragons and other sapient creatures, the Drakkin hail from the Verdant Expanse and remote bastions. Their breath weapons and scaly hides make them formidable, and their draconic heritage is both revered and feared."
+  },
+  {
+    "name": "Dwarf",
+    "data": {
+      "base_ranks": "Prowess d6 -> Melee d6\nFortitude d8 -> Endurance d4",
+      "advantages": "Night Vision, Sense of Direction, Strong-willed.",
+      "flaws": ""
+    },
+    "id": "bcd61fee-4758-56a4-935b-52d9c971a7b2",
+    "descr": "Crafty, resilient miners and smiths from harsh mountains and deep caverns. Dwarves are known for their resistance to poison and elements, perfect night vision, and martial combat skills."
+  },
+  {
+    "name": "Elf",
+    "data": {
+      "base_ranks": "Competence d6 -> Expertise d6 (Wizardry +1)\nProwess d4 -> Agility d4 (Reaction +1)",
+      "advantages": "Gift of Magic, Magic Resistance (+1), Night Vision.",
+      "flaws": ""
+    },
+    "id": "a861132c-6176-5a66-a551-c22d9e83a803",
+    "descr": "Elves embody grace, wisdom, and deep ties to nature, with lineages ranging from Seelie to Unseelie and Woodshades. They are agile warriors with magic resistance and a storied, often fraught place in Psarmorum."
+  },
+  {
+    "name": "Gnome",
+    "data": {
+      "base_ranks": "Competence d4 -> Adroitness d6 + Expertise d6 + Perception d4 (Perspicacity +1)",
+      "advantages": "Eidetic Memory, Low-light Vision, Observant.",
+      "flaws": "Restriction (small weapons only)."
+    },
+    "id": "f59db376-8c76-5be2-8079-3fe57441d29b",
+    "descr": "Small, clever folk with superior low-light vision and a talent for intricate underground homes and magical technology. Curious and observant, gnomes are ingenious but face hostility in Psarmorum."
+  },
+  {
+    "name": "Half-Elf",
+    "data": {
+      "base_ranks": "Competence d6\nProwess d6 -> Agility d4\nFortitude d4 -> Endurance d4 + Willpower d4",
+      "advantages": "Heightened Senses, Low-light Vision, Magic Resistance (+1).",
+      "flaws": ""
+    },
+    "id": "e3316c1b-76d5-522c-9604-513b7e7fb3bf",
+    "descr": "Born of human-elf unions, half-elves blend elven agility and magic resilience with human endurance. Their presence often signals cross-cultural cooperation, especially in the cities of Maedoen and Crossroads."
+  },
+  {
+    "name": "Half-Orc",
+    "data": {
+      "base_ranks": "Fortitude d6 -> Endurance d6 + Strength d8 (Ferocity +1)",
+      "advantages": "Intimidation, Low-light Vision, Menacing.",
+      "flaws": "Ugliness."
+    },
+    "id": "86411b0b-78a1-510f-b7a0-f211b1f713ce",
+    "descr": "Half-orcs are larger, stronger, and green-skinned with tusks—born between savagery and civilization. Common as guards and mercenaries in borderlands and cities, they often struggle with social acceptance."
+  },
+  {
+    "name": "Halfling",
+    "data": {
+      "base_ranks": "Competence d6 -> Adroitness d6 (Cleverness +1)\nFortitude d6 -> Willpower d4 (Courage +1)",
+      "advantages": "Low-light Vision, Read Emotions, Resilient.",
+      "flaws": "Restriction (small weapons only)."
+    },
+    "id": "a85676c9-6489-5799-b613-252a7472fc40",
+    "descr": "Small in stature but full of mischief, halflings thrive in rural villages and bustling cities alike. Their roguish charm and cunning bring whimsy to Ainerêve."
+  },
+  {
+    "name": "Human",
+    "data": {
+      "base_ranks": "Competence d6\nProwess d6 -> Melee d4 (Threat +1)\nFortitude d4 -> Willpower d6",
+      "advantages": "Fortunate, Survival.",
+      "flaws": ""
+    },
+    "id": "a23166ce-061e-528b-88cc-7bb702e43ad5",
+    "descr": "Ainerêve’s most adaptable race, humans range across every culture and settlement. Their resourcefulness, ingenuity, and survival skills shape the history of the realms."
+  }
+]

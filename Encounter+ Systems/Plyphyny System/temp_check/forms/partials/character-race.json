@@ -1,0 +1,30 @@
+{
+  "title": "Race",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "type": "string",
+          "title": "Name",
+          "attribute": "name"
+        },
+        {
+          "type": "text",
+          "title": "Base Ranks",
+          "attribute": "data.base_ranks"
+        },
+        {
+          "type": "text",
+          "title": "Advantages",
+          "attribute": "data.advantages"
+        },
+        {
+          "type": "text",
+          "title": "Flaws",
+          "attribute": "data.flaws"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Race",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "type": "string",
+          "title": "Name",
+          "attribute": "name"
+        },
+        {
+          "type": "text",
+          "title": "Base Ranks",
+          "attribute": "data.base_ranks",
+          "placeholder": "e.g., Competence d6, Prowess d6..."
+        },
+        {
+          "type": "text",
+          "title": "Advantages",
+          "attribute": "data.advantages",
+          "placeholder": "Racial advantages and abilities"
+        },
+        {
+          "type": "text",
+          "title": "Flaws",
+          "attribute": "data.flaws",
+          "placeholder": "Racial flaws or restrictions"
+        },
+        {
+          "type": "text",
+          "title": "Description",
+          "attribute": "descr"
+        }
+      ]
+    }
+  ]
+}

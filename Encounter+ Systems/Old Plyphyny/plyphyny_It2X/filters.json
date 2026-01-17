@@ -1,0 +1,90 @@
+[
+  {
+    "entity": "Monster",
+    "params": [
+      {
+        "attribute": "type",
+        "attributeType": "MonsterType",
+        "title": "Monster.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Monster.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "type",
+        "title": "Monster.Type"
+      },
+      {
+        "attribute": "name",
+        "title": "Monster.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Monster.Name"
+      }
+    ]
+  },
+  {
+    "entity": "Spell",
+    "params": [
+      {
+        "attribute": "type",
+        "attributeType": "SpellType",
+        "title": "Spell.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Spell.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "type",
+        "title": "Spell.Type"
+      },
+      {
+        "attribute": "name",
+        "title": "Spell.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Spell.Name"
+      }
+    ]
+  },
+  {
+    "entity": "Item",
+    "filter": [
+      {
+        "attribute": "type",
+        "attributeType": "ItemType",
+        "title": "Item.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Item.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "type",
+        "attributeType": "ItemType",
+        "title": "Item.Type"
+      },
+      {
+        "attribute": "title",
+        "title": "Item.Name"
+      }
+    ]
+  }
+]

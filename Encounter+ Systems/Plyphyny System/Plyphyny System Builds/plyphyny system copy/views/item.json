@@ -1,0 +1,67 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [16],
+  "views": [
+    {
+      "type": "statBlock",
+      "spacing": 8,
+      "padding": [16],
+      "views": [
+        {
+          "type": "vStack",
+          "spacing": -1,
+          "views": [
+            {
+              "style": "title",
+              "value": "{{name}}"
+            },
+            {
+              "style": "subtitle",
+              "value": "*{{data.type|default: 'Item'}}{% if data.category %} ({{data.category}}){% endif %}{% if rarity %}, {{rarity}}{% endif %}*"
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "text",
+          "style": "stats-body",
+          "value": "{% if data.size_reach %}**Size/Reach:** {{data.size_reach}}\n{% endif %}{% if data.dmg_type %}**Damage Type:** {{data.dmg_type}}{% endif %}"
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "text",
+          "value": "{{descr}}"
+        },
+        {
+          "type": "text",
+          "value": "{{description}}"
+        },
+        {
+          "type": "text",
+          "title": "Notes",
+          "value": "{{data.notes}}"
+        },
+        {
+          "type": "image",
+          "value": "{{image}}",
+          "link": "{{image}}"
+        },
+        {
+          "type": "tags",
+          "attribute": "tags"
+        }
+      ]
+    }
+  ]
+}

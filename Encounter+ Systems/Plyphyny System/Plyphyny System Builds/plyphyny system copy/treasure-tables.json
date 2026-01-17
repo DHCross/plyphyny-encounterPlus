@@ -1,0 +1,86 @@
+{
+  "treasure_by_category": {
+    "Minor": {
+      "gold": { "min": 50, "max": 100 },
+      "magicItemChance": 0.2,
+      "magicItemRarity": ["Common", "Uncommon"]
+    },
+    "Standard": {
+      "gold": { "min": 200, "max": 500 },
+      "magicItemChance": 0.4,
+      "magicItemRarity": ["Common", "Uncommon", "Esoteric"]
+    },
+    "Exceptional": {
+      "gold": { "min": 500, "max": 2000 },
+      "magicItemChance": 0.6,
+      "magicItemRarity": ["Uncommon", "Esoteric", "Occult"]
+    },
+    "Legendary": {
+      "gold": { "min": 5000, "max": 10000 },
+      "magicItemChance": 0.8,
+      "magicItemRarity": ["Esoteric", "Occult", "Legendary"]
+    }
+  },
+  "common_items_by_type": {
+    "Weapon": [
+      "Dagger", "Short Sword", "Long Sword", "Axe", "Mace", "Staff",
+      "Spear", "Bow", "Crossbow", "Hammer", "Whip", "Chain"
+    ],
+    "Armor": [
+      "Leather Armor", "Chain Mail", "Plate Armor", "Shield",
+      "Helmet", "Gloves", "Boots", "Cloak"
+    ],
+    "Utility": [
+      "Rope", "Lantern", "Lockpicks", "Healing Potion", "Antidote",
+      "Rope of Entanglement", "Climbing Gear", "Travel Supplies"
+    ],
+    "Magic": [
+      "Scroll of Magic", "Potion of Enhancement", "Ring of Protection",
+      "Amulet of Warding", "Orb of Power", "Wand of Mending"
+    ]
+  },
+  "rarity_gold_multipliers": {
+    "Common": 1,
+    "Uncommon": 2.5,
+    "Esoteric": 5,
+    "Occult": 10,
+    "Legendary": 25
+  },
+  "treasure_tables": [
+    {
+      "name": "Bandit Hoard",
+      "rolls": [
+        "2d100 gold",
+        "1d4 gems (10-100 gp each)",
+        "20% chance: Minor magic item"
+      ]
+    },
+    {
+      "name": "Guard's Equipment",
+      "rolls": [
+        "1d50 gold",
+        "Standard weapon",
+        "Armor pieces",
+        "Torch and rope"
+      ]
+    },
+    {
+      "name": "Mage's Spellbook",
+      "rolls": [
+        "2d100 gold",
+        "1d3 scrolls of spells",
+        "1d2 potions",
+        "60% chance: Esoteric magic item"
+      ]
+    },
+    {
+      "name": "Dragon's Hoard",
+      "rolls": [
+        "10d100 gold",
+        "2d4 gems (100-1000 gp each)",
+        "3d6 jewelry pieces",
+        "80% chance: Legendary magic item"
+      ]
+    }
+  ]
+}

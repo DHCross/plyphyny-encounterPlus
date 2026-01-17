@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en" {{HTML_CLASS}}>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <base href="{{BASE_URL|default: '../'}}" />
+    <style>
+        /* ============================================
+           INLINE CSS INJECTION (The "Force" Method)
+           ============================================ */
+        :root {
+            --eldritch-bg: #1a1625;
+            --eldritch-panel: rgba(30, 27, 46, 0.95);
+            --eldritch-purple-100: #e0d4fc;
+            --eldritch-purple-300: #a29bfe;
+            --eldritch-purple-500: #8e44ad;
+            --eldritch-purple-700: #5b2c6f;
+            --eldritch-green-300: #55efc4;
+            --eldritch-green-500: #00b894;
+            --eldritch-green-700: #008a6b;
+            --eldritch-text-main: #f5f6fa;
+            --eldritch-text-sub: #b2bec3;
+            --eldritch-border: rgba(162, 155, 254, 0.2);
+            --eldritch-glow: #a29bfe;
+        }
+
+        body {
+            background-color: var(--eldritch-bg, #1a1625);
+            color: var(--eldritch-text-main, #f5f6fa);
+            padding: 16px;
+            margin: 0;
+            font-family: serif;
+        }
+
+        /* General stat block polish for better readability in dark mode */
+        .stat-block {
+            background-color: var(--eldritch-panel);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--eldritch-border);
+            background-image: linear-gradient(to bottom right, rgba(142, 68, 173, 0.05), rgba(0, 184, 148, 0.05));
+            color: var(--eldritch-text-main);
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        /* HEADERS & TITLES */
+        .headline {
+            font-size: 1.25em;
+            letter-spacing: 0.02em;
+            color: var(--eldritch-green-300);
+            text-shadow: 0 0 10px rgba(85, 239, 196, 0.2);
+            margin-top: 0;
+            margin-bottom: 8px;
+            border-bottom: 1px solid var(--eldritch-green-700);
+            padding-bottom: 4px;
+        }
+
+        .title {
+            color: #fff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 20px var(--eldritch-purple-700);
+            font-family: serif;
+            font-weight: 800;
+            font-size: 1.8em;
+            line-height: 1.1;
+        }
+
+        .subtitle {
+            color: var(--eldritch-green-300);
+            font-style: italic;
+            font-size: 1.1em;
+            margin-top: 4px;
+        }
+
+        .caption {
+            color: var(--eldritch-purple-300);
+            font-size: 0.9em;
+            margin-top: 4px;
+        }
+
+        /* DIVIDERS */
+        .divider {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--eldritch-purple-500), transparent);
+            margin: 16px 0;
+        }
+
+        /* ABILITY SCORES GRID */
+        .stats-ability {
+            background: linear-gradient(135deg, rgba(91, 44, 111, 0.8), rgba(0, 0, 0, 0.9));
+            border: 1px solid var(--eldritch-purple-500);
+            border-radius: 10px;
+            padding: 8px 10px;
+            text-align: center;
+            color: var(--eldritch-purple-100);
+            box-shadow: inset 0 0 15px rgba(142, 68, 173, 0.2), 0 4px 6px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .stats-ability .ability-score {
+            color: var(--eldritch-green-300);
+            text-shadow: 0 0 5px rgba(85, 239, 196, 0.4);
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+
+        .sheet-label {
+            color: var(--eldritch-purple-300);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 0.65em;
+            margin-bottom: 2px;
+        }
+
+        /* DEFENSE CASCADE */
+        .defense-cascade {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin: 12px 0;
+            padding: 12px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .defense-cascade .stats-ability {
+            padding: 6px;
+        }
+
+        .hp-current {
+            color: var(--eldritch-green-300);
+            font-weight: 700;
+            text-shadow: 0 0 8px rgba(85, 239, 196, 0.3);
+            font-size: 1.1em;
+        }
+
+        /* CONTENT SECTIONS */
+        .section-container {
+            margin-bottom: 16px;
+        }
+
+        .text {
+            line-height: 1.5;
+            color: var(--eldritch-text-sub);
+            margin-bottom: 4px;
+            font-size: 0.95em;
+        }
+
+        .text strong {
+            color: var(--eldritch-purple-100);
+        }
+
+        .mb-2 { margin-bottom: 8px; }
+
+        /* IMAGE STYLING */
+        .portrait-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 2px solid var(--eldritch-purple-500);
+            box-shadow: 0 0 15px rgba(142, 68, 173, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="stat-block">
+        <!-- Header Section -->
+        <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px;">
+            <div style="flex: 1;">
+                <div class="title">{{name}}</div>
+                <div class="subtitle">
+                    *{{data.Opponent_type|default: 'Standard'}} Adversary*
+                </div>
+                <div class="caption">
+                    Phase <span class="battle-phase battle-phase-{{data.battlephase_value}}">{{data.battlephase|default: 'd6'}}</span> · Save {{data.savingthrow|default: 'd6'}}
+                </div>
+            </div>
+            {% if token %}
+            <div style="margin-left: 12px;">
+                <img src="{{token}}" style="width: 70px; height: 70px; border-radius: 8px; object-fit: cover; border: 1px solid var(--eldritch-border);">
+            </div>
+            {% endif %}
+        </div>
+
+        <hr class="divider triangle" />
+
+        <!-- Armor Section -->
+        <div class="text">
+            <strong>Armor:</strong> <span class="sheet-field-value">{{data.dr_static|default: 'None'}}</span>
+        </div>
+
+        <hr class="divider triangle" />
+
+        <!-- Defense Cascade (ADP / PDP / HP) -->
+        <div class="defense-cascade">
+            <div class="stats-ability">
+                <div class="sheet-label">ADP</div>
+                <div class="ability-score">{{data.hpActive|default: 0}}</div>
+            </div>
+            
+            <div class="stats-ability">
+                <div class="sheet-label">PDP</div>
+                <div class="ability-score">{{data.hpPassive|default: 0}}</div>
+            </div>
+
+            <div class="stats-ability">
+                <div class="sheet-label">HP</div>
+                <div class="hp-current">{{data.hp|default: 0}}</div>
+            </div>
+        </div>
+
+        <hr class="divider triangle" />
+
+        <!-- Threat Dice / Attacks -->
+        <div class="text stats-body">
+            {% if data.threatdicemelee %}
+            <div class="mb-2"><strong>Melee:</strong> <span class="reach-indicator">{{data.threatdicemelee}}</span></div>
+            {% endif %}
+            
+            {% if data.threatdicenatural %}
+            <div class="mb-2"><strong>Natural:</strong> <span class="reach-indicator">{{data.threatdicenatural}}</span></div>
+            {% endif %}
+            
+            {% if data.threatdiceranged %}
+            <div class="mb-2"><strong>Ranged:</strong> <span class="reach-indicator reach-long-range">{{data.threatdiceranged}}</span></div>
+            {% endif %}
+            
+            {% if data.threatdicearcane %}
+            <div class="mb-2"><strong>Arcane:</strong> <span class="reach-indicator reach-long-reach">{{data.threatdicearcane}}</span></div>
+            {% endif %}
+        </div>
+
+        <hr class="divider triangle" />
+
+        <!-- Description -->
+        {% if descr %}
+        <div class="text mb-3">
+            {{descr}}
+        </div>
+        {% endif %}
+
+        <!-- Features -->
+        {% if data.features_text %}
+        <div class="section-container">
+            <h3 class="headline">Features</h3>
+            <div class="text">
+                {{data.features_text | newline_to_br}}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Behavior -->
+        {% if data.behavior %}
+        <div class="section-container mt-3">
+            <h3 class="headline">Behavior</h3>
+            <div class="text">
+                {{data.behavior | newline_to_br}}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Notes -->
+        {% if data.notes %}
+        <div class="section-container mt-3">
+            <h3 class="headline">Notes</h3>
+            <div class="text">
+                {{data.notes | newline_to_br}}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if image %}
+        <div class="mt-3 text-center">
+            <img src="{{image}}" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--eldritch-border);">
+        </div>
+        {% endif %}
+
+    </div>
+
+</body>
+</html>

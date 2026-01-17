@@ -1,0 +1,1029 @@
+[
+  {
+    "name": "Club",
+    "data": {
+      "type": "Weapon",
+      "category": "Bludgeoning",
+      "size_reach": "Small / Short",
+      "dmg_type": "Crushing"
+    },
+    "id": "2ace526c-1d2c-5f4c-a1a7-f56442adca0e",
+    "descr": ""
+  },
+  {
+    "name": "Footman's Mace",
+    "data": {
+      "type": "Weapon",
+      "category": "Bludgeoning",
+      "size_reach": "Medium / Short",
+      "dmg_type": "Crushing"
+    },
+    "id": "e2accba5-fdc7-5293-800b-ef1fec5adae9",
+    "descr": ""
+  },
+  {
+    "name": "Staff",
+    "data": {
+      "type": "Weapon",
+      "category": "Bludgeoning",
+      "size_reach": "Medium / Short",
+      "dmg_type": "Crushing"
+    },
+    "id": "bd23e763-233a-55ea-93a9-b979e3def9b6",
+    "descr": ""
+  },
+  {
+    "name": "Warhammer",
+    "data": {
+      "type": "Weapon",
+      "category": "Bludgeoning",
+      "size_reach": "Large / Short",
+      "dmg_type": "Crushing"
+    },
+    "id": "1ab39d8d-17d9-5273-88fb-cd786ffb574d",
+    "descr": ""
+  },
+  {
+    "name": "Dagger",
+    "data": {
+      "type": "Weapon",
+      "category": "Blade",
+      "size_reach": "Small / Short",
+      "dmg_type": "Impaling"
+    },
+    "id": "4ba9ff5e-863b-5aac-bd4e-994f40baa8ae",
+    "descr": ""
+  },
+  {
+    "name": "Great Axe",
+    "data": {
+      "type": "Weapon",
+      "category": "Blade",
+      "size_reach": "Large / Medium",
+      "dmg_type": "Slashing"
+    },
+    "id": "ea4f193a-3625-5424-890c-b987f5c2e045",
+    "descr": ""
+  },
+  {
+    "name": "Greatsword",
+    "data": {
+      "type": "Weapon",
+      "category": "Blade",
+      "size_reach": "Large / Medium",
+      "dmg_type": "Slashing"
+    },
+    "id": "08675f66-7009-5625-b022-4f9c35674ffb",
+    "descr": ""
+  },
+  {
+    "name": "Handaxe",
+    "data": {
+      "type": "Weapon",
+      "category": "Blade",
+      "size_reach": "Small / Short",
+      "dmg_type": "Slashing"
+    },
+    "id": "9f4048af-905f-5d23-8d84-9db55b48e1a5",
+    "descr": ""
+  },
+  {
+    "name": "Rapier",
+    "data": {
+      "type": "Weapon",
+      "category": "Blade",
+      "size_reach": "Medium / Medium",
+      "dmg_type": "Impaling"
+    },
+    "id": "4a491905-973d-59df-8d13-bdb134ffbb27",
+    "descr": ""
+  },
+  {
+    "name": "Standard Sword",
+    "data": {
+      "type": "Weapon",
+      "category": "Blade",
+      "size_reach": "Medium / Medium",
+      "dmg_type": "Slashing"
+    },
+    "id": "69213e9b-b982-5329-b0ef-3f4b9a037113",
+    "descr": ""
+  },
+  {
+    "name": "Fauchard (or Glaive)",
+    "data": {
+      "type": "Weapon",
+      "category": "Polearm",
+      "size_reach": "Large / Long",
+      "dmg_type": "Slashing"
+    },
+    "id": "a0d41018-6841-5f2e-abd5-f774f86cb177",
+    "descr": ""
+  },
+  {
+    "name": "Halberd (or Lucerne Hammer)",
+    "data": {
+      "type": "Weapon",
+      "category": "Polearm",
+      "size_reach": "Large / Long",
+      "dmg_type": "Slashing"
+    },
+    "id": "755ad9e6-466d-55e0-9377-a0a4c1fbd4bc",
+    "descr": ""
+  },
+  {
+    "name": "Lance (Mounted)",
+    "data": {
+      "type": "Weapon",
+      "category": "Polearm",
+      "size_reach": "Large / Long",
+      "dmg_type": "Impaling"
+    },
+    "id": "a7e64995-37d3-5bae-9119-bdf48fe21f71",
+    "descr": ""
+  },
+  {
+    "name": "Spear (or Spear-Guisarme)",
+    "data": {
+      "type": "Weapon",
+      "category": "Polearm",
+      "size_reach": "Large / Long",
+      "dmg_type": "Impaling"
+    },
+    "id": "d260ac60-8bbe-5622-bf41-b476110b5029",
+    "descr": ""
+  },
+  {
+    "name": "Fists",
+    "data": {
+      "type": "Weapon",
+      "category": "Unarmed",
+      "size_reach": "Short",
+      "dmg_type": "Crushing"
+    },
+    "id": "a6fe3114-2a4a-59aa-8e7b-20ba32635a5f",
+    "descr": ""
+  },
+  {
+    "name": "Improvised Weapon",
+    "data": {
+      "type": "Weapon",
+      "category": "Unarmed",
+      "size_reach": "Short",
+      "dmg_type": "Crushing"
+    },
+    "id": "621a30ca-0b7a-5928-99f3-616c095489d2",
+    "descr": ""
+  },
+  {
+    "name": "Kicks",
+    "data": {
+      "type": "Weapon",
+      "category": "Unarmed",
+      "size_reach": "Short",
+      "dmg_type": "Crushing"
+    },
+    "id": "1f46d7e7-6116-5da6-a2df-afdc03f90048",
+    "descr": ""
+  },
+  {
+    "name": "Compound Bow",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "50 / 100 / 300",
+      "dmg_type": "Impaling"
+    },
+    "id": "6ab9d370-12be-5155-9a5e-3ac295606a37",
+    "descr": ""
+  },
+  {
+    "name": "Crossbow, Heavy",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "55 / 115 / 200",
+      "dmg_type": "Impaling"
+    },
+    "id": "3266749e-909f-5a68-b885-aabad46fece3",
+    "descr": ""
+  },
+  {
+    "name": "Crossbow, Light",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "75 / 150 / 300",
+      "dmg_type": "Impaling"
+    },
+    "id": "65c904f1-a378-5a1a-a0bb-65128a9e76a1",
+    "descr": ""
+  },
+  {
+    "name": "Dagger (Thrown)",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "10 / 30 / 50",
+      "dmg_type": "Impaling"
+    },
+    "id": "db4b62ab-cdf1-515d-9161-1fd53f747679",
+    "descr": ""
+  },
+  {
+    "name": "Great Bow",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "40 / 100 / 200",
+      "dmg_type": "Impaling"
+    },
+    "id": "403c5f8e-29ed-5ae4-8a58-34e4effacb51",
+    "descr": ""
+  },
+  {
+    "name": "Longbow",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "30 / 75 / 150",
+      "dmg_type": "Impaling"
+    },
+    "id": "34bf5c70-7185-5dec-8c9c-c30f23dc8a83",
+    "descr": ""
+  },
+  {
+    "name": "Shortbow",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "20 / 50 / 100",
+      "dmg_type": "Impaling"
+    },
+    "id": "79fa3ff7-9ebc-54c1-8021-f2635eaeab01",
+    "descr": ""
+  },
+  {
+    "name": "Sling",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "10 / 20 / 50",
+      "dmg_type": "Crushing"
+    },
+    "id": "72b05a56-aa75-5178-be53-a926b4054824",
+    "descr": ""
+  },
+  {
+    "name": "Spear (Thrown)",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "10 / 30 / 50",
+      "dmg_type": "Impaling"
+    },
+    "id": "21585339-e2d4-5fec-af37-0064f2420468",
+    "descr": ""
+  },
+  {
+    "name": "Throwing Axe",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged",
+      "range": "10 / 30 / 50",
+      "dmg_type": "Slashing"
+    },
+    "id": "a7008a05-c292-54a7-9551-2815a27ab1d0",
+    "descr": ""
+  },
+  {
+    "name": "Ability Branch Resonance",
+    "data": {
+      "type": "Gear",
+      "category": "Misc",
+      "notes": "**Rarity:** \n**Potency:** \n**Energy Points:** \n\n**Description:** \n\n**Effect:** "
+    },
+    "id": "6fe110e6-a864-5a6c-9e33-c93e750f9556",
+    "descr": ""
+  },
+  {
+    "name": "Amulet of Clear Sight",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** 30\n\n**Description:** A crystal pendant that enhances visual perception in low light conditions.\n\n**Effect:** **Activate:** Gain Night Vision."
+    },
+    "id": "7b1596a5-b00d-52e6-a1b5-41021ec91971",
+    "descr": ""
+  },
+  {
+    "name": "Amulet of Defensive Maneuvers",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** A silver amulet that enhances the wearer's defensive reflexes.\n\n**Effect:** **Restore:** Restore Active Defense Points (DP)."
+    },
+    "id": "2f429303-1048-5181-892d-eb15098a8463",
+    "descr": ""
+  },
+  {
+    "name": "Amulet of Evasion",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** An agile figure carved from jade that augments dodging skills.\n\n**Effect:** **Restore:** Restore Active Defense Points (DP)."
+    },
+    "id": "49e8a203-f920-5f5d-a78d-62ec5ddd6f7e",
+    "descr": ""
+  },
+  {
+    "name": "Amulet of Invisibility",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** A translucent gem that renders the wearer invisible when activated.\n\n**Effect:** **Activate:** Turn invisible."
+    },
+    "id": "723cda82-5296-5c63-bd4b-f6867f235fbb",
+    "descr": ""
+  },
+  {
+    "name": "Amulet of Precognition",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** A mysterious eye-shaped amulet that provides foresight.\n\n**Effect:** **Activate:** Gain premonitory insights."
+    },
+    "id": "2e9bf3d7-156f-54f7-af16-9029dd280274",
+    "descr": ""
+  },
+  {
+    "name": "Amulet of Regeneration",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** 30\n\n**Description:** A vibrant green amulet that accelerates natural healing.\n\n**Effect:** **Activate:** Regenerate health."
+    },
+    "id": "1826bbf1-bbfd-5701-87f0-50ea87af7568",
+    "descr": ""
+  },
+  {
+    "name": "Amulet of Serenity",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Uncommon\n**Energy Points:** 16\n\n**Description:** A calming blue amulet that restores inner peace and focus.\n\n**Effect:** **Restore:** Restore Passive Defense Points (DP)."
+    },
+    "id": "5067afae-e3b2-50ab-ac9b-58c26407886b",
+    "descr": ""
+  },
+  {
+    "name": "Anoth Armor",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Uncommon\n**Energy Points:** 16\n\n**Description:** Dwarven-crafted armor known for enhanced protection.\n\n**Effect:** **Protect:** Superior physical defense."
+    },
+    "id": "32690e9f-99f1-5a49-a5d8-aebbe0ffe50f",
+    "descr": ""
+  },
+  {
+    "name": "Force Chain",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** 20\n\n**Description:** High-tech chainmail that generates a protective barrier nullifying damage.\n\n**Effect:** **Protect:** Absorbs all attacks (Force Field)."
+    },
+    "id": "18784675-af98-5024-b2c8-2dca2949ab96",
+    "descr": ""
+  },
+  {
+    "name": "Goedenhud Armor",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Common\n**Energy Points:** 9\n\n**Description:** Enchanted wooden armor used by druids.\n\n**Effect:** **Protect:** Shields against magic."
+    },
+    "id": "06458dbc-823b-5844-b5f3-ab2699a00d0a",
+    "descr": ""
+  },
+  {
+    "name": "Hledrith Armor",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Artifact\n**Energy Points:** N/A\n\n**Description:** Elven-crafted hide armor, renowned for lightness and protection.\n\n**Effect:** **Protect:** Doubles damage reduction."
+    },
+    "id": "6ef077aa-04d3-5073-8ee7-7ce5837f661f",
+    "descr": ""
+  },
+  {
+    "name": "Invictus Plate",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Intimidating plate forged from a mysterious alloy.\n\n**Effect:** **Protect:** Increases damage resistance."
+    },
+    "id": "a4b40c32-498f-5462-b498-af04d74c7736",
+    "descr": ""
+  },
+  {
+    "name": "Preternatural Armor",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Imbued with otherworldly energy.\n\n**Effect:** **Protect:** +1 to armor rolls."
+    },
+    "id": "2a27679a-2367-56cb-a294-76719a082e66",
+    "descr": ""
+  },
+  {
+    "name": "Supernatural Armor",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** 30\n\n**Description:** Divine armor that grants +4 to armor rolls and afflicts foes.\n\n**Effect:** **Afflict:** Debilitate attackers."
+    },
+    "id": "58733886-a265-5c8e-978b-6ce17f9e4683",
+    "descr": ""
+  },
+  {
+    "name": "Tylwyth Leather",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Uncommon\n**Energy Points:** 16\n\n**Description:** Supple leather favored by the Tylwyth Teg.\n\n**Effect:** **Protect:** 2d6 Damage Reduction."
+    },
+    "id": "76ad8d66-a4b7-53ae-a898-12117fe0eeff",
+    "descr": ""
+  },
+  {
+    "name": "Wrhydri Chain",
+    "data": {
+      "type": "Armor",
+      "category": "Armor",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Dwarf-forged chainmail; protects against physical and elemental magic.\n\n**Effect:** **Protect:** d8 DR + Energy Immunity."
+    },
+    "id": "01dfe4f5-6c60-5d27-84f0-64663a60076b",
+    "descr": ""
+  },
+  {
+    "name": "Anoth Shield",
+    "data": {
+      "type": "Shield",
+      "category": "Shield",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Sturdy dwarven shield for close combat.\n\n**Effect:** **Protect:** +1 DR vs. Melee."
+    },
+    "id": "016a55de-f1d3-5eec-9879-29fb9b93425a",
+    "descr": ""
+  },
+  {
+    "name": "Goedenhud Shield",
+    "data": {
+      "type": "Shield",
+      "category": "Shield",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Druidic wooden shield offering exceptional magic protection.\n\n**Effect:** **Protect:** +1 DR vs. Magic."
+    },
+    "id": "053a33a2-015f-5ddc-a3b8-00ac945b705a",
+    "descr": ""
+  },
+  {
+    "name": "Hledrith Shield",
+    "data": {
+      "type": "Shield",
+      "category": "Shield",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Elven shield designed to deflect missiles.\n\n**Effect:** **Protect:** +1 DR vs. Ranged."
+    },
+    "id": "6ca760f7-7074-553e-95b8-1d0ee46c82e7",
+    "descr": ""
+  },
+  {
+    "name": "Invictus Shield",
+    "data": {
+      "type": "Shield",
+      "category": "Shield",
+      "notes": "**Rarity:** Uncommon\n**Energy Points:** 16\n\n**Description:** Bolsters defense against harmful magic.\n\n**Effect:** **Protect:** +2 DR vs. Magic Harm."
+    },
+    "id": "166a7e91-4af1-5dc4-9d23-d81b21dea5a9",
+    "descr": ""
+  },
+  {
+    "name": "Tylwyth Shield",
+    "data": {
+      "type": "Shield",
+      "category": "Shield",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Shimmering shield guarding against the magic of the shee.\n\n**Effect:** **Protect:** +3 DR vs. Shee/Fairy Magic."
+    },
+    "id": "4b0f056e-d5b1-53ef-aa97-314a6091c32b",
+    "descr": ""
+  },
+  {
+    "name": "Wrhydri Shield",
+    "data": {
+      "type": "Shield",
+      "category": "Shield",
+      "notes": "**Rarity:** Occult\n**Energy Points:** 20\n\n**Description:** Dwarven shield offering unmatched protection against spell-based threats.\n\n**Effect:** **Protect:** +2 DR (x2/round) vs. Spells."
+    },
+    "id": "9462f07e-dbe9-5e7f-bc7e-78abf47692da",
+    "descr": ""
+  },
+  {
+    "name": "Buckle of Strength",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Variable\n**Energy Points:** Variable\n\n**Description:** Made of unknown alloy; dynamically boosts strength based on existing skill.\n\n**Effect:** **Modify:** Boosts Strength-based abilities."
+    },
+    "id": "71ce9d4a-5d6e-56c2-a0c9-9a0498a8e4d5",
+    "descr": ""
+  },
+  {
+    "name": "Cloak of Banishment",
+    "data": {
+      "type": "Gear",
+      "category": "Amulet",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 16\n\n**Description:** A dark cloak emanating an aura that expels summoned beings.\n\n**Effect:** **Activate:** Banishes summoned creatures."
+    },
+    "id": "246cde3c-24b3-5c1b-8c56-159837268863",
+    "descr": ""
+  },
+  {
+    "name": "Arcane Weapon",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Varies\n**Energy Points:** Varies\n\n**Description:** Blade shimmers with arcane magic; bonus depends on rarity.\n\n**Effect:** **Modify:** +1 to +5 Potential Harm."
+    },
+    "id": "c12d27db-5ad5-5f1d-b75e-480dbd0835ec",
+    "descr": ""
+  },
+  {
+    "name": "Goedenhud Quarterstaff",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Resonates with Prowess \u2192 Melee + Theurgy. +2 Potency.\n\n**Effect:** **Harm/Modify:** Bypasses metal armor."
+    },
+    "id": "1bf4e4ac-2d83-56ff-868e-ae1a6d9be103",
+    "descr": ""
+  },
+  {
+    "name": "Preternatural Weapon",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** otherworldly edge; effective against weird creatures.\n\n**Effect:** **Activate:** +1 to +4 Threat vs. Preternatural."
+    },
+    "id": "20fb81f1-44ba-57ab-a1e2-a25ba21f96dd",
+    "descr": ""
+  },
+  {
+    "name": "Supernatural Weapon",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** 30\n\n**Description:** Divinely infused; radiates supernatural might.\n\n**Effect:** **Activate:** +1 to +5 Threat."
+    },
+    "id": "455161c3-b45a-5c6d-af2c-63c6d708897b",
+    "descr": ""
+  },
+  {
+    "name": "PPotion of Flight",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Esoteric\n**Potency:** d6\n**Energy Points:** 20\n\n**Description:** A shimmering, iridescent potion that grants the drinker the power of flight.\n\n**Effect:** Activate."
+    },
+    "id": "4fe5a81f-b438-5529-b1e8-e0b21ec0bcc1",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Healing",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Uncommon\n**Duration:** Instant\n\n**Description:** \n\n**Effect:** **Restore:** Restores 1d10 Passive Defense and 20% Active Defense."
+    },
+    "id": "816da3c7-e5bc-55b7-910f-551667e663a1",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Monster Form",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Esoteric\n**Duration:** Variable\n\n**Description:** \n\n**Effect:** **Modify:** Transforms drinker into a fearsome monster."
+    },
+    "id": "a01cd9a8-bca7-5d17-baf5-aa0a1dd3fdce",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Precognition",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Esoteric\n**Duration:** Variable\n\n**Description:** \n\n**Effect:** **Activate:** Grants foresight."
+    },
+    "id": "4ecf1e5d-852d-5d55-bb4c-3e2bc66ca99b",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Puissance",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Common\n**Duration:** 4 rounds\n\n**Description:** \n\n**Effect:** **Modify:** Grants a rank in base Melee specialty."
+    },
+    "id": "2f88027e-33c6-557d-9584-e138e4eebb5e",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Quickness",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Esoteric\n**Duration:** 8 rounds\n\n**Description:** \n\n**Effect:** **Modify:** Increases Battle Phase/Initiative."
+    },
+    "id": "0f3b492b-9f63-5ed4-a473-e367d93c8d1d",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Rejuvenation",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Esoteric\n**Duration:** Instant\n\n**Description:** \n\n**Effect:** **Restore:** Restores Active Defense points."
+    },
+    "id": "5db8d4ba-176c-5c50-9472-2e99c2811586",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Senses",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Uncommon\n**Duration:** 6 rounds\n\n**Description:** \n\n**Effect:** **Modify:** Enhances sensory perception."
+    },
+    "id": "1e780389-6562-5ca9-bd89-9ad6acc24740",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Remove Affliction",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Legendary\n**Duration:** Instant\n\n**Description:** \n\n**Effect:** **Protect:** Strong defense/removal of afflictions."
+    },
+    "id": "4a2c7259-5a6c-5e90-a610-c3e916304e6e",
+    "descr": ""
+  },
+  {
+    "name": "Anoth Axe or Crossbow",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged Weapon",
+      "notes": "**Rarity:** Esoteric\n**Potency:** d12\n**Energy Points:** 20\n\n**Description:** Dwarven-crafted ranged weapons imbued with arcane power, their enchanted projectiles dealing an additional 1d6 threat points.\n\n**Effect:** Harm."
+    },
+    "id": "38b1c219-f653-5d9e-8e94-872623915a71",
+    "descr": ""
+  },
+  {
+    "name": "Esoteric Missile",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Common\n**Energy Points:** 20\n\n**Description:** Projectiles infused with esoteric energies.\n\n**Effect:** **Afflict:** +4 Threat Points."
+    },
+    "id": "2c46e6d6-06a7-5373-a0a5-d2a7c51a5a9f",
+    "descr": ""
+  },
+  {
+    "name": "Hledrith Bow or Blade",
+    "data": {
+      "type": "Weapon",
+      "category": "Ranged Weapon",
+      "notes": "**Rarity:** Esoteric\n**Potency:** d12\n**Energy Points:** 20\n\n**Description:** Elegant elven ranged weapons that channel an extra 1d6 threat points into each shot.\n\n**Effect:** Harm."
+    },
+    "id": "6c951ba9-1b51-5d3b-9826-228bdce414f0",
+    "descr": ""
+  },
+  {
+    "name": "Preternatural Missile",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Otherworldly projectiles.\n\n**Effect:** **Activate:** +1 Threat on impact."
+    },
+    "id": "f7afe862-1b8c-5afd-a028-667e7d5256b2",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Adeptness",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Simple ring granting bonuses to skill checks.\n\n**Effect:** **Modify:** +1 to non-attack challenges."
+    },
+    "id": "268372ea-d622-5700-85b1-fe60e88b8ece",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Danger Sense",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Warns wearer of impending threats.\n\n**Effect:** **Activate:** Heats up near danger."
+    },
+    "id": "2a6fc058-2376-5d9a-b893-9765e91f8321",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Fleetness",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Uncommon\n**Energy Points:** 16\n\n**Description:** Silver ring; usable once per round.\n\n**Effect:** **Modify:** Doubles movement speed."
+    },
+    "id": "796412a6-5b1e-59ef-b51b-bdc10c9995f6",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Luck",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Uncommon\n**Energy Points:** 16\n\n**Description:** Elven craftsmanship.\n\n**Effect:** **Modify:** +d4 to Saving Throws."
+    },
+    "id": "4fdf77e5-b822-532d-92a1-f677e0477ca4",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Might",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Common\n**Energy Points:** 20\n\n**Description:** Sturdy enchanted ring.\n\n**Effect:** **Modify:** +1d4 Strength rolls / +1 Melee Threat."
+    },
+    "id": "177c8ae2-d46c-5025-8907-a8219f4789d1",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Teleportation",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Crystalline ring allowing surprise movement.\n\n**Effect:** **Activate:** Short-distance teleport."
+    },
+    "id": "fb8aeda8-77f2-5663-b977-7701af3d0e00",
+    "descr": ""
+  },
+  {
+    "name": "Ring of the Pillars",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Adorned with runes; boosts spells of one type.\n\n**Effect:** **Modify:** +1 bonus to specific Magic Path."
+    },
+    "id": "2148b131-9a1a-5f8c-8390-ca746bcf0f91",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Transmutation (self)",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Esoteric\n**Potency:** Competence \u2192 Expertise vs d10 to shift\n**Energy Points:** 20\n\n**Description:** An ornate ring that functions as the Shapeshift spell, allowing the wearer to transform into another creature.\n\n**Effect:** Activate."
+    },
+    "id": "06174923-6ff2-5bb1-a67b-b4676a03ac8e",
+    "descr": ""
+  },
+  {
+    "name": "Rod of Invocation",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 16\n\n**Description:** Wrapped in arcane runes.\n\n**Effect:** **Modify:** +1d4 to spellcasting checks."
+    },
+    "id": "1048eb9d-878a-5153-b0f2-6e0bb9e89be4",
+    "descr": ""
+  },
+  {
+    "name": "Rod of Protection",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Acts as a shield.\n\n**Effect:** **Protect:** -4 Threat Reduction (Static)."
+    },
+    "id": "677f905d-ea6a-5a1f-a72a-a75d5808bf40",
+    "descr": ""
+  },
+  {
+    "name": "Rod of Transmutation",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** 30\n\n**Description:** Permanent, highly prized rod.\n\n**Effect:** **Modify:** +5 to Modify effect tests."
+    },
+    "id": "a5c89fac-dcb4-5260-931b-1a91e0a7904d",
+    "descr": ""
+  },
+  {
+    "name": "Staff of Conjuration",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Common\n**Energy Points:** 8\n\n**Description:** Temporarily augments a specific stat.\n\n**Effect:** **Modify:** +d4 to one targeted ability."
+    },
+    "id": "e8c531d7-9508-594f-90b8-cef1007dd46c",
+    "descr": ""
+  },
+  {
+    "name": "Staff of Elemental Threat",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Uncommon\n**Energy Points:** 12\n\n**Description:** Imbued with elemental power.\n\n**Effect:** **Harm:** +d6 Threat to Elemental spells."
+    },
+    "id": "a8f79070-3293-5a42-b098-2eed7d9b23a4",
+    "descr": ""
+  },
+  {
+    "name": "Staff of Harm",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Varies\n**Energy Points:** 8\u201330\n\n**Description:** Increases wielder's damage potential.\n\n**Effect:** **Harm:** +1 to +5 Threat Points."
+    },
+    "id": "b02246cb-f8ee-5804-afd4-f2d401a8dd4b",
+    "descr": ""
+  },
+  {
+    "name": "Wand of Affliction",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** 30\n\n**Description:** Ancient wand unleashing misery on enemies.\n\n**Effect:** **Afflict:** Inflicts potent status effects."
+    },
+    "id": "c59c422a-da66-5213-8b49-4746271cc37c",
+    "descr": ""
+  },
+  {
+    "name": "Wand of Illusion",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Enhances illusory capabilities.\n\n**Effect:** **Modify:** +1d4 to Illusion checks."
+    },
+    "id": "24a1bba1-4b00-5f52-900f-92dce26980fb",
+    "descr": ""
+  },
+  {
+    "name": "Wand of Psionics",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Legendary\n**Energy Points:** N/A\n\n**Description:** Radiates psionic energy.\n\n**Effect:** **Harm:** +d8 to Psychogenic attacks."
+    },
+    "id": "c31fad90-9a3a-5452-a7d9-999855be4328",
+    "descr": ""
+  },
+  {
+    "name": "Brooch of Shielding",
+    "data": {
+      "type": "Shield",
+      "category": "Shield",
+      "notes": "**Rarity:** Varies\n**Energy Points:** 8\u201330\n\n**Description:** Activates a glowing energy field. Does not stack with other shields.\n\n**Effect:** **Protect:** Reduces potential harm (-1 to -5)."
+    },
+    "id": "376c29eb-695e-50d7-8bc7-f9510485ceb5",
+    "descr": ""
+  },
+  {
+    "name": "Anoth Axe / Crossbow",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Dwarven-crafted; enchanted projectiles deal extra damage.\n\n**Effect:** **Harm:** +1d6 Threat Points."
+    },
+    "id": "ea913e89-3437-5b7b-827e-d717792927c3",
+    "descr": ""
+  },
+  {
+    "name": "Hledrith Bow / Blade",
+    "data": {
+      "type": "Weapon",
+      "category": "Weapon",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Elegant elven weapons channeling extra harm.\n\n**Effect:** **Harm:** +1d6 Threat Points."
+    },
+    "id": "f64ad316-dca6-58d8-8716-5a88ecce7669",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Celerity",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Uncommon\n**Duration:** 6 rounds\n\n**Description:** \n\n**Effect:** **Modify:** +1 to +5 Speed Focus (Movement)."
+    },
+    "id": "1ee6ec58-86e9-50f7-b21f-4434e64f7aed",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Deathdealing",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Occult\n**Duration:** 10 rounds\n\n**Description:** \n\n**Effect:** **Harm:** +4 Threat, bypasses armor/shields (Costs -1 SP/attack)."
+    },
+    "id": "d5af1b49-d8ad-5bfd-ab2e-2c81d6f9b7a9",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Flight",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Esoteric\n**Duration:** Variable\n\n**Description:** \n\n**Effect:** **Activate:** Grants the power of flight."
+    },
+    "id": "ba299da9-159f-5aab-b2d1-7f2360923643",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Might/Ferocity",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Varies\n**Duration:** 4\u201312 rds\n\n**Description:** \n\n**Effect:** **Modify:** Grants +1 to +5 Might or Ferocity Focus."
+    },
+    "id": "37f9a1e2-4dc4-5413-b8d8-fcc61c234cb5",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Mystic Vision",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Esoteric\n**Duration:** 8 rounds\n\n**Description:** \n\n**Effect:** **Activate:** Grants premonitions of danger (Sixth Sense)."
+    },
+    "id": "93dc02eb-7776-560b-8169-4e2057821f03",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Observation",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Varies\n**Duration:** 4\u201312 rds\n\n**Description:** \n\n**Effect:** **Modify:** Increases Alertness/Perspicacity to max +5."
+    },
+    "id": "fd29b11a-2d37-577b-8488-9e4c02e8e459",
+    "descr": ""
+  },
+  {
+    "name": "Potion of Speed",
+    "data": {
+      "type": "Consumable",
+      "category": "Potion",
+      "notes": "**Rarity:** Varies\n**Duration:** 4\u201312 rds\n\n**Description:** \n\n**Effect:** **Modify:** +1 Battle Phase per die rank increase."
+    },
+    "id": "897a8959-4d6c-53dd-9355-bcc4a01e2752",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Sorcerous Detection",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Varies\n**Energy Points:** 1\u20135\n\n**Description:** Identifies spells/emanations. Range/detail depends on rarity (d4 to d12).\n\n**Effect:** **Activate:** Detects magic."
+    },
+    "id": "1fb66ea5-acd0-5d82-a4fd-12a09666025e",
+    "descr": ""
+  },
+  {
+    "name": "Ring of Transmutation",
+    "data": {
+      "type": "Gear",
+      "category": "Ring",
+      "notes": "**Rarity:** Esoteric\n**Energy Points:** 20\n\n**Description:** Functions as the Shapeshift spell.\n\n**Effect:** **Activate:** Shapeshift (Self)."
+    },
+    "id": "fc55648b-bf09-508a-964a-5454e362003e",
+    "descr": ""
+  },
+  {
+    "name": "Staff of Inspiritment",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Varies\n**Energy Points:** Varies\n\n**Description:** Carved ash/yew; channels divine energy.\n\n**Effect:** **Restore:** Restores 1d4\u20131d12 Spirit Points."
+    },
+    "id": "aa5163cd-f0e0-57e8-a423-c2c8f4adb0fb",
+    "descr": ""
+  },
+  {
+    "name": "Wand of Agony",
+    "data": {
+      "type": "Gear",
+      "category": "Rod/Staff/Wand",
+      "notes": "**Rarity:** Unique\n**Energy Points:** N/A\n\n**Description:** Target must make Valorous Save or be immobilized.\n\n**Effect:** **Afflict:** Paralysis and Pain."
+    },
+    "id": "4dd2686e-4df1-5af7-acc5-e6df7405fad4",
+    "descr": ""
+  }
+]

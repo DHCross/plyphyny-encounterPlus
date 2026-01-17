@@ -1,0 +1,258 @@
+{
+  "title": "Monster",
+  "tabs": [
+    {
+      "title": "Combat Stats",
+      "icon": "skull",
+      "sections": [
+        {
+          "title": "Basic Information",
+          "type": "group",
+          "fields": [
+            {
+              "type": "string",
+              "title": "Name",
+              "attribute": "name"
+            },
+            {
+              "type": "select",
+              "title": "Category",
+              "attribute": "data.Opponent_type",
+              "options": ["Minor", "Standard", "Exceptional", "Legendary"]
+            },
+            {
+              "type": "text",
+              "title": "Subtitle",
+              "attribute": "data.subtitle"
+            },
+            {
+              "type": "text",
+              "title": "Description",
+              "attribute": "descr"
+            }
+          ]
+        },
+        {
+          "title": "Defense Pools",
+          "type": "group",
+          "fields": [
+            {
+              "type": "number",
+              "title": "Active Defense (ADP)",
+              "attribute": "data.hpActive"
+            },
+            {
+              "type": "number",
+              "title": "Passive Defense (PDP)",
+              "attribute": "data.hpPassive"
+            },
+            {
+              "type": "number",
+              "title": "Hit Points",
+              "attribute": "data.hp"
+            },
+            {
+              "type": "string",
+              "title": "Damage Reduction/Armor",
+              "attribute": "data.dr_static",
+              "placeholder": "e.g., Leather (d6) or Natural Armor (+4 HP)"
+            }
+          ]
+        },
+        {
+          "title": "Combat Attributes",
+          "type": "group",
+          "fields": [
+            {
+              "type": "select",
+              "title": "Battle Phase",
+              "attribute": "data.battlephase",
+              "options": ["d4", "d6", "d8", "d10", "d12"]
+            },
+            {
+              "type": "select",
+              "title": "Saving Throw",
+              "attribute": "data.savingthrow",
+              "options": ["d4", "d6", "d8", "d10", "d12"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Threat Dice",
+      "icon": "dice",
+      "sections": [
+        {
+          "title": "Attack Pools",
+          "type": "group",
+          "fields": [
+            {
+              "type": "string",
+              "title": "Melee Threat Dice",
+              "attribute": "data.threatdicemelee",
+              "placeholder": "e.g., 2d6"
+            },
+            {
+              "type": "string",
+              "title": "Natural Threat Dice",
+              "attribute": "data.threatdicenatural",
+              "placeholder": "e.g., 3d8 (claws/bite)"
+            },
+            {
+              "type": "string",
+              "title": "Ranged Threat Dice",
+              "attribute": "data.threatdiceranged",
+              "placeholder": "e.g., 2d4"
+            },
+            {
+              "type": "string",
+              "title": "Arcane Threat Dice",
+              "attribute": "data.threatdicearcane",
+              "placeholder": "e.g., 2d12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "icon": "wand-magic-sparkles",
+      "sections": [
+        {
+          "title": "Special Features",
+          "type": "group",
+          "fields": [
+            {
+              "type": "text",
+              "title": "Extra Attacks",
+              "attribute": "data.ea",
+              "placeholder": "e.g., 1d6; Screech (Natural d8)"
+            },
+            {
+              "type": "text",
+              "title": "Features & Abilities",
+              "attribute": "data.features_text",
+              "placeholder": "Special abilities, immunities, resistances"
+            },
+            {
+              "type": "text",
+              "title": "Behavior",
+              "attribute": "data.behavior",
+              "placeholder": "Tactical behavior, pack tactics, etc."
+            },
+            {
+              "type": "text",
+              "title": "Notes",
+              "attribute": "data.notes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Combat Actions",
+      "icon": "sword",
+      "sections": [
+        {
+          "title": "Initiative & Reach",
+          "type": "group",
+          "fields": [
+            {
+              "type": "select",
+              "title": "Prowess Die (Base Score)",
+              "attribute": "data.prowessDie",
+              "options": ["d4", "d6", "d8", "d10", "d12", "d14", "d16", "d20"],
+              "help": "Sets MV: d12(12), d10(10), d8(8), d6(6), d4(4). d14+ for Pre-Phase 1."
+            },
+            {
+              "type": "number",
+              "title": "Reaction Focus",
+              "attribute": "data.reactionFocus",
+              "help": "Adds to Init Score (Agility)"
+            },
+            {
+              "type": "number",
+              "title": "Finesse Focus",
+              "attribute": "data.finesseFocus",
+              "help": "Adds to Init Score (Melee)"
+            },
+            {
+              "type": "checkbox",
+              "title": "Follow-Through Active",
+              "attribute": "data.followThroughActive",
+              "help": "Ran in Phase 5 last turn? Acts first (Phase 0)."
+            },
+            {
+              "type": "select",
+              "title": "Weapon Reach",
+              "attribute": "data.weaponReach",
+              "options": ["Long Range", "Long Reach", "Medium Reach", "Short Reach"],
+              "help": "Reach acts as tie-breaker in initiative"
+            },
+            {
+              "type": "readonly",
+              "title": "Calculated Battle Phase",
+              "attribute": "data.calculatedPhase",
+              "render": "Phase: 12+=1, 9-11=2, 7-8=3, 5-6=4, 1-4=5"
+            }
+          ]
+        },
+        {
+          "title": "Defense & Recovery",
+          "type": "group",
+          "fields": [
+            {
+              "type": "text",
+              "title": "Armor Type",
+              "attribute": "data.armorType",
+              "placeholder": "e.g., Natural Armor (d6), Plate (d10)"
+            },
+            {
+              "type": "number",
+              "title": "Shield Value",
+              "attribute": "data.shieldValue",
+              "help": "Fixed threat reduction"
+            },
+            {
+              "type": "checkbox",
+              "title": "Can Revitalize",
+              "attribute": "data.canRevitalize",
+              "help": "This adversary can use Revitalize actions"
+            },
+            {
+              "type": "select",
+              "title": "Revitalize Option",
+              "attribute": "data.revitalizeOption",
+              "options": ["Invigorate (free)", "Deep Recovery (1 SP)", "Steady Renewal (variable)"],
+              "help": "Preferred revitalize strategy"
+            }
+          ]
+        },
+        {
+          "title": "Combat State",
+          "type": "group",
+          "fields": [
+            {
+              "type": "checkbox",
+              "title": "Already Revitalized This Turn",
+              "attribute": "data.revitalizedThisTurn"
+            },
+            {
+              "type": "text",
+              "title": "Last Action",
+              "attribute": "data.lastAction",
+              "readonly": true
+            },
+            {
+              "type": "number",
+              "title": "Turns in Combat",
+              "attribute": "data.turnCount",
+              "readonly": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "tabs": [
+    {
+      "key": "initiative",
+      "label": "Initiative Order",
+      "sections": [
+        {
+          "key": "combatants",
+          "type": "list",
+          "title": "Combat Order",
+          "description": "Sorted by Follow-Through → Battle Phase → Reach Priority → Heroic Tier",
+          "columns": [
+            {
+              "key": "phase",
+              "label": "Phase",
+              "width": "60px",
+              "render": "#{{phase}}"
+            },
+            {
+              "key": "followThrough",
+              "label": "FT",
+              "width": "30px",
+              "render": "{{data.followThroughActive ? '★' : ''}}"
+            },
+            {
+              "key": "name",
+              "label": "Name",
+              "render": "{{name}}"
+            },
+            {
+              "key": "reach",
+              "label": "Reach",
+              "width": "100px",
+              "render": "{{reach}}"
+            },
+            {
+              "key": "classification",
+              "label": "Type",
+              "width": "100px",
+              "render": "{{classification}}"
+            },
+            {
+              "key": "adp",
+              "label": "ADP",
+              "width": "50px",
+              "render": "#{{adp}}/{{maxAdp}}"
+            },
+            {
+              "key": "turnOrder",
+              "label": "Turn",
+              "width": "50px",
+              "render": "#{{turnNumber}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "current_turn",
+      "label": "Current Turn",
+      "sections": [
+        {
+          "title": "Active Combatant",
+          "type": "group",
+          "fields": [
+            {
+              "key": "currentCombatant",
+              "type": "readonly",
+              "label": "Current Actor",
+              "render": "**{{name}}** (Phase {{phase}}, {{reach}} reach)"
+            },
+            {
+              "key": "turnSummary",
+              "type": "readonly",
+              "label": "Turn Summary",
+              "render": "ADP: {{adp}}/{{maxAdp}} | PDP: {{pdp}}/{{maxPdp}} | HP: {{hp}}/{{maxHp}} | SP: {{sp}}/{{maxSp}}"
+            }
+          ]
+        },
+        {
+          "title": "Available Actions",
+          "type": "group",
+          "fields": [
+            {
+              "key": "primaryAction",
+              "type": "button",
+              "label": "Roll Threat Dice",
+              "action": "rollThreatDice"
+            },
+            {
+              "key": "revitalizeAction",
+              "type": "button",
+              "label": "Revitalize",
+              "action": "showRevitalizeOptions",
+              "enabled": "{{canRevitalize}}"
+            },
+            {
+              "key": "defendAction",
+              "type": "button",
+              "label": "Defend",
+              "action": "defendAction"
+            },
+            {
+              "key": "nextTurn",
+              "type": "button",
+              "label": "End Turn",
+              "action": "nextTurn",
+              "style": "primary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "threat_calculator",
+      "label": "Threat Calculator",
+      "sections": [
+        {
+          "title": "Apply Threat Damage",
+          "type": "group",
+          "fields": [
+            {
+              "key": "threatDice",
+              "type": "text",
+              "label": "Threat Dice",
+              "placeholder": "e.g., 3d8, 2d6+2"
+            },
+            {
+              "key": "rollThreatButton",
+              "type": "button",
+              "label": "Roll Threat",
+              "action": "rollAndApplyThreat"
+            }
+          ]
+        },
+        {
+          "title": "Damage Cascade",
+          "type": "group",
+          "fields": [
+            {
+              "key": "cascadeDisplay",
+              "type": "readonly",
+              "label": "Defense Order",
+              "render": "1. Shield ({{shieldValue}}) → 2. ADP ({{adp}}) → 3. Armor (roll {{armor}}) → 4. PDP ({{pdp}}) → 5. HP ({{hp}})"
+            },
+            {
+              "key": "threatAmount",
+              "type": "number",
+              "label": "Threat Points to Apply"
+            },
+            {
+              "key": "applyButton",
+              "type": "button",
+              "label": "Apply Threat",
+              "action": "applyThreatDamage",
+              "style": "danger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "revitalize",
+      "label": "Revitalize System",
+      "sections": [
+        {
+          "title": "Revitalize Options",
+          "type": "group",
+          "fields": [
+            {
+              "key": "invigorateButton",
+              "type": "button",
+              "label": "Invigorate (Free)",
+              "action": "revitalize_invigorate",
+              "help": "Roll Prowess die + Reaction Focus, gain ADP. No cost."
+            },
+            {
+              "key": "deepRecoveryButton",
+              "type": "button",
+              "label": "Deep Recovery (1 SP)",
+              "action": "revitalize_deepRecovery",
+              "help": "Gain Prowess die + Reaction Focus ADP. Costs 1 Spirit Point.",
+              "enabled": "{{sp >= 1}}"
+            },
+            {
+              "key": "steadyRenewalButton",
+              "type": "button",
+              "label": "Steady Renewal (Variable)",
+              "action": "revitalize_steadyRenewal",
+              "help": "Spend SP next turn to gradually recover ADP"
+            }
+          ]
+        },
+        {
+          "title": "Revitalize Results",
+          "type": "group",
+          "fields": [
+            {
+              "key": "revitalizeResult",
+              "type": "readonly",
+              "label": "Last Result",
+              "render": "{{lastRevitalizeMessage}}"
+            },
+            {
+              "key": "adpGain",
+              "type": "readonly",
+              "label": "ADP Gained",
+              "render": "+{{adpGainAmount}}"
+            },
+            {
+              "key": "spCost",
+              "type": "readonly",
+              "label": "Spirit Points Spent",
+              "render": "-{{spSpent}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

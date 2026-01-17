@@ -1,0 +1,69 @@
+[
+  {
+    "id": "iconic_sword_1",
+    "name": "Iconic Sword",
+    "type": "Iconic Weapon",
+    "rarity": "Common",
+    "description": "A masterwork blade passed down through generations.",
+    "data": {
+      "properties": "+1 Threat Focus",
+      "damage": "d8 + Threat Focus"
+    }
+  },
+  {
+    "id": "staff_archmage_1",
+    "name": "Staff of the Archmage",
+    "type": "Iconic Magic Focus",
+    "rarity": "Legendary",
+    "description": "An ancient staff pulsing with arcane power.",
+    "data": {
+      "properties": "+2 Wizardry Focus, 10 Energy Points",
+      "energyPoints": 10,
+      "activationCost": 1,
+      "magicalProperties": "Spell Amplification: Add an additional d4 to spell damage rolls"
+    }
+  },
+  {
+    "id": "heirloom_amulet_1",
+    "name": "Family Heirloom Amulet",
+    "type": "Iconic Inspirational Item",
+    "rarity": "Common",
+    "description": "An old amulet that belonged to your ancestor.",
+    "data": {
+      "properties": "+1 General Inspiration (usable once per session for +2 to any roll)"
+    }
+  },
+  {
+    "id": "shadow_cloak_1",
+    "name": "Cloak of the Shadow Dancer",
+    "type": "Iconic Inspirational Item",
+    "rarity": "Uncommon",
+    "description": "A dark cloak that seems to absorb light.",
+    "data": {
+      "properties": "+1 Stealth Focus, Shadows seem to favor the wearer"
+    }
+  },
+  {
+    "id": "battle_axe_1",
+    "name": "Battle Axe of the Mountain King",
+    "type": "Iconic Weapon",
+    "rarity": "Esoteric",
+    "description": "A legendary two-handed axe carved from meteorite iron.",
+    "data": {
+      "properties": "+2 Ferocity Focus, +1 Might Focus",
+      "damage": "2d6 + Focus bonuses"
+    }
+  },
+  {
+    "id": "spellbook_lost_1",
+    "name": "Spellbook of Lost Paths",
+    "type": "Iconic Magic Focus",
+    "rarity": "Occult",
+    "description": "A mysterious grimoire containing forgotten spells.",
+    "data": {
+      "properties": "+3 Wizardry Focus, Knowledge of rare spells",
+      "energyPoints": 15,
+      "magicalProperties": "Spell Discovery: Once per level, unlock a new spell not normally available to your class"
+    }
+  }
+]

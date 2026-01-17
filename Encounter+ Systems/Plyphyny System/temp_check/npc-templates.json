@@ -1,0 +1,101 @@
+{
+  "roles": {
+    "Warrior": {
+      "name": "Warrior",
+      "primaryAbility": "Prowess",
+      "keySpecialty": "Melee",
+      "iconicItems": ["Sword", "Axe", "Mace", "Spear", "Warhammer"],
+      "baseADP": 20,
+      "basePDP": 15,
+      "prowessDie": 8,
+      "advantages": ["Commanding", "Intimidation", "Magic Resistance (+1)", "Tactician"]
+    },
+    "Rogue": {
+      "name": "Rogue",
+      "primaryAbility": "Competence",
+      "keySpecialty": "Adroitness",
+      "iconicItems": ["Dagger", "Short Sword", "Lock Picks", "Cloak", "Grappling Hook"],
+      "baseADP": 12,
+      "basePDP": 8,
+      "prowessDie": 6,
+      "advantages": ["Expeditious", "Fortunate", "Streetwise", "Underworld Contacts"]
+    },
+    "Mage": {
+      "name": "Mage",
+      "primaryAbility": "Competence",
+      "keySpecialty": "Expertise",
+      "iconicItems": ["Staff", "Spell Focus", "Spellbook", "Orb", "Wand"],
+      "baseADP": 8,
+      "basePDP": 10,
+      "prowessDie": 4,
+      "advantages": ["Arcanum", "Gift of Magic", "Magic Defense", "Scholar"]
+    },
+    "Mystic": {
+      "name": "Mystic",
+      "primaryAbility": "Fortitude",
+      "keySpecialty": "Willpower",
+      "iconicItems": ["Holy Symbol", "Meditation Focus", "Robes", "Staff", "Chalice"],
+      "baseADP": 10,
+      "basePDP": 18,
+      "prowessDie": 6,
+      "advantages": ["Empathic", "Gift of Magic", "Intuitive", "Magic Resistance (Lesser)", "Strong-Willed"]
+    },
+    "Theurgist": {
+      "name": "Theurgist",
+      "primaryAbility": "Competence",
+      "keySpecialty": "Expertise",
+      "iconicItems": ["Holy Relic", "Prayer Book", "Mace", "Holy Symbol", "Armor"],
+      "baseADP": 12,
+      "basePDP": 14,
+      "prowessDie": 6,
+      "advantages": ["Gift of Magic", "Magic Defense", "Religion", "Strong-Willed"]
+    },
+    "Adept": {
+      "name": "Adept",
+      "primaryAbility": "Competence",
+      "keySpecialty": "Expertise",
+      "iconicItems": ["Spellbook", "Staff", "Orb", "Amulet", "Grimoire"],
+      "baseADP": 9,
+      "basePDP": 8,
+      "prowessDie": 4,
+      "advantages": ["Arcanum", "Gift of Magic", "Literacy", "Scholar"]
+    },
+    "Assassin": {
+      "name": "Assassin",
+      "primaryAbility": "Prowess",
+      "keySpecialty": "Agility",
+      "iconicItems": ["Dagger", "Short Sword", "Poison", "Disguise Kit", "Lock Picks"],
+      "baseADP": 14,
+      "basePDP": 10,
+      "prowessDie": 7,
+      "advantages": ["Expeditious", "Heightened Senses (Hearing)", "Observant", "Read Emotions"]
+    },
+    "Barbarian": {
+      "name": "Barbarian",
+      "primaryAbility": "Prowess",
+      "keySpecialty": "Melee",
+      "iconicItems": ["Great Axe", "Great Sword", "Club", "Battle Hammer", "Furs"],
+      "baseADP": 18,
+      "basePDP": 16,
+      "prowessDie": 8,
+      "advantages": ["Animal Affinity", "Brutishness", "Menacing", "Resilient"]
+    },
+    "Guard": {
+      "name": "Guard",
+      "primaryAbility": "Prowess",
+      "keySpecialty": "Melee",
+      "iconicItems": ["Sword", "Shield", "Spear", "Armor", "Torch"],
+      "baseADP": 16,
+      "basePDP": 12,
+      "prowessDie": 6,
+      "advantages": ["Trained Formation Fighter", "Discipline", "Alert", "Reliable"]
+    }
+  },
+  "levelProgression": {
+    "1": { "baseADP": 10, "basePDP": 5, "spiritPoints": 3 },
+    "2": { "baseADP": 15, "basePDP": 7, "spiritPoints": 5 },
+    "3": { "baseADP": 20, "basePDP": 10, "spiritPoints": 7 },
+    "4": { "baseADP": 30, "basePDP": 15, "spiritPoints": 10 },
+    "5": { "baseADP": 40, "basePDP": 20, "spiritPoints": 15 }
+  }
+}

@@ -1,0 +1,407 @@
+/*
+ * Plyphyny System - Custom Styles for Encounter+
+ * Version: 1.0.4 "Eldritch Edition"
+ * ----------------
+ * Visual enhancements for Battle Phase, Defense Cascade, and combat UI
+ * Theme: Eldritch (Deep Purples, Neon Greens, Dark Fantasy)
+ */
+
+:root {
+    --eldritch-bg: #1a1625;
+    --eldritch-panel: rgba(30, 27, 46, 0.95);
+    --eldritch-purple-100: #e0d4fc;
+    --eldritch-purple-300: #a29bfe;
+    --eldritch-purple-500: #8e44ad;
+    --eldritch-purple-700: #5b2c6f;
+    --eldritch-green-300: #55efc4;
+    --eldritch-green-500: #00b894;
+    --eldritch-green-700: #008a6b;
+    --eldritch-text-main: #f5f6fa;
+    --eldritch-text-sub: #b2bec3;
+    --eldritch-border: rgba(162, 155, 254, 0.2);
+    --eldritch-glow: #a29bfe;
+}
+
+/* ============================================
+   BATTLE PHASE INDICATORS
+   ============================================ */
+
+/* General stat block polish for better readability in dark mode */
+.stat-block, .statBlock {
+    background-color: var(--eldritch-panel);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--eldritch-border);
+    background-image: linear-gradient(to bottom right, rgba(142, 68, 173, 0.05), rgba(0, 184, 148, 0.05));
+    color: var(--eldritch-text-main);
+}
+
+.stat-block .headline, .statBlock .headline {
+    font-size: 1.25em;
+    letter-spacing: 0.02em;
+    color: var(--eldritch-green-300);
+    text-shadow: 0 0 10px rgba(85, 239, 196, 0.2);
+}
+
+.stat-block .subheadline, .statBlock .subheadline,
+.stat-block .caption, .statBlock .caption {
+    color: var(--eldritch-purple-300);
+}
+
+.stat-block .divider, .statBlock .divider {
+    border-color: rgba(142, 68, 173, 0.3);
+}
+
+/* Status tag styling inside text lines */
+.stat-block .text, .statBlock .text {
+    line-height: 1.5;
+    color: var(--eldritch-text-sub);
+}
+
+.stat-block .text strong, .statBlock .text strong {
+    color: var(--eldritch-text-main);
+}
+
+/* Bold visual language for sheet styles */
+.stat-block .title, .statBlock .title {
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 20px var(--eldritch-purple-700);
+    font-family: serif; 
+    font-weight: 800;
+}
+
+.stat-block .subtitle, .statBlock .subtitle {
+    color: var(--eldritch-green-300);
+    font-style: italic;
+}
+
+.stats-ability {
+    background: linear-gradient(135deg, rgba(91, 44, 111, 0.8), rgba(0, 0, 0, 0.9));
+    border: 1px solid var(--eldritch-purple-500);
+    border-radius: 10px;
+    padding: 8px 10px;
+    text-align: center;
+    color: var(--eldritch-purple-100);
+    box-shadow: inset 0 0 15px rgba(142, 68, 173, 0.2), 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.stats-ability .ability-score {
+    color: var(--eldritch-green-300);
+    text-shadow: 0 0 5px rgba(85, 239, 196, 0.4);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.stats-body {
+    color: #dfe6e9;
+}
+
+.sheet-field-value {
+    color: var(--eldritch-purple-100);
+    font-weight: 700;
+}
+
+.sheet-label {
+    color: var(--eldritch-purple-300);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75em;
+}
+
+.hp-current {
+    color: var(--eldritch-green-300);
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(85, 239, 196, 0.3);
+}
+
+.hp-max {
+    color: var(--eldritch-text-sub);
+}
+
+/* Triangle divider accent */
+.divider.triangle {
+    border-color: var(--eldritch-purple-500);
+}
+
+.battle-phase {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 2px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Adjusted for darker theme */
+.battle-phase-1 {
+    background-color: var(--eldritch-green-500);  /* Green - Fastest */
+    color: #1a1625;
+}
+
+.battle-phase-2 {
+    background-color: #0984e3;  /* Blue - Heroic */
+    color: white;
+}
+
+.battle-phase-3 {
+    background-color: #fdcb6e;  /* Yellow/Gold - Competent */
+    color: #2d3436;
+}
+
+.battle-phase-4 {
+    background-color: #e17055;  /* Orange - Average */
+    color: white;
+}
+
+.battle-phase-5 {
+    background-color: #d63031;  /* Red - Slowest */
+    color: white;
+}
+
+/* ============================================
+   DEFENSE CASCADE VISUALIZATION
+   ============================================ */
+
+.defense-cascade {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 12px 0;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.defense-layer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    color: #dfe6e9;
+}
+
+.defense-layer-label {
+    min-width: 120px;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: var(--eldritch-purple-100);
+}
+
+.defense-layer-bar-container {
+    flex: 1;
+    height: 20px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.defense-layer-bar {
+    height: 100%;
+    transition: width 0.3s ease;
+    border-radius: 10px;
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.defense-layer-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 2px black;
+}
+
+/* Defense Layer Colors - Eldritch Shift */
+.defense-shield .defense-layer-bar {
+    background-color: #636e72;  /* Gray */
+}
+
+.defense-adp .defense-layer-bar {
+    background-color: #6c5ce7;  /* Deep Purple Blue */
+}
+
+.defense-armor .defense-layer-bar {
+    background-color: #2d3436;  /* Dark Gray */
+    border: 1px solid #636e72;
+}
+
+/* ============================================
+   ITEM & GEAR STYLING
+   ============================================ */
+
+.stat-block .item-title, .statBlock .item-title {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 14px rgba(142, 68, 173, 0.6);
+    font-weight: 800;
+    font-family: serif;
+}
+
+.stat-block .item-subtitle, .statBlock .item-subtitle {
+    color: var(--eldritch-green-300);
+    font-style: italic;
+}
+
+.stat-block .item-caption, .statBlock .item-caption {
+    color: var(--eldritch-purple-300);
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.7em;
+}
+
+.stat-block .item-meta, .statBlock .item-meta {
+    color: var(--eldritch-purple-100);
+}
+
+.stat-block .item-body, .statBlock .item-body {
+    color: var(--eldritch-text-sub);
+    line-height: 1.5;
+}
+
+.stat-block .item-notes, .statBlock .item-notes {
+    color: var(--eldritch-purple-100);
+}
+
+.defense-pdp .defense-layer-bar {
+    background-color: #e17055;  /* Burnt Orange */
+}
+
+.defense-hp .defense-layer-bar {
+    background-color: #ff7675;  /* Soft Red */
+}
+
+/* ============================================
+   COMBAT ACTIONS & REVITALIZE
+   ============================================ */
+
+.revitalize-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin: 16px 0;
+}
+
+.revitalize-option {
+    padding: 12px;
+    border: 1px solid var(--eldritch-purple-500);
+    border-radius: 6px;
+    background: linear-gradient(to bottom, rgba(45, 52, 54, 0.4), rgba(45, 52, 54, 0.6));
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.revitalize-option:hover {
+    background: rgba(142, 68, 173, 0.2);
+    box-shadow: 0 0 15px rgba(142, 68, 173, 0.3);
+    border-color: var(--eldritch-green-300);
+}
+
+.revitalize-option.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    border-color: #636e72;
+    background: transparent;
+}
+
+.revitalize-option-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 4px;
+    color: var(--eldritch-purple-100);
+}
+
+.revitalize-option-cost {
+    font-size: 0.85em;
+    color: #fab1a0;
+    margin-bottom: 8px;
+}
+
+.revitalize-option-effect {
+    font-size: 0.9em;
+    color: var(--eldritch-green-300);
+    font-weight: 600;
+}
+
+/* ============================================
+   COMBAT STATUS INDICATORS
+   ============================================ */
+
+.combat-status.ready {
+    background-color: var(--eldritch-green-500);
+    color: #2d3436;
+    box-shadow: 0 0 10px rgba(0, 184, 148, 0.4);
+}
+
+/* ============================================
+   REACH & WEAPON INDICATORS
+   ============================================ */
+
+.reach-indicator {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.reach-long-range {
+    background-color: var(--eldritch-purple-500);
+}
+
+.reach-long-reach {
+    background-color: #0984e3;
+}
+
+.reach-medium-reach {
+    background-color: var(--eldritch-green-500);
+    color: #2d3436;
+}
+
+/* ============================================
+   SPIRIT POINTS DISPLAY
+   ============================================ */
+
+.spirit-points {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, var(--eldritch-purple-700) 0%, #000 100%);
+    border: 1px solid var(--eldritch-purple-500);
+    border-radius: 6px;
+    color: var(--eldritch-green-300);
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(142, 68, 173, 0.4);
+}
+
+.spirit-points-label {
+    color: var(--eldritch-purple-100);
+}
+
+.spirit-points-value {
+    text-shadow: 0 0 5px var(--eldritch-green-300);
+}
+
+/* ============================================
+   RESPONSIVE & UTILS
+   ============================================ */
+
+@media (max-width: 768px) {
+    .revitalize-options {
+        grid-template-columns: 1fr;
+    }
+}

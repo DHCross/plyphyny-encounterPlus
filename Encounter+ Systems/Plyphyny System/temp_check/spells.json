@@ -1,0 +1,4216 @@
+[
+  {
+    "name": "Dispel Effect",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "37ff24c7-947a-504f-9fda-bdccd9c1540e",
+    "descr": "Cancels an ongoing magical effect or spell within range."
+  },
+  {
+    "name": "Eldritch Bolt",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "Auto (Variable)",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "5c169124-183c-5826-a3f9-cabf8eef7475",
+    "descr": "Unleashes a bolt of raw magical energy at a target, dealing damage based on your mastery."
+  },
+  {
+    "name": "Eldritch Defense",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "ce3667ef-d29a-5f57-8a4f-dd9f196e98fd",
+    "descr": "Creates a protective magical barrier that deflects attacks and absorbs damage."
+  },
+  {
+    "name": "Identify Magic",
+    "data": {
+      "path": "All Paths",
+      "category": "",
+      "tier": "",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "7a6aa200-436d-5cb0-ab37-96beaaae8589",
+    "descr": "Reveals the nature and properties of a magical item, spell, or enchantment."
+  },
+  {
+    "name": "Aura of Restoration",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "4407d897-f911-5038-985a-f152b04ab838",
+    "descr": "Emanates a healing aura that gradually restores hit points to allies within range."
+  },
+  {
+    "name": "Blessing of Renewal",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "da906293-a687-5386-81fc-45704dbed481",
+    "descr": "Grants divine blessing that accelerates natural healing and recovery."
+  },
+  {
+    "name": "Entreaty of Mercy",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "89f6f00d-f37a-5076-b392-86e4c40a3346",
+    "descr": "Calls upon divine mercy to heal wounds and restore vitality."
+  },
+  {
+    "name": "Heal",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "4883403a-0da2-595d-bb49-0296c6f6f8f2",
+    "descr": "Channels divine power to instantly mend wounds and restore hit points."
+  },
+  {
+    "name": "Repel Undead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "940227f9-5778-5841-b41f-11961395fe97",
+    "descr": "Channels holy energy to drive back or destroy undead creatures."
+  },
+  {
+    "name": "Soothe Ally",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d6",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": "Listed under Uncommon header in source list"
+    },
+    "id": "d32ba769-07aa-5353-9259-231a92fe27a3",
+    "descr": "Eases pain and suffering, granting comfort and minor healing."
+  },
+  {
+    "name": "Soothe Self",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "a4474f98-39a4-5079-bf2d-760c2f4ce409",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Word of Cleansing",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "8101f42d-d259-596d-98ea-2a1b0bc01daf",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Banish Undead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Destroy",
+      "notes": ""
+    },
+    "id": "8990502f-0697-5359-b7cf-a9a92864bfdc",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Blessing of Health",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "4c4e7613-4550-5376-8976-879b3fcb1d4c",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Consecrate Ground",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "013f26de-379a-50ca-8e36-73bcc8e7c80b",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Dispel Magic",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "70401772-8d16-5854-b074-349702d2d63e",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Healing Aura",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "d79b792f-6002-53ba-becc-15c10867a620",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Nullify Poison",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "68360417-d593-5631-8351-4d12806e3981",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Recovery of the Unready",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "010546ee-c542-539b-9673-fd1110675ec4",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Soul Transfer",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": "2 SP"
+    },
+    "id": "110ef852-accd-5a07-9db7-dc2f6a0a33b1",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Doomsday Premonition",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "0aaf3696-485d-56e5-9de2-07eebca37d6e",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Mystical Regeneration",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "9ee04811-4cb0-5b58-8ad4-dfe057324b67",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Rejuvenate",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "a7f598b9-bc17-5de3-9a37-3c5cc635b5e8",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Remove Curse",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "4842a300-8239-5e63-ad3e-8b67cd7ffa6e",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Unbind Spirit",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "7af2ecfd-68d3-52f2-a182-9075f0d3ef56",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Desolate Curse",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10 (Ritual)",
+      "rarity": "Occult",
+      "effects": "Destroy",
+      "notes": ""
+    },
+    "id": "c93f47be-ec20-59b5-87ef-264ac3d3eac5",
+    "descr": "Inflicts a magical curse or malady upon the target."
+  },
+  {
+    "name": "Entreat Entity",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "d97a2ead-3203-5692-a984-933c03b90d40",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Omniscient Eye",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "a2eca668-27ec-5841-8a0d-a37bc0301797",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Soul Transmutation",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10 (Ritual)",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "ddb45301-5dbd-509a-b831-2cb83f387f9d",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Commune with the Dead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "0fbf077d-4900-53f7-9c7a-239be0b80d2e",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Create Undead",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "c43faeb6-57c9-5210-8aff-2dce0cfd3dc0",
+    "descr": "A divine spell channeling the power of the gods."
+  },
+  {
+    "name": "Regeneration",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "e0968f9c-32c3-5438-9190-f3e0a6714f9e",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Summon Spirit",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "d4f62a13-ff1f-523c-a9a6-21fe8d8e00a5",
+    "descr": "Summons magical entities or creatures to aid the caster."
+  },
+  {
+    "name": "Divine Armor",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "6c4fdbd4-9ce8-50b3-86c2-a7ed45bb0eb3",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Divine Shield",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "f00d6751-cdee-507d-88e5-50d08a96b822",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Divine Assault",
+    "data": {
+      "path": "Divine Magic (Hieraticism)",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "8f607ad7-e105-5300-abcc-78ec8a3b628a",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Blossom/Wither Plants",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "0d65287e-3ac5-56d6-942e-cb76f42fc021",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Branch to Staff",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "bcc9f1fb-b159-5d21-96b0-84a000df2259",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Commune with Plants",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "76ccdb13-9c16-5c05-a369-fab2aa34e12c",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Ears of the Bat",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "cac7a18e-ae58-5fdd-ba76-426d765e31e3",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Entangling Roots",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "c2d98b0e-cd7d-5f7c-98bb-3a07edd90bf9",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "95c37976-6659-5adf-8d60-9361492ec1b7",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Nose of the Wolf",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "44c3354c-eb06-5c55-9a6a-b691e61e3df3",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Plant Growth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "933014b7-db27-5c2a-89f6-12962da19639",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Rose Whip",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "8a3ab29b-04e7-5773-be20-1f6d74ba2d3a",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Summon Animal",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "7ff15c7f-84a9-537c-95a0-f42fdf1f6540",
+    "descr": "Summons magical entities or creatures to aid the caster."
+  },
+  {
+    "name": "Animate Flora",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "52637cc7-4af7-5eb1-895b-3e4856636203",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Bramble Wall",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate, Restore",
+      "notes": "1 SP"
+    },
+    "id": "f9142e23-6719-5cb5-abbf-9155c637688f",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Control Animal",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "2807a43f-1bb8-5d7a-9b75-873b4f8ab7a0",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Gust",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm, Modify",
+      "notes": "1 SP"
+    },
+    "id": "3e51a8e9-3c81-5956-ac0d-aef5890c7833",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Healing Grove",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore, Protect",
+      "notes": "1 SP"
+    },
+    "id": "b7909fb8-8144-599b-9fab-6b83957dc6ee",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Seizing Plants",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "bca3d3ed-9647-5e84-89f2-a8836e9994da",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Shape Wood",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "c81cd10e-ff27-5170-bb8b-a20323815498",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Shapeshift",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "e10a32bd-56e1-59dc-8c81-d1da6da5853a",
+    "descr": "Alters the physical form of the target through transmutation magic."
+  },
+  {
+    "name": "Wild Growth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify, Afflict",
+      "notes": "2 SP"
+    },
+    "id": "4c37dd5c-ca93-530a-96a7-9285978b6593",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Plant Automaton",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "53debd10-3ffb-57f5-87ee-84fa0e9ce034",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Plant Meld",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "e6f31499-d77c-57c8-9267-49c9165753be",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Regrowth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "f28fbce7-250f-5297-a947-19525d4dfd50",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Speak with Nature",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "b52e2f89-f2f5-50f2-af0c-bf00f2329dcc",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Tangle Trap",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "d823c370-c16b-5814-acba-1a784440cd46",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Thorny Shield",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "3a0011d9-7ff9-5a45-bc09-6959459ab6af",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Animal Transformation",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "4456e333-22a1-5461-b15d-0e52ee7fbe06",
+    "descr": "Alters the physical form of the target through transmutation magic."
+  },
+  {
+    "name": "Might of the Oak",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "8a27a8bd-92bb-5c6a-a9c8-83029a493a7d",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Nature's Blessing",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "ca4263ed-a322-5463-b77b-ba0d0e7ef435",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Plant Armor",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "320bf81a-c944-5040-b884-8a3fb2a2a679",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Plant Behemoth",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "a10a8aa0-b046-5881-82e7-7459ab5d4b5a",
+    "descr": "A magical spell from the Druidry tradition."
+  },
+  {
+    "name": "Magical Transformation",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "57b1440d-f1af-5bf2-beaf-f3a473a6eee1",
+    "descr": "Alters the physical form of the target through transmutation magic."
+  },
+  {
+    "name": "Plant Mastery",
+    "data": {
+      "path": "Druidry",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify, Harm",
+      "notes": ""
+    },
+    "id": "c36a762d-8f6d-529f-91bc-c2fa0416f865",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Nature Armor",
+    "data": {
+      "path": "Druidry",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "df10a182-79a0-5748-a6bf-8e985625b53d",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Nature Shield",
+    "data": {
+      "path": "Druidry",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "bf5efc32-c44a-5df5-ab56-64b972df4452",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Nature Assault",
+    "data": {
+      "path": "Druidry",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "dcf86d75-9581-5551-b0b0-a1822b0999ba",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Ball of Light",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "85e230ca-ea03-5149-94f9-93b94febe1c0",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Boil Water",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "a071c65b-8560-528a-9da2-5cba40263eb7",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Breeze",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "2c60cbb4-4a55-514c-97ef-ee16d0f74cb8",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Charge of the Elements",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "0c28bed0-50c2-53d3-b0a6-e2d2c6f98554",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Cleanse Air",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "039400f3-c29a-5a22-ae99-703dd744daa3",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Crystal Vision",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "fd8e3cbe-6222-5df9-a6fe-2961f4f5d0ba",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Drown",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Auto",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "882138f7-f633-5b59-80ac-e63d41fe0f1d",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Energy Jump",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "4abe2c04-bd2b-5346-b065-4bb50a03c5f3",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Pulse",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "c3b559bf-6db0-51a0-bfe4-9eff813bf6f2",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Extinguish Flames",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "240867f8-9e99-5dff-9747-ad4b957e854f",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Fire Strike",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "5661a285-ffaa-55de-b293-dbe7531c1667",
+    "descr": "Conjures searing flames to burn enemies."
+  },
+  {
+    "name": "Fire Trail",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "50161e94-4e51-5b75-86a3-79911a955068",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Flame Creature",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "f2664d7f-7d6d-59e7-890f-b1e26fc570fd",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Flame Fists",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "1cc7f2b9-232f-5c11-968a-57bee9d17cbb",
+    "descr": "Conjures searing flames to burn enemies."
+  },
+  {
+    "name": "Flame Weapon",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "64058f24-2616-5bce-b351-4bff3c09da83",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Forge From Stone",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "2fb8c693-d5e9-5362-ae2e-b58aeb7198f9",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Freeze",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "5fb2872e-56b2-56a4-8f72-c992d6f8d5f6",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Fresh Air",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "8ed88bdb-c025-57cf-b5d8-8b42139e5424",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Fuel Flames",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "84773168-1e84-561a-ba83-97a1c0905e9a",
+    "descr": "Conjures searing flames to burn enemies."
+  },
+  {
+    "name": "Halo of Energy",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "9db7978c-e45a-537a-a081-6ff98c8effa9",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Heat",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Auto",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "787f8225-4155-546b-8da3-9dc672e81f46",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Illuminating Insight",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "968e58aa-255a-5e44-8e1c-b579974b0ba4",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Kinetic Augmentation",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify, Afflict",
+      "notes": ""
+    },
+    "id": "c971d8ef-5f48-5bbf-9e17-de47a72c1365",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Luminous Wave",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "ac31f509-7d80-52d3-a306-b543e7aba776",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Mineral Analysis",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "3a231cf0-57fe-5a21-9735-deda9c22d0da",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Rain",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "7124b9fb-8ea0-5883-8f25-c37048970393",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Resist Elements",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "a5ab5145-1062-5a92-9b42-60c5b6245187",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Rocky Terrain",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "fa8908ae-50cd-5569-baa0-afbf2fa6a27e",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Safe Descent",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Variable",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "b8a93478-d84d-5207-9bb2-817cbedf1467",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Sense Air Currents",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "dc48e850-4b23-5526-8bfd-bc1396f01112",
+    "descr": "Grants mystical perception to detect or reveal hidden information."
+  },
+  {
+    "name": "Steal Breath",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "Auto",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "ba04c688-3a72-5162-a137-35d4f3ef8bde",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Tremor Sense",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "29d88c2d-0705-502c-8d0f-c748c2c9cfce",
+    "descr": "Grants mystical perception to detect or reveal hidden information."
+  },
+  {
+    "name": "Water Breathing",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "06cd239d-e48f-5b42-8bb3-5c06f91267e4",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Water Streaming",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "e745b931-f10c-5621-9632-d499ea191a17",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Water Vortex",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "b1e879dc-a848-503a-88db-1221b5e5c7f8",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Water Ward",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "9611400b-884d-5f97-a652-edc7e6916ab2",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Water Whip",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "bd3787d0-c5b3-5fef-823c-c78e0afc4d57",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Zephyr Mind",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "e664b6c4-29cc-5a44-b08c-2ab0111c06e9",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Arcane Maelstrom",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Rare",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "3906ce5f-dcea-5022-b499-8e421cc0174b",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Crystal Enhancement",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "71fd3da1-d061-5010-b0b3-757607e2fedf",
+    "descr": "Magically enhances abilities or attributes."
+  },
+  {
+    "name": "Crystalize Earth",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "33f562b9-67e8-5bd4-a476-d8c125ef7217",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Disorienting Gale",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "769433f0-a004-5461-9723-1b10ed12ffc7",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Drain",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "3fb1db5d-9912-5645-b7e1-d0c36bb7c84f",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Leech",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "f4bae60a-771e-5b0a-a71b-08593d43d268",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Surge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "53ffdbc6-805a-5aa3-9ccd-725cb3ae9207",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Transference",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "38741c7e-97c1-5fc5-9a99-772fca042159",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Fire Whip",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "9e061f3c-13be-58c1-a9b7-78a759bab74d",
+    "descr": "Conjures searing flames to burn enemies."
+  },
+  {
+    "name": "Fissure",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "9862aa76-f0b1-5ca8-822c-55bd1ebdeaa0",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Healing Waters",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "3d1e89c5-1ba3-5003-9183-dcb9b9915ab4",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Heatwave",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "a8299694-fd42-5f03-b357-76ac740e86fa",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Ice Blade",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate, Modify",
+      "notes": "2 SP"
+    },
+    "id": "5a4f08da-c5ea-536e-908a-b9ec9a94e670",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Ignite",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "65887e1d-d4bd-5e6c-9bf3-5482a3f66444",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Rend Walls",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "855a71b2-09d5-5b38-850c-5d2c18ee1f98",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Stone Shape",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "52cb8c83-a3d9-5271-be58-a262c7d4fe44",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Stone Shatter",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify, Harm",
+      "notes": "1 SP"
+    },
+    "id": "4a959ad2-b5c0-5133-95d7-6cee3d3f125c",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Water Elemental",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "27336268-edb2-51c8-a889-ea73376bc511",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Water Illusion",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "b765fa70-65d0-5048-9e6f-39713e5db7d4",
+    "descr": "Creates illusory effects to deceive the senses."
+  },
+  {
+    "name": "Water Prison",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "eea63487-de6a-555f-a74e-c8956f57dd5c",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Water Walk",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "02a8c1ae-c419-55fb-a156-48a5e0e95e49",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Windwalk",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "edc36971-1fa5-53e8-8fd3-2dd44b69c816",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Air Pocket",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "5c2fd33b-a996-547c-abb6-93f3fee886ac",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Aquatic Summons",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "1a439808-290a-54c5-9962-2d12721059cc",
+    "descr": "Summons magical entities or creatures to aid the caster."
+  },
+  {
+    "name": "Crystal Analysis",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "320f5c87-e9c2-5347-8377-c03e55079788",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Crystal Growth",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "2f9a2d00-878b-55f5-8b3f-03a9f50fdac8",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Crystalize Object",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "e4e94843-c028-57eb-8c3b-3ff77fa44a4e",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Diamond Strike",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "6cb9fced-787d-5071-a6ae-95c0869a328b",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Earth Kin",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "6b64a399-fb54-51d5-9711-49e980c3fd77",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Energy Beacon",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "db130c26-b9d1-5e77-909c-b689d97d75f7",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Conversion",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "556e39ff-272c-536b-8090-1d9ff2d82386",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Infusion",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "2078695f-8fa9-5c10-871c-738a042ef727",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Energy Leech",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "f4bae60a-771e-5b0a-a71b-08593d43d268",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Fire Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm, Modify, Protect",
+      "notes": "3 SP"
+    },
+    "id": "f97bbf6c-d0d1-5fae-8db7-b03ca90a1dd7",
+    "descr": "Conjures searing flames to burn enemies."
+  },
+  {
+    "name": "Fire Elemental",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "e17af53f-5dbe-5eeb-860b-995c775f3d59",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Flame Grasp",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "a0f85cec-6b27-5e09-9530-bfad007d217d",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Ice Shield",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Multi-Effect",
+      "notes": ""
+    },
+    "id": "125738b9-2abb-5153-bdf8-f0d05d1fa955",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Minor Earthquake",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "8958776c-8168-5f12-b1a8-b962050a6e06",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Propel",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "f0df19e0-9c98-5432-b0f2-edea790f6393",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Purify Water",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "b9c815a5-c80c-5525-9920-627bde3f68a6",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Quartz Shield",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d10",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "c11a761a-cc7c-5f42-8686-a170a3376ef1",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Sky Shelter",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "da3859c7-df52-537b-b376-6c04bc4d1232",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Skywalk",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "3e2060da-8b19-5f57-a859-f3f9fc2caeed",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Stone Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm, Protect, Modify",
+      "notes": "3 SP"
+    },
+    "id": "d27751a2-f18d-5ea6-9814-4e9f0aa3daf7",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Stone Skin",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "1fd7cfae-30ba-5c9c-a09e-037e69258cc4",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Water Breathing",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "06cd239d-e48f-5b42-8bb3-5c06f91267e4",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Whirlpool",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "8b4522eb-b92f-5598-ad4a-d876df314283",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Whirlwind Prison",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8 (Variable)",
+      "rarity": "Esoteric",
+      "effects": "Afflict",
+      "notes": "1 SP"
+    },
+    "id": "2936e457-b665-586d-aca5-37476f6fb561",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Aeromancy",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10 (Variable)",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "39b28d24-55e4-5e7e-9b6a-2d00a5d29b01",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Choking Vacuum",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "78aa986f-70cb-51f8-923e-265713cf4e33",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Energy Surge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": "4 SP"
+    },
+    "id": "53ffdbc6-805a-5aa3-9ccd-725cb3ae9207",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Ethereal Pulse",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "4f8d692c-19c9-5936-a6f5-73521e27d8a2",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Flame Trap",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "e9b43e32-7cad-5cce-921a-34ee354712e8",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Liquid Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Harm, Protect, Modify",
+      "notes": "4 SP"
+    },
+    "id": "ef3536f9-c8a6-5abd-9e0b-eae3e383e28f",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Stone Golem",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict, Activate",
+      "notes": "2 SP"
+    },
+    "id": "57a7ac1d-9d14-5d8b-ade0-befad758331c",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Stone Weapon",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "63645294-dd08-504e-97ac-8e24747d5033",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Whelm",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "85f05ea3-a5bc-509d-936b-621a8a791e29",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Whirlwind",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": "1 SP"
+    },
+    "id": "4072baef-8976-5e14-909f-f1a2c6b07c08",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Wind Rush",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "5d600e61-4b16-530a-8845-44c296fb5d6e",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Crystal Fortress",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Occult",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "8e74103f-30e0-5ad9-996a-b489ea7a7842",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Earth Merge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "9d7ea5d8-c606-5ae4-8dcb-e00184853da9",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Elemental Form",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+2",
+      "rarity": "Legendary",
+      "effects": "Modify, Harm, Protect",
+      "notes": "5 SP"
+    },
+    "id": "df454764-e4b2-5931-9ecb-d0747a4e6331",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Energy Blade",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "fb7f7a7c-b69e-5249-bbb9-3ff136d6278f",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Glacial Prison",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+2",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "41ab42fe-b665-5774-a979-8d9dff93491a",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Quicksand",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "dc51e0a9-364d-592a-970d-0bab687b886d",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Tidal Surge",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify, Harm",
+      "notes": "1 SP"
+    },
+    "id": "f787c2e2-2502-5929-97f7-e80025b9d4ba",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Wind Riding",
+    "data": {
+      "path": "Elementalism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12 (Variable)",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "57901913-5278-5b9d-a65a-295c631907f6",
+    "descr": "Harnesses elemental forces to achieve magical effects."
+  },
+  {
+    "name": "Elemental Armor",
+    "data": {
+      "path": "Elementalism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common\u2013Legendary",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "457a51db-df50-5e6f-b9e6-5b52aeda0df3",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Elemental Barrier",
+    "data": {
+      "path": "Elementalism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common\u2013Legendary",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "c083cf63-77b6-52a2-80c2-7afd661b7aa1",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Elemental Shield",
+    "data": {
+      "path": "Elementalism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common\u2013Legendary",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "0fecb253-7752-5fa3-8b2b-5d0fd60cbb2e",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Elemental Assault",
+    "data": {
+      "path": "Elementalism",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "403bdaea-a63f-543f-8b62-f342a389fe74",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Confusion",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "1fa00559-170f-5326-b762-d15a1bcc80cb",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Detect Magic",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "a236ff9d-8ab7-5b83-97b1-c44988406840",
+    "descr": "Grants mystical perception to detect or reveal hidden information."
+  },
+  {
+    "name": "Ethereal Sight",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "82357adf-40ca-50e6-8f7c-caa46e943e5c",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Levitation",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "008bcf09-fe60-5cf8-9c4d-35f821ea4812",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Mindfulness",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "7ed2354f-3f53-50da-a37c-a18ddd7e1e6b",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Phase Shift",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "04848964-53fd-5b60-a796-b43d9ff882e1",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Silence",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "ddee0052-5dc1-5a1a-b853-2fb4bbf69c9d",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Soothing Balm",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "77053626-004b-542b-8eca-607a2ed5f2c7",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Soothing Mists",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "4ca1a01a-72d2-5297-acff-4b2d507bd5ca",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Discern Soul",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "6fa83105-ae8f-5afa-9929-ac13a3b4f5aa",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Mind Blade",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "73d2a218-d5f8-5de3-9561-5ad73486613a",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Mind Shield",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "ca6b45f1-a855-5393-b216-37e18437ca59",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Object Read",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "c9a5351a-764a-511e-8b95-20ea2893c080",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "See Aura",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "8da303e3-58cc-5708-affb-5751fad26127",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "See Invisible",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "9510a6fd-4ad0-5924-847e-5a1c027a6072",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Sense Power",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "032c1aa5-dfca-58fb-914b-f3fba473a773",
+    "descr": "Grants mystical perception to detect or reveal hidden information."
+  },
+  {
+    "name": "Sixth Sense",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "424ed729-52f8-564c-92c2-f43ca92a689e",
+    "descr": "Grants mystical perception to detect or reveal hidden information."
+  },
+  {
+    "name": "Cosmic Shift",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "237545dc-1cfd-570d-afd8-2167a747d23f",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Fathom",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "c12bcb17-746d-5948-aab6-d9e244916251",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Mind Read",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "144c9202-9076-5f57-9cbf-7749ae379fc9",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Mystic Lore",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "1a35836b-22aa-5c0f-86d8-7311872f36fe",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Premonition",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "edbb4220-e95b-5c74-a8df-f684fde363bc",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Psychic Beacon",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "dd7e2415-3ab6-5063-998b-e4b98b813863",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Reassemble",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "ca6bdd6f-f51f-57c3-a29e-bf675c5ad3cc",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Shadow Walk",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "9ac43b4b-16d5-5cc7-806b-3289ea1b9124",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Continuous Shadow",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "8a7bf383-1dc2-5c1a-9152-ba8e74dc2ea4",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Dreamwalk",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "a66780c0-fc52-502d-a5ac-6a5118f5e282",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Ethereal Projection",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "8fdfd559-1a20-55f0-9dd2-f05315385935",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Foreknowledge",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "8b9e2cca-f08b-5602-8cf3-1830d6935925",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Manipulate Shadow",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Harm, Afflict",
+      "notes": ""
+    },
+    "id": "7c345b6d-95e4-5b71-8e88-8b437fa28b37",
+    "descr": "Channels dark energy to harm enemies."
+  },
+  {
+    "name": "Release Mind",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "aed5eee1-76d0-5636-844d-b54bb505d1e3",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Control Humanoid",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "8715afc1-8134-538b-936f-617915046e91",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Form of Night",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "75fcb350-8644-5868-a492-3a3667ade6de",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Hypnotic Suggestion",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "b5dd9329-6943-5ef4-ac76-e01b422d3713",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Induce Sleep",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "9d6269b3-287c-589d-af4b-1ab74554754d",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Mind Control",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+4",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": "4 SP"
+    },
+    "id": "dbfb6973-fb17-5e5c-b1a2-7779009fc843",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Super Intuition",
+    "data": {
+      "path": "Mysticism",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "4410ac1a-e257-5f81-be74-ea3009614a0b",
+    "descr": "A magical spell from the Mysticism tradition."
+  },
+  {
+    "name": "Arcane Armor",
+    "data": {
+      "path": "Mysticism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "6acc67e3-c4c7-5042-b2e6-00bdec651efb",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Arcane Shielding",
+    "data": {
+      "path": "Mysticism",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "185ab8c3-8187-5442-83d6-32116406ca5e",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Mystic Assault",
+    "data": {
+      "path": "Mysticism",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "bc567ba8-f47a-5bc2-9701-fdf55329a0aa",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Arcane Lock",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "991aebe7-ce92-584a-a3e9-ee4fd1d183a9",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Arcane Mark",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "d7edebdb-acaf-5fb5-b69b-a9d4ee5d9854",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Minor Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "c5e4679b-ae8c-564b-bec7-8c58e891703e",
+    "descr": "Creates illusory effects to deceive the senses."
+  },
+  {
+    "name": "Olfactory Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "19c074de-ecc8-52cc-bfd3-2b8fe3b734eb",
+    "descr": "Creates illusory effects to deceive the senses."
+  },
+  {
+    "name": "Shadow Step",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "a63ea2e2-7f9a-5003-a387-44bdb07fae5c",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Teleport Object",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "57e401c1-4574-520f-821d-272f458edcb0",
+    "descr": "Transports the caster or target through magical means."
+  },
+  {
+    "name": "Transmute Rock",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "beb49d46-2889-56d8-b170-ce244fc4234d",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Audio Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "eef863b3-6ce4-53a7-acc4-bedf3b96dc54",
+    "descr": "Creates illusory effects to deceive the senses."
+  },
+  {
+    "name": "Chameleon",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "bdc46d80-9430-5818-b95a-caba11e102ac",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Dustify",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Destroy",
+      "notes": ""
+    },
+    "id": "cf001f6d-652b-57db-bb9b-b0656efed2ae",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Enfeeblement",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "385b11f2-c6ee-5dd2-947f-d5984bf5595e",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Flux Portal",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "ccc8e501-41d4-5b98-b5a9-b9795672456d",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Illusory Disguise",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "478a8d29-aadd-54c0-9397-fceb5c791961",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Phantom Blade",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "55cc4081-9922-52b3-94d0-1cd62414e5b0",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Summon Monster",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "4c517d71-4c4a-50d8-a35f-4e2937352d79",
+    "descr": "Summons magical entities or creatures to aid the caster."
+  },
+  {
+    "name": "Whisper of Woe",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d10",
+      "rarity": "Uncommon",
+      "effects": "Afflict, Mental",
+      "notes": "Listed under Occult header in source list"
+    },
+    "id": "c54801cb-7b10-5aa5-a640-fa38c71a107d",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Apport Object",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "bfe4b2d2-cae8-5307-8322-0a4b337c208f",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Cone of Silence",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "6af64280-7c2b-5cd6-9599-16afd9ad3ee4",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Full Body Illusion",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "76521dd2-64c5-59bb-a0d3-32c67e0d74b6",
+    "descr": "Creates illusory effects to deceive the senses."
+  },
+  {
+    "name": "Illusory Quiescence",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "cb0304c9-3d94-560b-a942-2aa4c894650e",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Minion Horde",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "69249f22-61e0-5d4b-966b-762a323fe227",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Object Space",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "635c6fdf-8613-5e72-a2e5-12cef6f4ebd0",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Phantasms",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "6d53e6d6-4fdf-5da4-b247-e1fcb94b9f11",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Transdimensional Shift",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8 (Variable)",
+      "rarity": "Esoteric",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "5b02f801-4611-5953-a045-8d9d7e4dbfca",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Dimensional Travel",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "9345a66b-cfcd-57f2-a85c-a1408ca2dd8a",
+    "descr": "Transports the caster or target through magical means."
+  },
+  {
+    "name": "Havoc",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "82a67ec6-fd8c-55aa-ab3a-d7a8f6a82272",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Mirrored Opponent",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "7548290e-17c7-5d0c-9b85-d4d95ddbda41",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Teleport Self",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "7948706a-0d0b-5b41-879e-88ef59b5cc0e",
+    "descr": "Transports the caster or target through magical means."
+  },
+  {
+    "name": "Waking Terror",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "0939e371-a9fb-505f-a437-6e1019684273",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Apport Creature",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "a247b67c-be58-5b3f-b765-4696eca71c67",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Assume Inanimate Form",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "25919d1f-f2e4-5832-b8ec-ff1faec6064c",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Dreamscape",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "1f3db4b5-a8db-5216-b004-7147fb987f81",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Mass Invisibility",
+    "data": {
+      "path": "Sorcery",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "076af408-9256-530a-8c8b-783fb7a0cd83",
+    "descr": "A magical spell from the Sorcery tradition."
+  },
+  {
+    "name": "Sorcerous Armor",
+    "data": {
+      "path": "Sorcery",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "562f214d-ab02-5095-826b-4b7f47cf92b3",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Sorcerous Shielding",
+    "data": {
+      "path": "Sorcery",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "55655fc9-41a9-500f-9a0d-ccd889b8c7e4",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Chaos Assault",
+    "data": {
+      "path": "Sorcery",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "4211288f-ed23-5615-a22e-4e6f0657f309",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Quickened Reflexes",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "",
+      "rank": "",
+      "rarity": "",
+      "effects": "",
+      "notes": "No details provided in list"
+    },
+    "id": "5ce6bd76-7ca2-533e-884f-3ea557410210",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Banish",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "dd0313dc-74e7-5bdc-a3d1-f56f271ce276",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Claw Growth",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "803db041-513a-5d40-8b50-b085ea84c178",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Conjure Weapon",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "cce75e5a-ab55-5ad7-89c2-8b47bb5f010c",
+    "descr": "Summons magical entities or creatures to aid the caster."
+  },
+  {
+    "name": "Echo",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "9f0509ba-b032-5d3a-a931-bdd8cc51ed82",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Fortify Object",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "b4c1c9cd-3e61-5355-9258-667223e3480f",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Lighten",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "3c69ca27-60ca-5ee3-84c6-80cae49a3c91",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Magic Ride",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "9469156c-09df-5fec-9738-d5c534cb6a47",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Mend",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "68cc8674-27bc-5e81-8055-47e1e4051700",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Savorless",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "9d6392e3-a3ce-5168-9d50-4802fa14d9c4",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Sharpen Blade",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Restore",
+      "notes": ""
+    },
+    "id": "42ca8895-6260-5cd2-9c81-5a56ef7d8707",
+    "descr": "Restores vitality and mends wounds through divine or magical means."
+  },
+  {
+    "name": "Weaken Creature",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4 (Variable)",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "63477e56-b29d-550f-bc7c-af5ff0f98f93",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Weaken Object",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Common",
+      "rank": "d4",
+      "rarity": "Common",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "0a94afa2-7675-52f3-bee2-6ef1bd93b1a3",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Contingent Notification",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "374882ac-0f52-5f06-9efa-4d71789f82f7",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Create Illusion",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "118aa7b7-e58e-51b4-bd8b-d6c6dfd9257b",
+    "descr": "Creates illusory effects to deceive the senses."
+  },
+  {
+    "name": "Dimensional Pocket",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "6f5eb770-2983-5e18-b199-49574799d3b9",
+    "descr": "Transports the caster or target through magical means."
+  },
+  {
+    "name": "Forced Egress",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "2af2af3b-6f77-5233-bd7e-2a5ac1cc501d",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Invisibility",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "0a67ae7a-86f5-5eb2-8acf-045060b4924d",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Mana Burst",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "dc612153-10e2-5796-ad4b-05cee3d391a9",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Phantom Steed",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "bcfb8859-9f2b-576a-afed-b5ef3f2a48d4",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Strengthen Creature",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6 (Variable)",
+      "rarity": "Uncommon",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "c00cafb3-af1c-5666-b3f7-6e3fd4afd2fa",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Weapon Readiness",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Uncommon",
+      "rank": "d6",
+      "rarity": "Uncommon",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "4531a2d4-9d04-514a-a84a-6ed318b294ed",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Dance of Blades",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "aac15516-69df-5ea2-9094-02cb62334834",
+    "descr": "Inflicts magical damage upon enemies."
+  },
+  {
+    "name": "Elemental Transmutation",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "19ad3e68-104b-51f4-967b-dca24e0be7a7",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Illusionary Clone",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "c00088f8-50c9-50a8-8c73-a9a7a8529040",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Levitation",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "008bcf09-fe60-5cf8-9c4d-35f821ea4812",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Manipulate Object",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "b8b50743-064c-58b0-839c-8f6e20769749",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Spatial Warp",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "e580ea0c-d2d1-5cf0-ac84-129742fd3fcf",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Transmute Flesh",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Esoteric",
+      "rank": "d8",
+      "rarity": "Esoteric",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "5934931a-abf0-55e9-919d-91daa5e04fc3",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Deafness",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "1d09fad6-8f76-5b5e-b0d7-2d8eb47f0931",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Discordance",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "83de3f94-3efb-5c2a-8cf7-c5bcae157bb8",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Loop Time",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "50ea9a8f-1aca-5f75-bc61-51211d23cd18",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Matter Fusion",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "08e81567-9ab1-5080-bcbf-699a7064b6eb",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Monster Form",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "a753c486-cdf4-544e-b5a1-65263e58beb6",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Temporal Rift",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Occult",
+      "rank": "d10",
+      "rarity": "Occult",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "a9f0631f-cd1c-5f7a-8756-fa0759f7d1d1",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Alter Age",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+2",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "2e213d4a-1eb8-5555-badc-7b58630c73f9",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Blindness",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "d65d31e6-422a-57bc-9bb0-59fb1858fa33",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Demolish",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "b2f1d9fa-0164-58c4-8784-23d379f9623e",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Initiative Warp",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Modify",
+      "notes": ""
+    },
+    "id": "32fb7990-9ae1-5867-b262-621c511f0a53",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Petrify",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+4",
+      "rarity": "Legendary",
+      "effects": "Afflict",
+      "notes": ""
+    },
+    "id": "8d41e37c-e546-5013-969d-8fbf04629068",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Stand Still",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": ""
+    },
+    "id": "05098b9f-eff6-545e-85cf-12ac509c5615",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Time Halt",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "",
+      "tier": "Legendary",
+      "rank": "d12+5",
+      "rarity": "Legendary",
+      "effects": "Activate",
+      "notes": "5 SP"
+    },
+    "id": "8c4a56e3-8171-528a-aa5a-1e7af42dd234",
+    "descr": "A magical spell from the Thaumaturgy tradition."
+  },
+  {
+    "name": "Arcane Armor",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "6acc67e3-c4c7-5042-b2e6-00bdec651efb",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Arcane Shielding",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "Defense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Common",
+      "effects": "Protect",
+      "notes": ""
+    },
+    "id": "185ab8c3-8187-5442-83d6-32116406ca5e",
+    "descr": "Creates a protective barrier or ward against harm."
+  },
+  {
+    "name": "Arcane Assault",
+    "data": {
+      "path": "Thaumaturgy",
+      "category": "Offense",
+      "tier": "",
+      "rank": "d4\u2013d12",
+      "rarity": "Variable",
+      "effects": "Harm",
+      "notes": ""
+    },
+    "id": "5f7cbcce-9e1d-59bf-8c59-4b3b9523ed7c",
+    "descr": "Inflicts magical damage upon enemies."
+  }
+]

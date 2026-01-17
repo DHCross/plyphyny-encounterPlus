@@ -1,0 +1,30 @@
+{
+  "title": "Spell",
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "type": "string",
+          "title": "Name",
+          "attribute": "name"
+        },
+        {
+          "type": "number",
+          "title": "Level",
+          "attribute": "data.level"
+        },
+        {
+          "type": "string",
+          "title": "School",
+          "attribute": "data.school"
+        },
+        {
+          "type": "text",
+          "title": "Description",
+          "attribute": "descr"
+        }
+      ]
+    }
+  ]
+}

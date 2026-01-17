@@ -1,0 +1,218 @@
+{
+  "battlePhaseCalculation": {
+    "formula": "Prowess MV + Reaction Focus + Finesse Focus",
+    "table": [
+      { "score": "14+", "phase": 0, "rank": "Pre-Phase 1 (d14+)" },
+      { "score": "12-13", "phase": 1, "rank": "Legendary/Master (d12)" },
+      { "score": "9-11", "phase": 2, "rank": "Heroic (d10)" },
+      { "score": "7-8", "phase": 3, "rank": "Competent (d8)" },
+      { "score": "5-6", "phase": 4, "rank": "Average (d6)" },
+      { "score": "1-4", "phase": 5, "rank": "Untrained/Slow (d4)" }
+    ],
+    "description": "Battle phase is determined by the total initiative score. 14+ acts in Pre-Phase 1."
+  },
+  "weaponReachPriority": {
+    "longRange": 1,
+    "longReach": 2,
+    "mediumReach": 3,
+    "shortReach": 4,
+    "description": "Priority 1: Attack Precedence. Long Range (Bows/Spells) acts before Long Reach (Polearms)."
+  },
+  "classificationPriority": {
+    "Heroic": 1,
+    "Exceptional": 2,
+    "Standard": 3,
+    "Minor": 4,
+    "description": "Priority 2: Heroic Action Order. PCs and Legendary NPCs act first."
+  },
+  "followThroughMechanic": {
+    "trigger": "Run action (2x speed) in Phase 5",
+    "effect": "Act immediately at start of next round (Phase 0 equivalent)",
+    "penalty": "-3 Threat Points on attack",
+    "flag": "Follow_Through_Active"
+  },
+  "initiativeAlgorithm": {
+    "step1": "Check Follow_Through_Active (Phase 0)",
+    "step2": "Sort by Battle Phase (Ascending: 1 -> 5)",
+    "step3": "Sort by Weapon Reach Priority (Long Range -> Short Reach)",
+    "step4": "Sort by Heroic Tier (Heroic -> Minor)",
+    "step5": "Fallback: Roll Prowess + Agility + Reaction",
+    "result": "Deterministic turn order with specific tie-breakers"
+  },
+  "damageApplication": {
+    "order": [
+      {
+        "step": 1,
+        "name": "Shield",
+        "description": "Fixed damage reduction before any pools are affected"
+      },
+      {
+        "step": 2,
+        "name": "Active Defense Pool (ADP)",
+        "description": "Primary defense pool, refreshes via Revitalize"
+      },
+      {
+        "step": 3,
+        "name": "Armor",
+        "description": "Roll armor die for additional reduction (if equipped)"
+      },
+      {
+        "step": 4,
+        "name": "Passive Defense Pool (PDP)",
+        "description": "Secondary defense pool, harder to recover"
+      },
+      {
+        "step": 5,
+        "name": "Hit Points (HP)",
+        "description": "Direct health damage, permanent until rest"
+      }
+    ]
+  },
+  "revitalizeSystem": {
+    "invigorate": {
+      "name": "Invigorate",
+      "cost": "Free",
+      "recovery": "Roll Prowess die + Reaction Focus",
+      "gain": "ADP points",
+      "timing": "This turn",
+      "limitation": "Action standard",
+      "strategy": "Use mid-round for quick recovery, maintains combat position"
+    },
+    "deepRecovery": {
+      "name": "Deep Recovery",
+      "cost": "1 Spirit Point",
+      "recovery": "Prowess die + Reaction Focus (guaranteed, no roll)",
+      "gain": "ADP points",
+      "timing": "This turn",
+      "limitation": "Costs precious SP resource",
+      "strategy": "Use when ADP is critical for survival, powerful recovery"
+    },
+    "steadyRenewal": {
+      "name": "Steady Renewal",
+      "cost": "Variable (0-N Spirit Points)",
+      "recovery": "25% max ADP + 10% per SP spent",
+      "gain": "Gradual ADP recovery",
+      "timing": "Next turn",
+      "limitation": "Delayed effect, minimum recovery even at 0 SP",
+      "strategy": "Use for long-term sustainability, manage SP carefully"
+    }
+  },
+  "armorTypes": {
+    "light": {
+      "examples": ["Leather", "Studded Leather"],
+      "damageDie": "d4",
+      "adp": "+0",
+      "flexibility": "Full movement"
+    },
+    "medium": {
+      "examples": ["Chain Shirt", "Scale Mail"],
+      "damageDie": "d6-d8",
+      "adp": "+2",
+      "flexibility": "Normal movement"
+    },
+    "heavy": {
+      "examples": ["Plate Armor", "Full Plate"],
+      "damageDie": "d10-d12",
+      "adp": "+4",
+      "flexibility": "Reduced movement"
+    },
+    "natural": {
+      "examples": ["Scales", "Hide", "Fur"],
+      "damageDie": "None",
+      "adp": "+X (built in)",
+      "flexibility": "Full flexibility"
+    }
+  },
+  "threatDiceExamples": {
+    "minion": "1d4",
+    "weak": "2d4 or 1d6",
+    "standard": "2d6 or 2d8",
+    "strong": "3d8 or 2d10",
+    "boss": "3d10 or 3d12"
+  },
+  "combatPhases": {
+    "phase1": {
+      "name": "Legendary Strikes",
+      "prowessDie": "d12",
+      "order": "First to act",
+      "advantage": "Maximum initiative advantage",
+      "timing": "Happens when nothing else matters most"
+    },
+    "phase2": {
+      "name": "Exceptional Prowess",
+      "prowessDie": "d10",
+      "order": "Early",
+      "advantage": "Significant initiative advantage",
+      "timing": "Reach priority becomes factor"
+    },
+    "phase3": {
+      "name": "Standard Action",
+      "prowessDie": "d8",
+      "order": "Mid-turn",
+      "advantage": "Neutral positioning",
+      "timing": "Classification matters most"
+    },
+    "phase4": {
+      "name": "Cautious Response",
+      "prowessDie": "d6",
+      "order": "Late",
+      "advantage": "React to others' actions",
+      "timing": "Defensive positioning"
+    },
+    "phase5": {
+      "name": "Last Effort",
+      "prowessDie": "d4",
+      "order": "Last to act",
+      "advantage": "React to everything",
+      "timing": "Only act if others haven't eliminated threat"
+    }
+  },
+  "defensePools": {
+    "ADP": {
+      "name": "Active Defense Pool",
+      "purpose": "Actively managed defense layer",
+      "refreshes": "Yes, via Revitalize",
+      "capacity": "Varies by character, ~15-30 typical",
+      "recovery": "Revitalize options available",
+      "depleted_state": "Character is Vulnerable"
+    },
+    "PDP": {
+      "name": "Passive Defense Pool",
+      "purpose": "Backup defense after ADP exhausted",
+      "refreshes": "Difficult, requires long rest",
+      "capacity": "Varies by character, ~10-20 typical",
+      "recovery": "Long rest only",
+      "depleted_state": "Only HP remains"
+    },
+    "HP": {
+      "name": "Hit Points",
+      "purpose": "Final health tracker",
+      "refreshes": "No, cumulative damage",
+      "capacity": "Varies significantly",
+      "recovery": "Heal spell or long rest",
+      "depleted_state": "Character defeated"
+    }
+  },
+  "combatFlow": {
+    "preparation": [
+      "Calculate all Battle Phases",
+      "Determine Weapon Reach for each combatant",
+      "Establish Classification",
+      "Sort initiative order (deterministic)"
+    ],
+    "round": [
+      "Announce current combatant (Phase, Reach, Name)",
+      "Player/NPC declares action",
+      "Roll Threat Dice if attacking",
+      "Calculate damage cascade (Shield → ADP → Armor → PDP → HP)",
+      "Apply Revitalize if needed",
+      "Next combatant's turn"
+    ],
+    "specialActions": [
+      "Revitalize: Can be used once per turn if available",
+      "Defend: Increase defenses but lose attack",
+      "Special Ability: Ability-specific effects",
+      "Retreat: Leave combat, change Phase"
+    ]
+  }
+}

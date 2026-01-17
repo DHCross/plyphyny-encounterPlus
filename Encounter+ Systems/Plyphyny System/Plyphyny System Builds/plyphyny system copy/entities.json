@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Monster",
+    "label": "monster",
+    "collection": {
+      "label": "monsters"
+    },
+    "loadable": true,
+    "role": "enemy"
+  },
+  {
+    "name": "Adversary",
+    "label": "adversary",
+    "collection": {
+      "label": "adversaries"
+    },
+    "loadable": true,
+    "role": "enemy"
+  },
+  {
+    "name": "Character",
+    "label": "character",
+    "collection": {
+      "label": "characters"
+    },
+    "loadable": true,
+    "standalone": true,
+    "role": "friendly"
+  },
+  {
+    "name": "NPC",
+    "label": "npc",
+    "collection": {
+      "label": "npcs"
+    },
+    "loadable": true,
+    "role": "friendly"
+  },
+  {
+    "name": "Item",
+    "label": "item",
+    "collection": {
+      "label": "items"
+    },
+    "loadable": true
+  },
+  {
+    "name": "IconicItem",
+    "label": "iconic-item",
+    "collection": {
+      "label": "iconic-items"
+    },
+    "loadable": true
+  },
+  {
+    "name": "Spell",
+    "label": "spell",
+    "collection": {
+      "label": "spells"
+    },
+    "loadable": true
+  },
+  {
+    "name": "Race",
+    "label": "race",
+    "collection": {
+      "label": "races"
+    },
+    "loadable": true
+  }
+]

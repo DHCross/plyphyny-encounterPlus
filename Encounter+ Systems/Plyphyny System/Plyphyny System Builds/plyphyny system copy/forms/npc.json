@@ -1,0 +1,122 @@
+{
+  "tabs": [
+    {
+      "key": "main",
+      "label": "Main",
+      "columns": [
+        [
+          {
+            "key": "name",
+            "type": "text",
+            "label": "NPC Name"
+          },
+          {
+            "key": "race",
+            "type": "string",
+            "label": "Race"
+          },
+          {
+            "key": "role",
+            "type": "select",
+            "label": "Role",
+            "options": [
+              "Warrior",
+              "Rogue",
+              "Mage",
+              "Mystic",
+              "Theurgist",
+              "Adept",
+              "Assassin",
+              "Barbarian",
+              "Guard"
+            ]
+          },
+          {
+            "key": "level",
+            "type": "number",
+            "label": "Level",
+            "min": 1,
+            "max": 5
+          }
+        ],
+        [
+          {
+            "key": "gender",
+            "type": "text",
+            "label": "Gender"
+          },
+          {
+            "key": "age",
+            "type": "number",
+            "label": "Age"
+          },
+          {
+            "key": "alignment",
+            "type": "text",
+            "label": "Alignment"
+          }
+        ]
+      ]
+    },
+    {
+      "key": "combat",
+      "label": "Combat Stats",
+      "columns": [
+        [
+          {
+            "key": "data.adp",
+            "type": "number",
+            "label": "Active Defense Pool"
+          },
+          {
+            "key": "data.pdp",
+            "type": "number",
+            "label": "Passive Defense Pool"
+          },
+          {
+            "key": "data.hp",
+            "type": "number",
+            "label": "Health Points"
+          }
+        ],
+        [
+          {
+            "key": "data.spiritPoints",
+            "type": "number",
+            "label": "Spirit Points"
+          },
+          {
+            "key": "data.battlePhase",
+            "type": "number",
+            "label": "Battle Phase (from Prowess die)",
+            "readonly": true
+          },
+          {
+            "key": "data.prowessDie",
+            "type": "select",
+            "label": "Prowess Die",
+            "options": ["4", "6", "8", "10", "12"]
+          }
+        ]
+      ]
+    },
+    {
+      "key": "abilities",
+      "label": "Abilities & Advantages",
+      "columns": [
+        [
+          {
+            "key": "data.advantages",
+            "type": "text",
+            "label": "Advantages (comma-separated)"
+          },
+          {
+            "key": "data.specialAbilities",
+            "type": "text",
+            "label": "Special Abilities (comma-separated)"
+          }
+        ]
+      ]
+    }
+  ]
+}

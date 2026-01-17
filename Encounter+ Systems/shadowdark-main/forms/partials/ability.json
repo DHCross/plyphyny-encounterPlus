@@ -1,0 +1,19 @@
+{
+  "sections": [
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.Base",
+          "type": "number",
+          "attribute": "base",
+        },
+        {
+          "title": "Common.Modifier",
+          "type": "number",
+          "attribute": "mod",
+        }, 
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "fields": [
+    { "name": "name", "type": "string", "label": "Name" },
+    { "name": "type", "type": "string", "label": "Type" },
+    { "name": "category", "type": "string", "label": "Category" },
+    { "name": "description", "type": "string", "label": "Description" }
+  ]
+}

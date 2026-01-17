@@ -1,0 +1,118 @@
+{
+  "title": "Monster",
+  "sections": [
+    {
+      "title": "Common.ShortDescription",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "data.shortDescription"
+        }
+      ]
+    },
+    {
+      "title": "Common.Attributes",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Common.ArmorClass",
+          "type": "number",
+          "attribute": "data.ac"
+        }, 
+        {
+          "title": "Common.HitPoints",
+          "type": "text",
+          "attribute": "data.hp"
+        },
+        {
+          "title": "Common.Movement",
+          "type": "text",
+          "attribute": "data.movement"
+        },
+        {
+          "title": "Common.Alignment",
+          "type": "picker",
+          "attribute": "data.alignment",
+          "attributeType": "Alignment"
+        },
+        {
+          "title": "Common.Level",
+          "type": "number",
+          "attribute": "data.level"
+        },
+      ]
+    },
+    {
+      "title": "Monster.Attacks",
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Monster.AttacksDetail",
+          "type": "textArea",
+          "attribute": "data.attacks"
+        }
+      ]
+    },
+    {
+      "title": "Monster.StatModifiers",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Stat.Strength",
+          "type": "number",
+          "attribute": "data.str"
+        },
+        {
+          "title": "Stat.Dexterity",
+          "type": "number",
+          "attribute": "data.dex"
+        },
+        {
+          "title": "Stat.Constitution",
+          "type": "number",
+          "attribute": "data.con"
+        },
+        {
+          "title": "Stat.Intelligence",
+          "type": "number",
+          "attribute": "data.int"
+        },
+        {
+          "title": "Stat.Wisdom",
+          "type": "number",
+          "attribute": "data.wis"
+        },
+        {
+          "title": "Stat.Charisma",
+          "type": "number",
+          "attribute": "data.cha"
+        },
+      ]
+    },
+    {
+      "title": "Monster.Actions",
+      "type": "list",
+      "attribute": "data.actions",
+      "form": {
+        "title": "Monster.Action",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "placeholder": "Common.Name",
+                "attribute": "name"
+              },
+              {
+                "title": "Common.Text",
+                "type": "textArea",
+                "attribute": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Eldritch",
+  "primaryColor": "#5b2c6f",
+  "secondaryColor": "#55efc4",
+  "styles": {
+    "item-title": {
+      "font": "title2",
+      "color": "#55efc4",
+      "traits": ["bold"]
+    },
+    "item-subtitle": {
+      "font": "headline",
+      "color": "#a29bfe",
+      "traits": ["italic"]
+    },
+    "item-caption": {
+      "font": "subheadline",
+      "color": "#e0d4fc"
+    },
+    "item-meta": {
+      "font": "footnote",
+      "color": "#b2bec3"
+    },
+    "item-body": {
+      "font": "body",
+      "color": "#f5f6fa"
+    },
+    "item-notes": {
+      "font": "callout",
+      "color": "#dfe6e9",
+      "traits": ["italic"]
+    },
+    "stat-label": {
+      "font": "caption1",
+      "color": "#55efc4",
+      "traits": ["bold"]
+    },
+    "stat-value": {
+      "font": "body",
+      "color": "#a29bfe",
+      "traits": ["bold"]
+    },
+    "section-header": {
+      "font": "headline",
+      "color": "#55efc4",
+      "traits": ["bold"]
+    },
+    "spell-level": {
+      "font": "subheadline",
+      "color": "#a29bfe"
+    },
+    "spell-school": {
+      "font": "footnote",
+      "color": "#e0d4fc",
+      "traits": ["italic"]
+    },
+    "race-title": {
+      "font": "title2",
+      "color": "#55efc4",
+      "traits": ["bold"]
+    },
+    "race-trait": {
+      "font": "headline",
+      "color": "#a29bfe"
+    },
+    "ability-name": {
+      "font": "body",
+      "color": "#55efc4",
+      "traits": ["bold"]
+    },
+    "ability-value": {
+      "font": "title1",
+      "color": "#a29bfe",
+      "traits": ["bold"]
+    },
+    "defense-label": {
+      "font": "caption1",
+      "color": "#55efc4"
+    },
+    "defense-value": {
+      "font": "headline",
+      "color": "#00b894",
+      "traits": ["bold"]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "author": "Eldritch RPG Team",
+  "banner": "images/banner.png",
+  "descr": "Plyphyny is an eldritch gothic horror RPG system featuring a unique Ablative Defense system with Active Defense (ADP) and Passive Defense (PDP) pools, Quick-Start Bestiary automation, and comprehensive character building. The system uses an ability tree structure (Competence, Prowess, Fortitude) with specialties and focuses, threat dice for attacks, and Battle Phase initiative.",
+  "id": "plyphyny",
+  "name": "Plyphyny System",
+  "shortDescr": "Eldritch RPG / Plyphyny System with layered defense and QSB automation.",
+  "shortName": "Plyphyny",
+  "version": "1.0.3"
+}

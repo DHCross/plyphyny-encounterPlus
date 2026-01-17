@@ -1,0 +1,44 @@
+{
+  "DieType": {
+    "0": "d0",
+    "4": "d4",
+    "6": "d6",
+    "8": "d8",
+    "10": "d10",
+    "12": "d12"
+  },
+  "CreatureCategory": {
+    "Minor": "Minor",
+    "Standard": "Standard",
+    "Exceptional": "Exceptional",
+    "Legendary": "Legendary"
+  },
+  "ParentFocus": {
+    "Adroitness": "adroitness",
+    "Agility": "agility",
+    "Endurance": "endurance",
+    "Expertise": "expertise",
+    "Melee": "melee",
+    "Perception": "perception",
+    "Precision": "precision",
+    "Strength": "strength",
+    "Willpower": "willpower"
+  },
+  "ThreatDieType": {
+    "1d4": "1d4",
+    "1d6": "1d6",
+    "1d8": "1d8",
+    "1d10": "1d10",
+    "1d12": "1d12",
+    "2d4": "2d4",
+    "2d6": "2d6",
+    "2d8": "2d8",
+    "2d10": "2d10",
+    "2d12": "2d12",
+    "3d4": "3d4",
+    "3d6": "3d6",
+    "3d8": "3d8",
+    "3d10": "3d10",
+    "3d12": "3d12"
+  }
+}

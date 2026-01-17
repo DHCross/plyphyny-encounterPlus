@@ -1,0 +1,55 @@
+{
+  "debug": false,
+  "spacing": 6,
+  "padding": [0],
+  "footer": false,
+  "images": true,
+  "views": [
+    {
+      "value": "{{name}} Class",
+      "style": "title3",
+      "alignment": "center",
+      "width": 0,
+      "bgColor": "#000000",
+      "padding": [30, 20]
+    },
+    {
+      "type": "vStack",
+      "padding": [20],
+      "spacing": 12,
+      "views": [
+        {
+          "value": "{{data.shortDescription}}",
+          "type": "text",
+          "style": "subtitle"
+        },
+        {
+          "type": "text",
+          "value": "{% include \"class.md\" %}",
+        },
+        {
+          "type": "text",
+          "value": "{{descr}}"
+        },
+        {
+          "type": "text",
+          "title": "Common.Notes",
+          "value": "{{notes}}",
+        },
+        {
+          "type": "image",
+          "value": "{{image}}",
+          "link": "{{image}}"
+        },
+        {
+          "type": "text",
+          "value": "{{footer}}"
+        }, 
+        {
+          "type": "tags",
+          "attribute": "tags"
+        }
+      ]
+    }
+  ]
+}

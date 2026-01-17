@@ -1,0 +1,10 @@
+[
+  { "name": "monsters", "label": "Monsters" },
+  { "name": "adversaries", "label": "Adversaries" },
+  { "name": "characters", "label": "Characters" },
+  { "name": "items", "label": "Items" },
+  { "name": "races", "label": "Races" },
+  { "name": "spells", "label": "Spells" },
+  { "name": "npcs", "label": "NPCs" },
+  { "name": "iconic-items", "label": "Iconic Items" }
+]

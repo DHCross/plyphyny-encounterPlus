@@ -1,0 +1,106 @@
+{
+  "Monster": {
+    "params": [
+      {
+        "attribute": "data.level",
+        "title": "Common.Level",
+        "dynamic": true
+      },
+      {
+        "attribute": "source",
+        "title": "Common.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "data.level",
+        "text": "{{value|ordinal}} Level",
+        "title": "Level"
+      },
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      },
+      {
+        "attribute": "data.level",
+        "title": "Common.Level",
+      }
+    ]
+  },
+  "Spell": {
+    "params": [
+      {
+        "attribute": "data.tier",
+        "title": "Spell.Tier",
+        "dynamic": true
+      },
+      {
+        "attribute": "data.classes",
+        "title": "Entity.Class",
+        "dynamic": true
+      },
+      {
+        "attribute": "source",
+        "title": "Common.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "data.tier",
+        "text": "{{value|ordinal}} Tier",
+        "title": "Spell.Tier"
+      },
+      {
+        "attribute": "source",
+        "title": "Common.Source"
+      },
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      }
+    ],
+    "sort": [
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      },
+      {
+        "attribute": "data.tier",
+        "title": "Spell.Tier"
+      }
+    ]
+  },
+  "Item": {
+    "params": [
+      {
+        "attribute": "data.category",
+        "attributeType": "ItemType",
+        "title": "Common.Category"
+      },
+      {
+        "attribute": "source",
+        "title": "Common.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "data.category",
+        "attributeType": "ItemType",
+        "title": "Common.Category"
+      },
+      {
+        "attribute": "name",
+        "title": "Common.Name"
+      }
+    ]
+  },
+}

@@ -1,0 +1,80 @@
+{
+  "tabs": [
+    {
+      "key": "main",
+      "label": "Main",
+      "columns": [
+        [
+          {
+            "key": "name",
+            "type": "text",
+            "label": "Item Name"
+          },
+          {
+            "key": "type",
+            "type": "select",
+            "label": "Type",
+            "options": [
+              "Iconic Weapon",
+              "Iconic Magic Focus",
+              "Iconic Inspirational Item"
+            ]
+          },
+          {
+            "key": "rarity",
+            "type": "select",
+            "label": "Rarity",
+            "options": [
+              "Common",
+              "Uncommon",
+              "Esoteric",
+              "Occult",
+              "Legendary"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "columns": [
+        [
+          {
+            "key": "description",
+            "type": "textarea",
+            "label": "Description"
+          }
+        ]
+      ]
+    },
+    {
+      "key": "properties",
+      "label": "Properties",
+      "columns": [
+        [
+          {
+            "key": "data.properties",
+            "type": "text",
+            "label": "Properties/Effects"
+          },
+          {
+            "key": "data.energyPoints",
+            "type": "number",
+            "label": "Energy Points (Magic Focus only)"
+          },
+          {
+            "key": "data.activationCost",
+            "type": "number",
+            "label": "Activation Cost"
+          },
+          {
+            "key": "data.magicalProperties",
+            "type": "text",
+            "label": "Magical Properties"
+          }
+        ]
+      ]
+    }
+  ]
+}

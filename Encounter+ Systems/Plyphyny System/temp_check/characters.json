@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Template: Adept",
+    "data": {
+      "class": "Adept",
+      "competencedie": 6,
+      "prowessdie": 4,
+      "fortitudedie": 4,
+      "adroitnessdie": 4,
+      "expertisedie": 6,
+      "perceptiondie": 4,
+      "agilitydie": 0,
+      "meleedie": 0,
+      "precisiondie": 0,
+      "endurancedie": 0,
+      "strengthdie": 0,
+      "willpowerdie": 0,
+      "subfocus": [
+        {
+          "name": "Cleverness",
+          "modifier": 1,
+          "type": "Adroitness"
+        },
+        {
+          "name": "Wizardry",
+          "modifier": 1,
+          "type": "Expertise"
+        },
+        {
+          "name": "Perspicacity",
+          "modifier": 1,
+          "type": "Perception"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Arcanum, Gift of Magic, Literacy, Scholar"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Guile, Lore, Ritual Magic, Quick-witted"
+        }
+      ]
+    },
+    "id": "856aa893-0658-5b3c-b610-82f2a2ad2767",
+    "descr": "Adepts are experts, alchemists, artificers, bards, loremasters, and scholars—polymaths and tacticians who unravel mysteries and craft magic items. Their breadth of knowledge makes them highly sought after."
+  },
+  {
+    "name": "Template: Assassin",
+    "data": {
+      "class": "Assassin",
+      "competencedie": 4,
+      "prowessdie": 4,
+      "fortitudedie": 4,
+      "adroitnessdie": 6,
+      "expertisedie": 0,
+      "perceptiondie": 4,
+      "agilitydie": 4,
+      "meleedie": 4,
+      "precisiondie": 0,
+      "endurancedie": 6,
+      "strengthdie": 0,
+      "willpowerdie": 0,
+      "subfocus": [
+        {
+          "name": "Finesse (or Ranged Finesse)",
+          "modifier": 1,
+          "type": "Melee"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Expeditious, Heightened Senses (Hearing), Observant, Read Emotions"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Death Strike, Lethal Exploit, Ranged Ambush, Shadow Walk"
+        }
+      ]
+    },
+    "id": "bdf1252c-9712-5d87-b70d-4601872b2c5a",
+    "descr": "Assassins are skilled killers and bounty hunters who excel in deception, ambush, and poisons. Quick and agile, they master stealth, ranged weapons, and concealable blades."
+  },
+  {
+    "name": "Template: Barbarian",
+    "data": {
+      "class": "Barbarian",
+      "competencedie": 4,
+      "prowessdie": 6,
+      "fortitudedie": 4,
+      "adroitnessdie": 0,
+      "expertisedie": 0,
+      "perceptiondie": 0,
+      "agilitydie": 0,
+      "meleedie": 8,
+      "precisiondie": 0,
+      "endurancedie": 0,
+      "strengthdie": 4,
+      "willpowerdie": 0,
+      "subfocus": [
+        {
+          "name": "Ferocity",
+          "modifier": 1,
+          "type": "Strength"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Animal Affinity, Brutishness, Menacing, Resilient"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Berserk, Brawl, Feat of Strength, Grapple"
+        }
+      ]
+    },
+    "id": "ab04486e-e64b-57e1-b0df-5fde6f8809f2",
+    "descr": "Barbarians are savage fighters known for brutal tactics and berserker rage. Far from mere bandits, they wield honed combat skills and fierce determination against formidable foes."
+  },
+  {
+    "name": "Template: Mage",
+    "data": {
+      "class": "Mage",
+      "competencedie": 6,
+      "prowessdie": 4,
+      "fortitudedie": 4,
+      "adroitnessdie": 0,
+      "expertisedie": 8,
+      "perceptiondie": 0,
+      "agilitydie": 0,
+      "meleedie": 0,
+      "precisiondie": 0,
+      "endurancedie": 0,
+      "strengthdie": 0,
+      "willpowerdie": 6,
+      "subfocus": [
+        {
+          "name": "Wizardry",
+          "modifier": 1,
+          "type": "Expertise"
+        },
+        {
+          "name": "Resistance",
+          "modifier": 1,
+          "type": "Willpower"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Arcanum, Gift of Magic, Magic Defense, Scholar"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Arcane Finesse, Dweomers, Intangible Threat, Path Mastery"
+        }
+      ]
+    },
+    "id": "19090c7e-2dd8-583a-a2c3-3ccc87615593",
+    "descr": "Mages study ancient grimoires and occult lore, specializing in Thaumaturgy, Elementalism, or Sorcery. Wizardry fuels their artificing, wards, and curses, enhanced by Arcane Finesse and Dweomercraft."
+  },
+  {
+    "name": "Template: Mystic",
+    "data": {
+      "class": "Mystic",
+      "competencedie": 6,
+      "prowessdie": 4,
+      "fortitudedie": 4,
+      "adroitnessdie": 0,
+      "expertisedie": 6,
+      "perceptiondie": 0,
+      "agilitydie": 0,
+      "meleedie": 4,
+      "precisiondie": 0,
+      "endurancedie": 6,
+      "strengthdie": 0,
+      "willpowerdie": 0,
+      "subfocus": [
+        {
+          "name": "Wizardry",
+          "modifier": 1,
+          "type": "Expertise"
+        },
+        {
+          "name": "Resilience",
+          "modifier": 1,
+          "type": "Endurance"
+        },
+        {
+          "name": "Vitality",
+          "modifier": 2,
+          "type": "Endurance"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Empathic, Gift of Magic, Intuitive, Magic Resistance (Lesser), Strong-Willed"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Iron Mind, Path Mastery ('Mysticism'), Premonition, Psychic Powers"
+        }
+      ]
+    },
+    "id": "5aa3db94-00a9-541c-9b82-bde6d8ee5369",
+    "descr": "Mystics channel the path of Mysticism, wielding potent psychic and spiritual power. Often enigmatic travelers or contemplatives, they can learn other wizardry paths but risk spell failure outside their tradition."
+  },
+  {
+    "name": "Template: Rogue",
+    "data": {
+      "class": "Rogue",
+      "competencedie": 4,
+      "prowessdie": 6,
+      "fortitudedie": 4,
+      "adroitnessdie": 4,
+      "expertisedie": 0,
+      "perceptiondie": 4,
+      "agilitydie": 8,
+      "meleedie": 0,
+      "precisiondie": 0,
+      "endurancedie": 0,
+      "strengthdie": 0,
+      "willpowerdie": 0,
+      "subfocus": [
+        {
+          "name": "Skulduggery",
+          "modifier": 1,
+          "type": "Adroitness"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Expeditious, Fortunate, Streetwise, Underworld Contacts"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Backstab, Evasion, Roguish Charm, Stealth"
+        }
+      ]
+    },
+    "id": "f61266e6-51a2-5499-8f0e-7c45d3eae754",
+    "descr": "Rogues are independent-minded and cunning, thriving in urban shadows and criminal networks. They rely on stealth, deception, and opportunistic strikes to outmaneuver danger."
+  },
+  {
+    "name": "Template: Theurgist",
+    "data": {
+      "class": "Theurgist",
+      "competencedie": 8,
+      "prowessdie": 4,
+      "fortitudedie": 6,
+      "adroitnessdie": 0,
+      "expertisedie": 4,
+      "perceptiondie": 0,
+      "agilitydie": 0,
+      "meleedie": 0,
+      "precisiondie": 0,
+      "endurancedie": 0,
+      "strengthdie": 0,
+      "willpowerdie": 4,
+      "subfocus": [
+        {
+          "name": "Theurgy",
+          "modifier": 1,
+          "type": "Expertise"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Gift of Magic, Magic Defense, Religion, Strong-Willed"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Divine Healing, Path Mastery, Spiritual Smite, Supernatural Intervention"
+        }
+      ]
+    },
+    "id": "2d27fd6f-44e7-5161-ba8b-9c5e2ec625d1",
+    "descr": "Theurgists are warrior ecclesiastics whose faith fuels divine magic. They follow Druidry or Hieraticism, invoking spiritual power to heal, restore, or unleash decay."
+  },
+  {
+    "name": "Template: Warrior",
+    "data": {
+      "class": "Warrior",
+      "competencedie": 4,
+      "prowessdie": 8,
+      "fortitudedie": 6,
+      "adroitnessdie": 0,
+      "expertisedie": 0,
+      "perceptiondie": 0,
+      "agilitydie": 0,
+      "meleedie": 6,
+      "precisiondie": 0,
+      "endurancedie": 0,
+      "strengthdie": 0,
+      "willpowerdie": 0,
+      "subfocus": [
+        {
+          "name": "Threat",
+          "modifier": 1,
+          "type": "Melee"
+        }
+      ],
+      "features": [
+        {
+          "name": "Class Advantages",
+          "text": "Commanding, Intimidation, Magic Resistance (+1), Tactician"
+        },
+        {
+          "name": "Class Feats (Choose)",
+          "text": "Battle Savvy, Maneuvers, Stunning Reversal, Sunder Foe"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Standard Sword",
+          "qty": 1,
+          "text": "A well-balanced blade.",
+          "data": {
+            "iconic": true
+          }
+        },
+        {
+          "name": "Standard Warhammer",
+          "qty": 1,
+          "text": "Heavily weighted for crushing blows."
+        }
+      ]
+    },
+    "id": "9051dabd-943d-5d6a-a9ed-04e582dc27e9",
+    "descr": "Warriors are skilled defenders of the realm, mastering weapons, maneuvers, and strategy. They are resilient, often resistant to magic, and serve as frontline protectors and leaders."
+  }
+]

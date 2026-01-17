@@ -1,0 +1,294 @@
+{
+  "title": "Character",
+  "tabs": [
+    {
+      "title": "Main",
+      "icon": "person",
+      "sections": [
+        {
+          "title": "Race",
+          "type": "group",
+          "fields": [
+            {
+              "type": "form",
+              "title": "{{data.race.name}}",
+              "attribute": "data.race",
+              "attributeType": "Race",
+              "form": {
+                "title": "Race",
+                "partial": "character-race"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Class",
+          "type": "group",
+          "fields": [
+            {
+              "type": "string",
+              "title": "Class",
+              "attribute": "data.class"
+            },
+            {
+              "type": "number",
+              "title": "Level",
+              "attribute": "data.level"
+            }
+          ]
+        },
+        {
+          "title": "Abilities",
+          "type": "group",
+          "fields": [
+            {
+              "type": "number",
+              "title": "Competence",
+              "attribute": "data.competencedie"
+            },
+            {
+              "type": "number",
+              "title": "Adroitness (Comp)",
+              "attribute": "data.adroitnessdie"
+            },
+            {
+              "type": "number",
+              "title": "Expertise (Comp)",
+              "attribute": "data.expertisedie"
+            },
+            {
+              "type": "number",
+              "title": "Perception (Comp)",
+              "attribute": "data.perceptiondie"
+            },
+            {
+              "type": "number",
+              "title": "Prowess",
+              "attribute": "data.prowessdie"
+            },
+            {
+              "type": "number",
+              "title": "Agility (Prow)",
+              "attribute": "data.agilitydie"
+            },
+            {
+              "type": "number",
+              "title": "Melee (Prow)",
+              "attribute": "data.meleedie"
+            },
+            {
+              "type": "number",
+              "title": "Fortitude",
+              "attribute": "data.fortitudedie"
+            },
+            {
+              "type": "number",
+              "title": "Endurance (Fort)",
+              "attribute": "data.endurancedie"
+            },
+            {
+              "type": "number",
+              "title": "Strength (Fort)",
+              "attribute": "data.strengthdie"
+            },
+            {
+              "type": "number",
+              "title": "Willpower (Fort)",
+              "attribute": "data.willpowerdie"
+            }
+          ]
+        },
+        {
+          "title": "Combat Stats",
+          "type": "group",
+          "fields": [
+            {
+              "type": "number",
+              "title": "Hit Points",
+              "attribute": "data.hp"
+            },
+            {
+              "type": "number",
+              "title": "Active Defense (Current)",
+              "attribute": "data.ad_current"
+            },
+            {
+              "type": "number",
+              "title": "Passive Defense (Current)",
+              "attribute": "data.pd_current"
+            },
+            {
+              "type": "number",
+              "title": "Spirit Points (Current)",
+              "attribute": "data.sp_current"
+            },
+            {
+              "type": "number",
+              "title": "Initiative",
+              "attribute": "data.initiative"
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "title": "Items",
+      "icon": "bag",
+      "sections": [
+        {
+          "title": "Equipment",
+          "type": "group",
+          "fields": [
+            {
+              "type": "list",
+              "title": "Items",
+              "attribute": "data.items",
+              "attributeType": "Item",
+              "form": {
+                "title": "Item",
+                "partial": "character-item"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spells",
+      "icon": "wand-magic-sparkles",
+      "sections": [
+        {
+          "title": "Spells",
+          "type": "group",
+          "fields": [
+            {
+              "type": "list",
+              "title": "Spells",
+              "attribute": "data.spells",
+              "attributeType": "Spell",
+              "form": {
+                "title": "Spell",
+                "partial": "character-spell"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Combat Actions",
+      "icon": "sword",
+      "sections": [
+        {
+          "title": "Battle Phase & Initiative",
+          "type": "group",
+          "fields": [
+            {
+              "type": "number",
+              "title": "Prowess Max Value (MV)",
+              "attribute": "data.prowessMV",
+              "help": "Base value for initiative score (e.g., 12 for d12)"
+            },
+            {
+              "type": "number",
+              "title": "Reaction Focus",
+              "attribute": "data.reactionFocus",
+              "help": "Agility Focus: Adds to Initiative Score"
+            },
+            {
+              "type": "number",
+              "title": "Finesse Focus",
+              "attribute": "data.finesseFocus",
+              "help": "Melee Focus: Adds to Initiative Score"
+            },
+            {
+              "type": "checkbox",
+              "title": "Follow-Through Active",
+              "attribute": "data.followThroughActive",
+              "help": "Act at start of round (Ran in Phase 5 previous round)"
+            },
+            {
+              "type": "select",
+              "title": "Weapon Reach",
+              "attribute": "data.weaponReach",
+              "options": ["Long Range", "Long Reach", "Medium Reach", "Short Reach"],
+              "help": "Priority: Range > Long Reach > Medium > Short"
+            },
+            {
+              "type": "text",
+              "title": "Armor Type",
+              "attribute": "data.armor",
+              "placeholder": "e.g., Leather (d4), Chain (d6), Plate (d10)"
+            },
+            {
+              "type": "number",
+              "title": "Shield Value",
+              "attribute": "data.shieldValue",
+              "help": "Fixed threat reduction before ADP"
+            }
+          ]
+        },
+        {
+          "title": "Defense Pools",
+          "type": "group",
+          "fields": [
+            {
+              "type": "number",
+              "title": "ADP Maximum",
+              "attribute": "data.ad_max",
+              "help": "Active Defense Pool max capacity"
+            },
+            {
+              "type": "number",
+              "title": "ADP Current",
+              "attribute": "data.ad_current",
+              "help": "Current Active Defense Pool"
+            },
+            {
+              "type": "number",
+              "title": "Passive Defense Pool",
+              "attribute": "data.pd_current",
+              "help": "Backup defense when ADP depleted"
+            },
+            {
+              "type": "number",
+              "title": "Hit Points",
+              "attribute": "data.hp",
+              "help": "Actual health damage taken"
+            }
+          ]
+        },
+        {
+          "title": "Spirit Points & Recovery",
+          "type": "group",
+          "fields": [
+            {
+              "type": "number",
+              "title": "Spirit Points (Current)",
+              "attribute": "data.sp_current"
+            },
+            {
+              "type": "number",
+              "title": "Spirit Points (Maximum)",
+              "attribute": "data.sp_max"
+            },
+            {
+              "type": "checkbox",
+              "title": "Revitalize Available",
+              "attribute": "data.revitalizeAvailable",
+              "help": "Can use Revitalize action this turn"
+            },
+            {
+              "type": "select",
+              "title": "Last Revitalize Used",
+              "attribute": "data.lastRevitalize",
+              "options": ["None", "Invigorate", "Deep Recovery", "Steady Renewal"],
+              "readonly": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

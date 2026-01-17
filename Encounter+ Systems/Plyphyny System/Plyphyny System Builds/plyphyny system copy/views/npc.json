@@ -1,0 +1,112 @@
+{
+  "debug": false,
+  "spacing": 8,
+  "padding": [16],
+  "type": "lazyVStack",
+  "views": [
+    {
+      "type": "statBlock",
+      "spacing": 8,
+      "padding": [16],
+      "views": [
+        {
+          "type": "hStack",
+          "alignment": "center",
+          "spacing": 12,
+          "views": [
+            {
+              "type": "image",
+              "value": "{{image}}",
+              "width": 64,
+              "height": 64,
+              "cornerRadius": 8,
+              "imageResizeMode": "aspectFill",
+              "link": "{{image}}"
+            },
+            {
+              "type": "vStack",
+              "spacing": 2,
+              "width": 0,
+              "views": [
+                {
+                  "style": "title",
+                  "value": "{{name}}"
+                },
+                {
+                  "style": "subtitle",
+                  "value": "*{{role|default: 'NPC'}}{% if race %} · {{race}}{% endif %}*"
+                },
+                {
+                  "style": "caption",
+                  "value": "Level {{level|default: 1}}{% if gender %} · {{gender}}{% endif %}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "hStack",
+          "spacing": 1,
+          "views": [
+            {
+              "value": "**ADP**\n{{data.adp|default: 0}}",
+              "style": "stats-ability"
+            },
+            {
+              "value": "**PDP**\n{{data.pdp|default: 0}}",
+              "style": "stats-ability"
+            },
+            {
+              "value": "**HP**\n{{data.hp|default: 0}}",
+              "style": "stats-ability"
+            },
+            {
+              "value": "**SP**\n{{data.spiritPoints|default: 0}}",
+              "style": "stats-ability"
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "text",
+          "style": "stats-body",
+          "value": "**Prowess Die:** d{{data.prowessDie|default: 6}}"
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "text",
+          "value": "{% if data.advantages %}### Advantages\n{{data.advantages|join: ', '}}{% endif %}"
+        },
+        {
+          "type": "text",
+          "value": "{% if data.specialAbilities %}### Special Abilities\n{{data.specialAbilities|join: ', '}}{% endif %}"
+        },
+        {
+          "type": "text",
+          "value": "{{descr}}"
+        },
+        {
+          "type": "image",
+          "value": "{{image}}",
+          "link": "{{image}}"
+        }
+      ]
+    }
+  ]
+}

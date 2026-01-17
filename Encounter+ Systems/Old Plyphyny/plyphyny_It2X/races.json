@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Drakkin",
+        "data": {
+            "base_ranks": "Competence d6\nProwess d6\nFortitude d6 -> Endurance d6 + Strength d4",
+            "advantages": "Breath Weapon, Natural Armor (1d4), Night Vision.",
+            "flaws": ""
+        }
+    },
+    {
+        "name": "Dwarf",
+        "data": {
+            "base_ranks": "Prowess d6 -> Melee d6\nFortitude d8 -> Endurance d4",
+            "advantages": "Night Vision, Sense of Direction, Strong-willed.",
+            "flaws": ""
+        }
+    },
+    {
+        "name": "Elf",
+        "data": {
+            "base_ranks": "Competence d6 -> Expertise d6 (Wizardry +1)\nProwess d4 -> Agility d4 (Reaction +1)",
+            "advantages": "Gift of Magic, Magic Resistance (+1), Night Vision.",
+            "flaws": ""
+        }
+    },
+    {
+        "name": "Gnome",
+        "data": {
+            "base_ranks": "Competence d4 -> Adroitness d6 + Expertise d6 + Perception d4 (Perspicacity +1)",
+            "advantages": "Eidetic Memory, Low-light Vision, Observant.",
+            "flaws": "Restriction (small weapons only)."
+        }
+    },
+    {
+        "name": "Half-Elf",
+        "data": {
+            "base_ranks": "Competence d6\nProwess d6 -> Agility d4\nFortitude d4 -> Endurance d4 + Willpower d4",
+            "advantages": "Heightened Senses, Low-light Vision, Magic Resistance (+1).",
+            "flaws": ""
+        }
+    },
+    {
+        "name": "Half-Orc",
+        "data": {
+            "base_ranks": "Fortitude d6 -> Endurance d6 + Strength d8 (Ferocity +1)",
+            "advantages": "Intimidation, Low-light Vision, Menacing.",
+            "flaws": "Ugliness."
+        }
+    },
+    {
+        "name": "Halfling",
+        "data": {
+            "base_ranks": "Competence d6 -> Adroitness d6 (Cleverness +1)\nFortitude d6 -> Willpower d4 (Courage +1)",
+            "advantages": "Low-light Vision, Read Emotions, Resilient.",
+            "flaws": "Restriction (small weapons only)."
+        }
+    },
+    {
+        "name": "Human",
+        "data": {
+            "base_ranks": "Competence d6\nProwess d6 -> Melee d4 (Threat +1)\nFortitude d4 -> Willpower d6",
+            "advantages": "Fortunate, Survival.",
+            "flaws": ""
+        }
+    }
+]

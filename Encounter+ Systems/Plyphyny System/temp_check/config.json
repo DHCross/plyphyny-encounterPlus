@@ -1,0 +1,130 @@
+{
+  "scripts": [
+    "assets/js/custom.js"
+  ],
+  "styles": [
+    "assets/css/custom.css"
+  ],
+  "entities": {
+    "Default": {
+      "combatant": {
+        "bars": [
+          {
+            "attribute": "data.ad_current",
+            "title": "Active Defense Pool",
+            "label": "ADP",
+            "temporary": false,
+            "color": "#4287f5"
+          },
+          {
+            "attribute": "data.hp",
+            "title": "Hit Points",
+            "label": "HP",
+            "temporary": false,
+            "color": "#e74c3c"
+          },
+          {
+            "attribute": "data.sp_current",
+            "title": "Spirit Points",
+            "label": "SP",
+            "temporary": false,
+            "color": "#9b59b6"
+          }
+        ]
+      }
+    },
+    "Character": {
+      "role": "friendly",
+      "collection": {
+        "image": "token",
+        "detail": "{{data.race.name|default: 'Unknown'}} {{data.class}} (Level {{data.level|default: 1}}) - Phase {{data.prowessDie}}"
+      },
+      "combatant": {
+        "states": {
+          "defeated": "#{{data.hp|default: 1}} <= 0",
+          "vulnerable": "#{{data.ad_current|default: 1}} <= 0"
+        },
+        "bars": [
+          {
+            "attribute": "data.ad_current",
+            "title": "Active Defense Pool",
+            "label": "ADP",
+            "temporary": false,
+            "color": "#4287f5"
+          },
+          {
+            "attribute": "data.pd_current",
+            "title": "Passive Defense Pool",
+            "label": "PDP",
+            "temporary": false,
+            "color": "#e67e22"
+          },
+          {
+            "attribute": "data.hp",
+            "title": "Hit Points",
+            "label": "HP",
+            "temporary": false,
+            "color": "#e74c3c"
+          },
+          {
+            "attribute": "data.sp_current",
+            "title": "Spirit Points",
+            "label": "SP",
+            "temporary": false,
+            "color": "#9b59b6"
+          }
+        ]
+      }
+    },
+    "Adversary": {
+      "role": "enemy",
+      "collection": {
+        "image": "token",
+        "detail": "{{data.Opponent_type}} - Phase {{data.battlephase}}/{{data.weaponReach}}"
+      },
+      "combatant": {
+        "states": {
+          "defeated": "#{{data.hp|default: 1}} <= 0",
+          "vulnerable": "#{{data.hpActive|default: 1}} <= 0"
+        },
+        "bars": [
+          {
+            "attribute": "data.hpActive",
+            "title": "Active Defense Pool",
+            "label": "ADP",
+            "temporary": false,
+            "color": "#4287f5"
+          },
+          {
+            "attribute": "data.hpPassive",
+            "title": "Passive Defense Pool",
+            "label": "PDP",
+            "temporary": false,
+            "color": "#e67e22"
+          },
+          {
+            "attribute": "data.hp",
+            "title": "Hit Points",
+            "label": "HP",
+            "temporary": false,
+            "color": "#e74c3c"
+          },
+          {
+            "attribute": "data.sp_current",
+            "title": "Spirit Points",
+            "label": "SP",
+            "temporary": false,
+            "color": "#9b59b6",
+            "visible": "{{data.sp_max > 0}}"
+          }
+        ]
+      }
+    }
+  },
+  "combat": {
+    "initiative": {
+      "mode": "fixed",
+      "attribute": "data.initiative"
+    }
+  }
+}
