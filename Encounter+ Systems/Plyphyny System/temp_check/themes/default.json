@@ -1,86 +1,72 @@
 {
   "name": "Eldritch",
+  "debug": false,
+  "tintColor": "#5b2c6f",
   "primaryColor": "#5b2c6f",
-  "secondaryColor": "#55efc4",
-  "styles": {
-    "item-title": {
-      "font": "title2",
-      "color": "#55efc4",
-      "traits": ["bold"]
-    },
-    "item-subtitle": {
-      "font": "headline",
-      "color": "#a29bfe",
-      "traits": ["italic"]
-    },
-    "item-caption": {
-      "font": "subheadline",
-      "color": "#e0d4fc"
-    },
-    "item-meta": {
-      "font": "footnote",
-      "color": "#b2bec3"
-    },
-    "item-body": {
-      "font": "body",
-      "color": "#f5f6fa"
-    },
-    "item-notes": {
-      "font": "callout",
-      "color": "#dfe6e9",
-      "traits": ["italic"]
-    },
-    "stat-label": {
-      "font": "caption1",
-      "color": "#55efc4",
-      "traits": ["bold"]
-    },
-    "stat-value": {
-      "font": "body",
-      "color": "#a29bfe",
-      "traits": ["bold"]
-    },
-    "section-header": {
-      "font": "headline",
-      "color": "#55efc4",
-      "traits": ["bold"]
-    },
-    "spell-level": {
-      "font": "subheadline",
-      "color": "#a29bfe"
-    },
-    "spell-school": {
-      "font": "footnote",
-      "color": "#e0d4fc",
-      "traits": ["italic"]
-    },
-    "race-title": {
-      "font": "title2",
-      "color": "#55efc4",
-      "traits": ["bold"]
-    },
-    "race-trait": {
-      "font": "headline",
-      "color": "#a29bfe"
-    },
-    "ability-name": {
-      "font": "body",
-      "color": "#55efc4",
-      "traits": ["bold"]
-    },
-    "ability-value": {
-      "font": "title1",
-      "color": "#a29bfe",
-      "traits": ["bold"]
-    },
-    "defense-label": {
-      "font": "caption1",
-      "color": "#55efc4"
-    },
-    "defense-value": {
-      "font": "headline",
-      "color": "#00b894",
-      "traits": ["bold"]
+  "textColor": "#1a1625",
+  "dividerColor": "#5b2c6f",
+  "bgColor": "#f5f0e8",
+  "textStyles": {
+    "title": { "font": "title1", "color": "#5b2c6f", "caps": true, "traits": ["bold"] },
+    "subtitle": { "font": "headline", "color": "#1a1625", "traits": ["italic"] },
+    "body": { "font": "body", "color": "#1a1625", "size": 14 },
+    "body-muted": { "font": "body", "color": "#555555", "size": 14 },
+    "caption": { "font": "footnote", "color": "#555555" },
+
+    "heading": { "font": "title2", "color": "#5b2c6f", "caps": true, "traits": ["bold"] },
+    "heading1": { "font": "title2", "color": "#5b2c6f", "caps": true, "size": 25 },
+    "heading2": { "font": "title2", "color": "#5b2c6f", "caps": true, "size": 22, "divider": true },
+    "heading3": { "font": "title3", "color": "#5b2c6f", "caps": true, "size": 20 },
+
+    "stats-body": { "font": "body", "color": "#1a1625", "size": 14 },
+    "stats-ability": { "font": "body", "color": "#5b2c6f", "alignment": "center", "size": 14 },
+    "stats-section": { "font": "headline", "color": "#5b2c6f", "caps": true, "divider": true, "size": 18 },
+
+    "sheet-field-title": { "font": "body", "color": "#808080", "size": 14, "traits": ["bold"] },
+    "sheet-label": { "font": "body", "color": "#808080", "size": 14, "traits": ["bold"] },
+    "sheet-value": { "font": "title3", "color": "#1a1625", "traits": ["bold"] },
+
+    "hp-current": { "font": "title1", "color": "#1a1625" },
+    "hp-max": { "font": "title3", "color": "#555555" },
+
+    "stat-label": { "font": "caption1", "color": "#5b2c6f", "traits": ["bold"] },
+    "stat-value": { "font": "title3", "color": "#1a1625", "traits": ["bold"] },
+
+    "item-title": { "font": "title2", "color": "#5b2c6f", "traits": ["bold"] },
+    "item-subtitle": { "font": "headline", "color": "#1a1625", "traits": ["italic"] },
+    "item-meta": { "font": "footnote", "color": "#555555" },
+    "item-body": { "font": "body", "color": "#1a1625" },
+    "item-notes": { "font": "callout", "color": "#555555", "traits": ["italic"] },
+
+    "race-title": { "font": "title2", "color": "#5b2c6f", "traits": ["bold"] },
+    "race-trait": { "font": "headline", "color": "#1a1625" },
+    "section-header": { "font": "headline", "color": "#5b2c6f", "caps": true, "traits": ["bold"] },
+    "defense-label": { "font": "caption1", "color": "#5b2c6f", "traits": ["bold"] },
+    "defense-value": { "font": "title3", "color": "#1a1625", "traits": ["bold"] }
+  },
+
+  "dividerStyles": {
+    "triangle": { "shape": "triangle", "color": "#5b2c6f" },
+    "rectangle": { "shape": "rectangle", "color": "#5b2c6f" },
+    "line": { "shape": "rectangle", "color": "#5b2c6f" }
+  },
+
+  "statBlockStyles": {
+    "default": {
+      "bgColor": "#f5f0e8",
+      "borderColor": "#5b2c6f",
+      "borderWidth": 1,
+      "cornerRadius": 8,
+      "barColor": "#5b2c6f"
     }
+  },
+
+  "blockQuoteStyles": {
+    "default": { "padding": [10], "bgColor": "#5b2c6f1a", "borderColor": "#5b2c6f", "borderWidth": 2 }
+  },
+
+  "buttonStyles": {
+    "default": { "color": "#5b2c6f", "borderWidth": 1, "cornerRadius": 8 },
+    "prominent": { "color": "#fff", "bgColor": "#5b2c6f", "cornerRadius": 8 }
   }
 }

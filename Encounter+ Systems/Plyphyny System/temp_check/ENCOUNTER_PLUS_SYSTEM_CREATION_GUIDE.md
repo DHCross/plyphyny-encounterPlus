@@ -283,25 +283,7 @@ Encounter+ allows specific formatting helpers. Validating complex logic often re
 
 ---
 
-## 6. Styling Decision Matrix
-
-Use this to decide which renderer to use:
-
-**Use JSON Views + Theme when:**
-* You want reliability and compatibility across devices.
-* You only need colors, typography, and spacing.
-* You can express the layout in `hStack`/`vStack`/`statBlock` components.
-
-**Use HTML Views + Inline CSS when:**
-* You need complex layout, rich typography, glows, gradients, or custom spacing.
-* You accept that external CSS may fail to load in a `.system` bundle.
-* You keep the CSS self-contained in `<style>`.
-
-**Rule:** If styling fails in HTML, fall back to JSON + theme first, then reintroduce HTML only where needed.
-
----
-
-## 6. Plyphyny-Specific Implementations
+## 9. Plyphyny-Specific Implementations
 
 ### A. Battle Phase Logic (The "Countdown")
 *   **Input**: Prowess Die (`data.prowessDie`)
@@ -321,7 +303,7 @@ Use this to decide which renderer to use:
 
 ---
 
-## 7. Best Practices for AI Coders
+## 10. Best Practices for AI Coders
 
 1.  **Preserve Structure**: Do not invent new root folders. Stick to `forms/` and `views/`.
 2.  **Parity is King**: If a rule applies to PCs, check if it applies to NPCs. In Plyphyny, Movement and Phase logic must be identical.

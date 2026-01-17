@@ -1,0 +1,146 @@
+{
+  "debug": false,
+  "spacing": 12,
+  "padding": [16],
+  "views": [
+    {
+      "type": "statBlock",
+      "spacing": 12,
+      "padding": [16],
+      "views": [
+        {
+          "type": "hStack",
+          "spacing": 16,
+          "views": [
+            {
+               "type": "image",
+               "value": "{{image}}",
+               "width": 64,
+               "height": 64,
+               "cornerRadius": 32,
+               "borderWidth": 2,
+               "borderColor": "#5b2c6f"
+            },
+            {
+              "type": "vStack",
+              "spacing": 2,
+              "views": [
+                {
+                  "style": "title",
+                  "value": "{{name}}"
+                },
+                {
+                  "style": "subtitle",
+                  "value": "{{data.race.name|default: 'Unknown'}} {{data.class}} (Level {{data.level|default: 1}}) - Phase {{data.prowessDie}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+          "type": "hStack",
+          "distribution": "fillEqually",
+          "views": [
+            {
+              "type": "vStack",
+              "spacing": 4,
+              "style": "value-box",
+              "views": [
+                { "type": "text", "style": "stat-label", "value": "COMP" },
+                { "type": "text", "style": "stat-value", "value": "{{data.competenceDie|default: '-'}}" }
+              ]
+            },
+            {
+              "type": "vStack",
+              "spacing": 4,
+              "style": "value-box",
+              "views": [
+                { "type": "text", "style": "stat-label", "value": "PROW" },
+                { "type": "text", "style": "stat-value", "value": "{{data.prowessDie|default: '-'}}" }
+              ]
+            },
+            {
+              "type": "vStack",
+              "spacing": 4,
+              "style": "value-box",
+              "views": [
+                { "type": "text", "style": "stat-label", "value": "FORT" },
+                { "type": "text", "style": "stat-value", "value": "{{data.fortitudeDie|default: '-'}}" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+            "type": "hStack",
+            "distribution": "fillEqually",
+            "views": [
+              {
+                "type": "vStack",
+                "spacing": 2,
+                "views": [
+                  { "style": "stat-label", "value": "ADP" },
+                  { "style": "heading", "value": "{{data.ad_current|default: 0}}" }
+                ]
+              },
+              {
+                "type": "vStack",
+                "spacing": 2,
+                "views": [
+                  { "style": "stat-label", "value": "PDP" },
+                  { "style": "heading", "value": "{{data.pd_current|default: 0}}" }
+                ]
+              },
+               {
+                "type": "vStack",
+                "spacing": 2,
+                "views": [
+                  { "style": "stat-label", "value": "HP" },
+                  { "style": "heading", "value": "{{data.hp|default: 0}}" }
+                ]
+              },
+              {
+                "type": "vStack",
+                "spacing": 2,
+                "views": [
+                  { "style": "stat-label", "value": "Spirit" },
+                  { "style": "heading", "value": "{{data.sp_current|default: 0}}" }
+                ]
+              }
+            ]
+        },
+        {
+          "type": "divider",
+          "style": "triangle",
+          "height": 5,
+          "padding": [0]
+        },
+        {
+             "type": "vStack",
+             "spacing": 4,
+             "views": [
+                 {
+                     "style": "heading",
+                     "value": "Class Overview"
+                 },
+                 {
+                     "style": "body",
+                     "value": "{{descr|default: 'No description available.'}}"
+                 }
+             ]
+        }
+      ]
+    }
+  ]
+}
