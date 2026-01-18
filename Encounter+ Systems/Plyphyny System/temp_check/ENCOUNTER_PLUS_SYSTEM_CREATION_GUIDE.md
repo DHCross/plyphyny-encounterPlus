@@ -303,10 +303,86 @@ Encounter+ allows specific formatting helpers. Validating complex logic often re
 
 ---
 
-## 10. Best Practices for AI Coders
+## 10. Developer Notes: HTML Webview Architecture (2026)
+
+**Critical Update**: Based on official developer guidance, Encounter+ Beta v5 is transitioning from SwiftUI native views to HTML webviews due to performance issues in iOS 26. This fundamentally changes view development best practices.
+
+### HTML Views Are Now Preferred
+
+**Why HTML?** 
+- Better memory management and caching compared to SwiftUI
+- Full CSS and JavaScript support
+- More flexible styling and layout options
+- Avoids iOS 26 SwiftUI performance degradation
+
+### Path Requirements for HTML Views
+
+**DO NOT use `<base href>` tags** — This breaks path resolution in the webview sandbox.
+
+**Correct Pattern:**
+```html
+<!doctype html>
+<html lang="en" {{HTML_CLASS}}>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NO BASE TAG -->
+    <title>{{name}}</title>
+    <style>
+        /* Inline CSS or use simple relative paths */
+    </style>
+</head>
+```
+
+**Asset Path Strategies:**
+
+1. **Inline CSS** (Recommended for bundled systems):
+```html
+<style>
+    :root {
+        --primary-color: #5b2c6f;
+        --bg-color: #f5f0e8;
+    }
+    body { background: var(--bg-color); }
+</style>
+```
+
+2. **Relative Paths** (if external CSS is needed):
+```html
+<link rel="stylesheet" href="assets/css/custom.css">
+<!-- NOT: ../assets/css/custom.css -->
+<!-- NOT: {{BASE_URL}}assets/css/custom.css -->
+```
+
+3. **System-Relative Paths** (for shared resources):
+```html
+<img src="systems/plyphyny/images/icon.png">
+```
+
+### Image Reference Migration
+
+If images fail to load after import, use the **"Fix Image References"** tool in Encounter+ Settings → Advanced. This updates paths from old formats to the new webview-compatible structure.
+
+### When to Use JSON vs HTML Views
+
+| Use Case | Renderer | Rationale |
+|----------|----------|-----------|
+| **Complex layouts** with gradients, custom fonts, animations | HTML | Full CSS/JS support |
+| **Simple stat blocks** with text and numbers | JSON | Faster rendering, smaller file size |
+| **Theme-aware** content that adapts to user preferences | JSON | Uses `themes/default.json` for styling |
+| **Richly styled** content with fixed aesthetic | HTML | Inline styles guarantee appearance |
+| **Dynamic calculations** requiring JavaScript | HTML | Full scripting capability |
+
+**Recommendation**: For new systems in 2026+, prefer HTML views with inline CSS. This provides the most control and best performance under the new architecture.
+
+---
+
+## 11. Best Practices for AI Coders
 
 1.  **Preserve Structure**: Do not invent new root folders. Stick to `forms/` and `views/`.
 2.  **Parity is King**: If a rule applies to PCs, check if it applies to NPCs. In Plyphyny, Movement and Phase logic must be identical.
 3.  **Explicit Naming**: Use `data.attribute_name` consistent with the `config.json`.
 4.  **Read-Only Verification**: Always provide a `readonly` field in the Form that shows the "derived" value of complex stats so the user can verify the math manualy if the automation isn't strict.
+5.  **HTML Views First**: When creating views, use HTML with inline CSS unless the content is purely text-based. Avoid `<base href>` tags.
+6.  **Test Path Resolution**: After creating HTML views, verify that assets load correctly. Use simple relative paths (`assets/css/file.css`) not absolute or liquid-tag paths.
 
